@@ -12,13 +12,28 @@ if (is_dir(__DIR__ . $uri)) {
     }
 }
 
-// If the file exists with .php extension, serve it
-if (file_exists(__DIR__ . $uri . '.php')) {
-    include __DIR__ . $uri . '.php';
+// Clean URL mapping
+$clean_urls = [
+    '/departments' => 'departments.php',
+    '/department' => 'departments.php',
+    '/about' => 'about.php',
+    '/contact' => 'contact.php',
+    '/doctors' => 'doctors.php',
+    '/orthopedics' => 'orthopedics.php',
+    '/cardiology' => 'cardiology.php',
+    '/neurology' => 'neurology.php',
+    '/nephrology' => 'nephrology.php',
+    '/oncology' => 'oncology.php',
+    '/plastic-surgery' => 'plastic-surgery.php',
+    '/obstetrics-gynecology' => 'obstetrics-gynecology.php'
+];
+
+if (isset($clean_urls[rtrim($uri, '/')])) {
+    include $clean_urls[rtrim($uri, '/')];
     return;
 }
 
-// Special redirects from .htaccess
+// Special redirects from .htaccess style
 if ($uri === '/orthopedic-hospital/haryana' || $uri === '/orthopedic-hospital/haryana/') {
     include 'orthopedics.php';
     return;
@@ -35,3 +50,4 @@ if ($uri === '/' || $uri === '/index.php') {
 }
 
 return false;
+?>

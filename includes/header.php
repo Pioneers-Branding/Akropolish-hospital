@@ -7,8 +7,8 @@
   <div class="container mx-auto px-4">
     <div class="flex items-center justify-between h-16 lg:h-20">
       <!-- Logo -->
-      <div class="flex items-center space-x-3">
-        <a href="/" class="nav-link" data-page="home">
+      <div class="flex items-center space-x-3 h-full">
+        <a href="/" class="nav-link flex items-center h-full" data-page="home">
           <img
             src="https://brandingpioneers.co.in/akropolis/WhatsApp%20Image%202025-08-16%20at%2012.12.12_9a8761f4.jpg"
             alt="Akropolis Hospital Logo"
@@ -18,23 +18,23 @@
       </div>
 
       <!-- Desktop Navigation -->
-      <nav class="hidden lg:flex items-center space-x-8">
+      <nav class="hidden lg:flex items-stretch h-full space-x-8">
         <?php
         $navigation = [
-            ['name' => 'Home', 'href' => '/index.php', 'page' => 'home'],
-            ['name' => 'About', 'href' => '/about.php', 'page' => 'about'],
-            ['name' => 'Departments', 'href' => '/departments.php', 'page' => 'departments', 'hasMegaMenu' => true],
-            ['name' => 'Doctors', 'href' => '/doctors.php', 'page' => 'doctors'],
-            ['name' => 'Services', 'href' => '#services', 'hasDropdown' => true],
-            ['name' => 'Contact', 'href' => '/contact.php', 'page' => 'contact']
+            ['name' => 'Home', 'href' => '/', 'page' => 'home'],
+            ['name' => 'About', 'href' => '/about', 'page' => 'about'],
+            ['name' => 'Departments', 'href' => '/departments', 'page' => 'departments', 'hasMegaMenu' => true],
+            ['name' => 'Doctors', 'href' => '/doctors', 'page' => 'doctors'],
+            ['name' => 'Services', 'href' => '/departments#services', 'hasDropdown' => true],
+            ['name' => 'Contact', 'href' => '/contact', 'page' => 'contact']
         ];
 
         foreach ($navigation as $item):
         ?>
-          <div class="relative mega-menu-trigger">
+          <div class="relative h-full flex items-center mega-menu-trigger">
             <a
               href="<?php echo $item['href']; ?>"
-              class="nav-link text-gray-700 hover:text-[#328CCB] font-medium transition-colors duration-200 flex items-center space-x-1 <?php echo isset($item['hasMegaMenu']) || isset($item['hasDropdown']) ? 'has-dropdown' : ''; ?>"
+              class="nav-link h-full px-2 text-gray-700 hover:text-[#328CCB] font-medium transition-colors duration-200 flex items-center space-x-1 <?php echo isset($item['hasMegaMenu']) || isset($item['hasDropdown']) ? 'has-dropdown' : ''; ?>"
               data-page="<?php echo $item['page'] ?? ''; ?>"
               <?php echo isset($item['hasMegaMenu']) ? 'onmouseenter="openMegaMenu()" onmouseleave="closeMegaMenu()"' : ''; ?>
               <?php echo isset($item['hasDropdown']) ? 'onmouseenter="openServicesDropdown()" onmouseleave="closeServicesDropdown()"' : ''; ?>
@@ -155,10 +155,11 @@
 
       <!-- Mobile Menu Button -->
       <button
-        class="mobile-menu-btn lg:hidden p-2"
+        class="mobile-menu-btn lg:hidden p-2 text-[#328CCB]"
         onclick="toggleMobileMenu()"
+        aria-label="Toggle Menu"
       >
-        <?php echo getIcon('Menu', 'h-6 w-6'); ?>
+        <?php echo getIcon('Menu', 'h-7 w-7'); ?>
       </button>
     </div>
 
@@ -249,7 +250,7 @@ function keepMegaMenuOpen() {
 function closeMegaMenu() {
     megaMenuTimeout = setTimeout(() => {
         document.getElementById('mega-menu').classList.add('hidden');
-    }, 300);
+    }, 500);
 }
 
 function openServicesDropdown() {
@@ -264,7 +265,7 @@ function keepServicesDropdownOpen() {
 function closeServicesDropdown() {
     servicesDropdownTimeout = setTimeout(() => {
         document.getElementById('services-dropdown').classList.add('hidden');
-    }, 300);
+    }, 500);
 }
 
 function toggleMobileMenu() {
