@@ -32,8 +32,8 @@
         foreach ($navigation as $item):
         ?>
           <div class="relative h-full flex items-center mega-menu-trigger" 
-            <?php echo isset($item['hasMegaMenu']) ? 'onmouseenter="openMegaMenu()" onmouseleave="closeMegaMenu()"' : ''; ?>
-            <?php echo isset($item['hasDropdown']) ? 'onmouseenter="openServicesDropdown()" onmouseleave="closeServicesDropdown()"' : ''; ?>
+            <?php echo isset($item['hasMegaMenu']) ? 'onmouseenter="openMegaMenu()"' : ''; ?>
+            <?php echo isset($item['hasDropdown']) ? 'onmouseenter="openServicesDropdown()"' : ''; ?>
           >
             <a
               href="<?php echo $item['href']; ?>"
@@ -50,7 +50,7 @@
             <!-- Mega Menu -->
             <div
               id="mega-menu"
-              class="mega-menu-glass absolute top-[95%] left-1/2 transform -translate-x-1/2 w-screen max-w-4xl rounded-2xl shadow-2xl border border-gray-100 p-8 hidden"
+              class="mega-menu-glass absolute top-full left-1/2 transform -translate-x-1/2 w-screen max-w-4xl rounded-2xl shadow-2xl border border-gray-100 p-8 hidden"
               onmouseenter="keepMegaMenuOpen()"
               onmouseleave="closeMegaMenu()"
             >
@@ -98,7 +98,7 @@
             <!-- Services Dropdown -->
             <div
               id="services-dropdown"
-              class="mega-menu-glass absolute top-[95%] left-1/2 transform -translate-x-1/2 w-64 rounded-xl shadow-2xl border border-gray-100 py-4 hidden"
+              class="mega-menu-glass absolute top-full left-1/2 transform -translate-x-1/2 w-64 rounded-xl shadow-2xl border border-gray-100 py-4 hidden"
               onmouseenter="keepServicesDropdownOpen()"
               onmouseleave="closeServicesDropdown()"
             >
@@ -251,7 +251,7 @@ function keepMegaMenuOpen() {
 function closeMegaMenu() {
     megaMenuTimeout = setTimeout(() => {
         document.getElementById('mega-menu').classList.add('hidden');
-    }, 1000);
+    }, 10000);
 }
 
 function openServicesDropdown() {
@@ -266,7 +266,7 @@ function keepServicesDropdownOpen() {
 function closeServicesDropdown() {
     servicesDropdownTimeout = setTimeout(() => {
         document.getElementById('services-dropdown').classList.add('hidden');
-    }, 1000);
+    }, 10000);
 }
 
 function toggleMobileMenu() {

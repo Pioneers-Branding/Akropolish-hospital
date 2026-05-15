@@ -1,9 +1,9 @@
 <?php
+/**
+ * Plastic Surgery District Page - Faridabad
+ */
 $district_name = 'faridabad';
-$landmarks = array (
-  0 => 'Sector 28 Market',
-  1 => 'Faridabad Railway Station',
-  2 => 'Ballabhgarh',
-);
+$district_display = 'Faridabad';
+$landmarks = ['Sector 15', 'Ballabhgarh', 'Palwal'];
 include __DIR__ . '/../../../components/plastic-surgery-hindi-template.php';
 ?>

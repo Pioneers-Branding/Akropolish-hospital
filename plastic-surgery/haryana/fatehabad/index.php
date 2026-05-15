@@ -1,9 +1,9 @@
 <?php
+/**
+ * Plastic Surgery District Page - Fatehabad
+ */
 $district_name = 'fatehabad';
-$landmarks = array (
-  0 => 'Fatehabad Bus Stand',
-  1 => 'Sirsa Road Junction',
-  2 => 'Town Hall',
-);
+$district_display = 'Fatehabad';
+$landmarks = ['Fatehabad City', 'Tohana', 'Ratia'];
 include __DIR__ . '/../../../components/plastic-surgery-hindi-template.php';
 ?>

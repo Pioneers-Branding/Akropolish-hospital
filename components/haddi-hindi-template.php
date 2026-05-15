@@ -38,7 +38,7 @@ foreach ($doctors as $d) {
 </div>
 
 <!-- Header -->
-<?php include dirname(__DIR__) . '/includes/header.php'; ?>
+<?php include dirname(__DIR__) . '/includes/header-v2.php'; ?>
 
 <main class="bg-gray-50">
   <!-- Breadcrumbs -->

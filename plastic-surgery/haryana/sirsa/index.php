@@ -1,9 +1,9 @@
 <?php
+/**
+ * Plastic Surgery District Page - Sirsa
+ */
 $district_name = 'sirsa';
-$landmarks = array (
-  0 => 'Sirsa Bus Stand',
-  1 => 'Ellenabad Road',
-  2 => 'Kagdana Road',
-);
+$district_display = 'Sirsa';
+$landmarks = ['Sirsa City', 'Ellenabad', 'Rania'];
 include __DIR__ . '/../../../components/plastic-surgery-hindi-template.php';
 ?>

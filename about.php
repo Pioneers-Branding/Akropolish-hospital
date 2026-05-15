@@ -15,7 +15,7 @@ include 'includes/head.php';
 </div>
 
 <!-- Header -->
-<?php include 'includes/header.php'; ?>
+<?php include 'includes/header-v2.php'; ?>
 
 <main>
   <!-- Hero Section -->

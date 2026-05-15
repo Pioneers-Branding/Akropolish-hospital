@@ -15,7 +15,7 @@ include 'includes/head.php';
 </div>
 
 <!-- Header -->
-<?php include 'includes/header.php'; ?>
+<?php include 'includes/header-v2.php'; ?>
 
 <main class="min-h-screen bg-gradient-to-br from-blue-50 via-white to-blue-50 flex items-center justify-center px-4 py-12">
   <div class="max-w-2xl w-full">

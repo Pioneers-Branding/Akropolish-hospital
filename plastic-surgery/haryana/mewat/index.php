@@ -1,9 +1,9 @@
 <?php
+/**
+ * Plastic Surgery District Page - Mewat
+ */
 $district_name = 'mewat';
-$landmarks = array (
-  0 => 'Nuh Bus Stand',
-  1 => 'Sohna Road',
-  2 => 'Firozpur Jhirka Road',
-);
+$district_display = 'Mewat';
+$landmarks = ['Nuh', 'Firozpur Jhirka', 'Taoru'];
 include __DIR__ . '/../../../components/plastic-surgery-hindi-template.php';
 ?>

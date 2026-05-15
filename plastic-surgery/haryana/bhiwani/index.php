@@ -1,9 +1,9 @@
 <?php
+/**
+ * Plastic Surgery District Page - Bhiwani
+ */
 $district_name = 'bhiwani';
-$landmarks = array (
-  0 => 'Bhiwani Bus Stand',
-  1 => 'Charkhi Dadri Road',
-  2 => 'Mahila College',
-);
+$district_display = 'Bhiwani';
+$landmarks = ['Bhiwani City', 'Tosham', 'Loharu'];
 include __DIR__ . '/../../../components/plastic-surgery-hindi-template.php';
 ?>

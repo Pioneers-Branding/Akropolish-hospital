@@ -30,7 +30,7 @@ include dirname(__DIR__) . '/includes/head.php';
 </div>
 
 <!-- Header -->
-<?php include dirname(__DIR__) . '/includes/header.php'; ?>
+<?php include dirname(__DIR__) . '/includes/header-v2.php'; ?>
 
 <main>
   <!-- Breadcrumbs -->

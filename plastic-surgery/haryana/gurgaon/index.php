@@ -1,9 +1,9 @@
 <?php
+/**
+ * Plastic Surgery District Page - Gurgaon
+ */
 $district_name = 'gurgaon';
-$landmarks = array (
-  0 => 'Sector 56 Market',
-  1 => 'Huda City Centre Metro',
-  2 => 'Ambience Mall',
-);
+$district_display = 'Gurgaon';
+$landmarks = ['Gurgaon', 'Cyber Hub', 'MG Road'];
 include __DIR__ . '/../../../components/plastic-surgery-hindi-template.php';
 ?>

@@ -37,7 +37,7 @@ foreach ($doctors as $d) {
 </div>
 
 <!-- Header -->
-<?php include dirname(__DIR__) . '/includes/header.php'; ?>
+<?php include dirname(__DIR__) . '/includes/header-v2.php'; ?>
 
 <main class="bg-gray-50">
   <!-- Breadcrumbs -->
@@ -48,6 +48,8 @@ foreach ($doctors as $d) {
           <li><a href="/" class="hover:text-[#328CCB]">Home</a></li>
           <li><?php echo getIcon('ChevronRight', 'h-4 w-4'); ?></li>
           <li><a href="/plastic-surgery" class="hover:text-[#328CCB]">Plastic Surgery</a></li>
+          <li><?php echo getIcon('ChevronRight', 'h-4 w-4'); ?></li>
+          <li><a href="/plastic-surgery/haryana/" class="hover:text-[#328CCB]">Haryana</a></li>
           <li><?php echo getIcon('ChevronRight', 'h-4 w-4'); ?></li>
           <li class="text-[#328CCB] font-medium"><?php echo $district_display; ?></li>
         </ol>

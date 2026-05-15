@@ -1,9 +1,9 @@
 <?php
+/**
+ * Plastic Surgery District Page - Ambala
+ */
 $district_name = 'ambala';
-$landmarks = array (
-  0 => 'Ambala Cantt Junction',
-  1 => 'Rani Ka Talab',
-  2 => 'Indira Park',
-);
+$district_display = 'Ambala';
+$landmarks = ['Ambala Cantt', 'Jagadhari', 'Naraingarh'];
 include __DIR__ . '/../../../components/plastic-surgery-hindi-template.php';
 ?>

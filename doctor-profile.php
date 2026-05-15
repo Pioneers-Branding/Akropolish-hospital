@@ -17,7 +17,7 @@ foreach ($doctors as $d) {
 if (!$doctor) {
     $page_title = 'Doctor Not Found | Akropolis Hospital';
     include 'includes/head.php';
-    include 'includes/header.php';
+    include 'includes/header-v2.php';
     ?>
     <div class="min-h-screen bg-white flex items-center justify-center">
         <div class="text-center">
@@ -53,7 +53,7 @@ $lastName = isset($nameParts[count($nameParts) - 1]) ? $nameParts[count($namePar
 </div>
 
 <!-- Header -->
-<?php include 'includes/header.php'; ?>
+<?php include 'includes/header-v2.php'; ?>
 
 <main class="bg-gray-50">
   <!-- Back Button -->

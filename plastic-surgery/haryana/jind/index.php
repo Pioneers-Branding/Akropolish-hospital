@@ -1,9 +1,9 @@
 <?php
+/**
+ * Plastic Surgery District Page - Jind
+ */
 $district_name = 'jind';
-$landmarks = array (
-  0 => 'Jind Bus Stand',
-  1 => 'Narwana Road',
-  2 => 'Pillu Khera Road',
-);
+$district_display = 'Jind';
+$landmarks = ['Jind City', 'Narwana', 'Uklana'];
 include __DIR__ . '/../../../components/plastic-surgery-hindi-template.php';
 ?>

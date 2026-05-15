@@ -15,7 +15,7 @@ if (!$doctor) {
     header("HTTP/1.0 404 Not Found");
     $page_title = 'Doctor Not Found | Akropolis Hospital';
     include __DIR__ . '/../includes/head.php';
-    include __DIR__ . '/../includes/header.php';
+    include __DIR__ . '/../includes/header-v2.php';
     ?>
     <div class="min-h-screen bg-white flex items-center justify-center">
         <div class="text-center">
@@ -51,7 +51,7 @@ $lastName = isset($nameParts[count($nameParts) - 1]) ? $nameParts[count($namePar
 </div>
 
 <!-- Header -->
-<?php include __DIR__ . '/../includes/header.php'; ?>
+<?php include __DIR__ . '/../includes/header-v2.php'; ?>
 
 <main class="bg-gray-50">
   <!-- Back Button -->

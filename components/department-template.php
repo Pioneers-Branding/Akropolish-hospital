@@ -582,12 +582,23 @@ $pageDept = $deptConfig[$dept_key];
                 'rewari' => 'Rewari', 'rohtak' => 'Rohtak', 'sirsa' => 'Sirsa', 'sonipat' => 'Sonipat',
                 'yamunanagar' => 'Yamunanagar'
             ];
+
+            // Department specific keyword rich text
+            $keywordText = 'में सबसे अच्छे विशेषज्ञ';
+            if ($dept_key === 'plastic-surgery') {
+                $keywordText = 'में सबसे अच्छे प्लास्टिक और कॉस्मेटिक सर्जन';
+            } elseif ($dept_key === 'obstetrics-gynecology') {
+                $keywordText = 'में सबसे अच्छी लेडी डॉक्टर (स्त्री रोग विशेषज्ञ)';
+            } elseif ($dept_key === 'orthopedics') {
+                $keywordText = 'में सबसे अच्छे हड्डी के डॉक्टर (Bone Specialist)';
+            }
+
             foreach ($haryanaDistricts as $slug => $name):
             ?>
               <div class="group">
                 <a href="/<?php echo $dept_key; ?>/haryana/<?php echo $slug; ?>/" class="flex items-center space-x-3 text-gray-600 hover:text-[#328CCB] transition-colors duration-200">
                   <div class="h-1.5 w-1.5 bg-gray-300 rounded-full group-hover:bg-[#328CCB] transition-colors"></div>
-                  <span class="font-medium"><?php echo $name; ?> में सबसे अच्छे विशेषज्ञ</span>
+                  <span class="font-medium"><?php echo $name . ' ' . $keywordText; ?></span>
                 </a>
               </div>
             <?php endforeach; ?>

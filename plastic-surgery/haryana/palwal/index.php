@@ -1,9 +1,9 @@
 <?php
+/**
+ * Plastic Surgery District Page - Palwal
+ */
 $district_name = 'palwal';
-$landmarks = array (
-  0 => 'Palwal Railway Station',
-  1 => 'Hodal Road',
-  2 => 'Mathura Road',
-);
+$district_display = 'Palwal';
+$landmarks = ['Palwal City', 'Hassanpur', 'Hodel'];
 include __DIR__ . '/../../../components/plastic-surgery-hindi-template.php';
 ?>

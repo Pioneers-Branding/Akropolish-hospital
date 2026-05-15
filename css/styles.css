@@ -767,9 +767,27 @@ html {
 .mega-menu-glass::before {
   content: '';
   position: absolute;
-  top: -60px;
+  top: -200px;
   left: 0;
   right: 0;
-  height: 60px;
+  height: 200px;
   background: transparent;
+}
+
+/* Dropdown Fix - No gap between nav and dropdown */
+.nav-dropdown-container {
+  position: relative;
+}
+
+.dropdown-panel {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+}
+
+/* Remove the bridge/hover workaround - not needed with proper containment */
+.mega-menu-glass::before {
+  display: none;
 }
