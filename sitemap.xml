@@ -3,52 +3,52 @@
 
   <!-- Main Pages -->
   <url><loc>https://akropolishospital.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://akropolishospital.com/about.php</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://akropolishospital.com/contact.php</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://akropolishospital.com/departments.php</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://akropolishospital.com/doctors.php</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://akropolishospital.com/about</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://akropolishospital.com/contact</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://akropolishospital.com/departments</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://akropolishospital.com/doctors</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 
   <!-- Departments -->
-  <url><loc>https://akropolishospital.com/cardiology.php</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://akropolishospital.com/neurology.php</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://akropolishospital.com/orthopedics.php</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://akropolishospital.com/nephrology.php</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://akropolishospital.com/pediatrics.php</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://akropolishospital.com/oncology.php</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://akropolishospital.com/ent.php</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://akropolishospital.com/ophthalmology.php</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://akropolishospital.com/gastroenterology.php</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://akropolishospital.com/dermatology.php</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://akropolishospital.com/plastic-surgery.php</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://akropolishospital.com/obstetrics-gynecology.php</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://akropolishospital.com/cardiology</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://akropolishospital.com/neurology</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://akropolishospital.com/orthopedics</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://akropolishospital.com/nephrology</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://akropolishospital.com/pediatrics</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://akropolishospital.com/oncology</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://akropolishospital.com/ent</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://akropolishospital.com/ophthalmology</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://akropolishospital.com/gastroenterology</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://akropolishospital.com/dermatology</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://akropolishospital.com/plastic-surgery</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://akropolishospital.com/obstetrics-gynecology</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 
   <!-- Diagnostics -->
-  <url><loc>https://akropolishospital.com/ct-scan.php</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://akropolishospital.com/laboratory.php</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://akropolishospital.com/endoscopy.php</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://akropolishospital.com/colonoscopy.php</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://akropolishospital.com/dialysis.php</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://akropolishospital.com/bronchoscopy.php</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://akropolishospital.com/ct-scan</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://akropolishospital.com/laboratory</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://akropolishospital.com/endoscopy</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://akropolishospital.com/colonoscopy</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://akropolishospital.com/dialysis</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://akropolishospital.com/bronchoscopy</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
 
   <!-- Specialties -->
-  <url><loc>https://akropolishospital.com/haddi-ka-doctor.php</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
-  <url><loc>https://akropolishospital.com/migraine-treatment.php</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://akropolishospital.com/haddi-ka-doctor</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://akropolishospital.com/migraine-treatment</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
 
   <!-- Other Pages -->
-  <url><loc>https://akropolishospital.com/emergency.php</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://akropolishospital.com/health-nutrition.php</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
-  <url><loc>https://akropolishospital.com/doctor-profile.php</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://akropolishospital.com/thank-you.php</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://akropolishospital.com/emergency</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://akropolishospital.com/health-nutrition</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://akropolishospital.com/doctor-profile</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://akropolishospital.com/thank-you</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
 
   <!-- Doctor Profile Pages -->
-  <url><loc>https://akropolishospital.com/doctors/dr-ankit-garg.php</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://akropolishospital.com/doctors/dr-anu-nagpal.php</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://akropolishospital.com/doctors/dr-jona-garikana.php</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://akropolishospital.com/doctors/dr-madan-lal.php</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://akropolishospital.com/doctors/dr-naresh-kumar.php</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://akropolishospital.com/doctors/dr-prateek-girotra.php</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://akropolishospital.com/doctors/dr-rahul-jain.php</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://akropolishospital.com/doctors/dr-subhash-chanana.php</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://akropolishospital.com/doctors/dr-ankit-garg</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://akropolishospital.com/doctors/dr-anu-nagpal</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://akropolishospital.com/doctors/dr-jona-garikana</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://akropolishospital.com/doctors/dr-madan-lal</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://akropolishospital.com/doctors/dr-naresh-kumar</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://akropolishospital.com/doctors/dr-prateek-girotra</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://akropolishospital.com/doctors/dr-rahul-jain</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://akropolishospital.com/doctors/dr-subhash-chanana</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
 
   <!-- Haddi Ka Doctor - Haryana -->
   <url><loc>https://akropolishospital.com/haddi-ka-doctor/haryana/</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>

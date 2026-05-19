@@ -46,88 +46,21 @@ include 'includes/head.php';
     </div>
   </section>
 
-  <!-- Contact Methods -->
+  <!-- Book Appointment CTA -->
   <section class="py-20 bg-gray-50">
     <div class="container mx-auto px-4">
-      <div class="text-center mb-16">
+      <div class="text-center mb-12">
         <div class="inline-flex items-center space-x-2 bg-[#328CCB]/10 text-[#328CCB] px-4 py-2 rounded-full text-sm font-medium mb-6">
-          <?php echo getIcon('Building2', 'h-4 w-4'); ?>
-          <span>Contact Information</span>
+          <?php echo getIcon('Calendar', 'h-4 w-4'); ?>
+          <span>Book Appointment</span>
         </div>
         <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-          Get in Touch with
-          <span class="text-[#328CCB]"> Our Team</span>
+          Schedule Your
+          <span class="text-[#328CCB]"> Appointment</span>
         </h2>
         <p class="text-gray-600 text-lg max-w-3xl mx-auto leading-relaxed">
-          Multiple ways to reach us for your healthcare needs, emergency services, and general inquiries.
+          Fill out the form below and our team will contact you within 24 hours to confirm your appointment.
         </p>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
-        <?php
-        $contactMethods = [
-          [
-            'icon' => 'Phone',
-            'title' => 'Emergency 24×7',
-            'value' => CONTACT_INFO['emergency'],
-            'description' => 'For medical emergencies and urgent care',
-            'color' => 'bg-[#D66C43]',
-            'textColor' => 'text-[#D66C43]',
-            'bgColor' => 'bg-[#D66C43]/10',
-            'borderColor' => 'border-[#D66C43]/20'
-          ],
-          [
-            'icon' => 'Phone',
-            'title' => 'General Inquiries',
-            'value' => CONTACT_INFO['phone'],
-            'description' => 'For appointments and general information',
-            'color' => 'bg-[#328CCB]',
-            'textColor' => 'text-[#328CCB]',
-            'bgColor' => 'bg-[#328CCB]/10',
-            'borderColor' => 'border-[#328CCB]/20'
-          ],
-          [
-            'icon' => 'Mail',
-            'title' => 'Email Us',
-            'value' => CONTACT_INFO['email'],
-            'description' => 'Send us your queries and feedback',
-            'color' => 'bg-green-600',
-            'textColor' => 'text-green-600',
-            'bgColor' => 'bg-green-50',
-            'borderColor' => 'border-green-200'
-          ],
-          [
-            'icon' => 'MapPin',
-            'title' => 'Visit Us',
-            'value' => CONTACT_INFO['address'],
-            'description' => 'Our hospital location in Noida',
-            'color' => 'bg-purple-600',
-            'textColor' => 'text-purple-600',
-            'bgColor' => 'bg-purple-50',
-            'borderColor' => 'border-purple-200'
-          ]
-        ];
-
-        foreach ($contactMethods as $method):
-        ?>
-          <div class="<?php echo $method['bgColor'] . ' ' . $method['borderColor']; ?> border rounded-2xl p-6 text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 service-card">
-            <div class="<?php echo $method['color']; ?> p-4 rounded-xl w-fit mx-auto mb-4">
-              <?php echo getIcon($method['icon'], 'h-8 w-8 text-white'); ?>
-            </div>
-
-            <h3 class="text-xl font-bold <?php echo $method['textColor']; ?> mb-2">
-              <?php echo $method['title']; ?>
-            </h3>
-
-            <p class="text-gray-900 font-semibold text-lg mb-2">
-              <?php echo $method['value']; ?>
-            </p>
-
-            <p class="text-gray-600 text-sm leading-relaxed">
-              <?php echo $method['description']; ?>
-            </p>
-          </div>
-        <?php endforeach; ?>
       </div>
     </div>
   </section>
@@ -140,14 +73,14 @@ include 'includes/head.php';
         <div class="bg-gray-50 rounded-3xl shadow-xl p-8 lg:p-12 floating-card">
           <div class="mb-8">
             <div class="inline-flex items-center space-x-2 bg-[#D66C43]/10 text-[#D66C43] px-4 py-2 rounded-full text-sm font-medium mb-6">
-              <?php echo getIcon('MessageSquare', 'h-4 w-4'); ?>
-              <span>Send Message</span>
+              <?php echo getIcon('Calendar', 'h-4 w-4'); ?>
+              <span>Book Appointment</span>
             </div>
             <h3 class="text-3xl font-bold text-gray-900 mb-4">
-              Send us a Message
+              Book Your Appointment
             </h3>
             <p class="text-gray-600 leading-relaxed">
-              Fill out the form below and we'll get back to you within 24 hours.
+              Fill out the form below and our team will contact you within 24 hours to confirm your appointment.
             </p>
           </div>
 
@@ -222,12 +155,13 @@ include 'includes/head.php';
                 required
                 class="block w-full px-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#328CCB] focus:border-[#328CCB] transition-colors duration-200 form-input"
               >
-                <option value="">Select a subject</option>
-                <option value="appointment">Book Appointment</option>
-                <option value="emergency">Emergency Inquiry</option>
-                <option value="general">General Information</option>
-                <option value="insurance">Insurance Query</option>
-                <option value="feedback">Feedback</option>
+                <option value="">Select department</option>
+                <option value="orthopedics">Orthopedics</option>
+                <option value="cardiology">Cardiology</option>
+                <option value="neurology">Neurology</option>
+                <option value="pediatrics">Pediatrics</option>
+                <option value="oncology">Oncology</option>
+                <option value="general-surgery">General Surgery</option>
                 <option value="other">Other</option>
               </select>
             </div>
@@ -257,8 +191,8 @@ include 'includes/head.php';
               type="submit"
               class="w-full bg-[#D66C43] hover:bg-[#c55a36] text-white px-6 py-4 rounded-lg font-semibold transition-all duration-300 flex items-center justify-center space-x-2 transform hover:scale-105 shadow-lg cta-glow"
             >
-              <?php echo getIcon('Send', 'h-5 w-5'); ?>
-              <span>Send Message</span>
+              <?php echo getIcon('Calendar', 'h-5 w-5'); ?>
+              <span>Book Appointment</span>
             </button>
 
             <!-- Form Note -->

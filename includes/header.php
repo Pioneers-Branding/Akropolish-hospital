@@ -222,7 +222,7 @@
             <span>Emergency Services</span>
           </a>
           <a
-            href="/contact.php"
+            href="/contact"
             class="nav-link w-full bg-[#328CCB] hover:bg-[#2a7bb5] text-white px-4 py-3 rounded-lg font-semibold transition-colors duration-200 flex items-center justify-center space-x-2"
             data-page="contact"
           >
