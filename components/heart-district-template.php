@@ -206,9 +206,19 @@ include dirname(__DIR__) . '/includes/head.php';
         $allDistricts = ['ambala' => 'Ambala', 'bhiwani' => 'Bhiwani', 'charkhi-dadri' => 'Charkhi Dadri', 'faridabad' => 'Faridabad', 'fatehabad' => 'Fatehabad', 'gurgaon' => 'Gurgaon', 'hisar' => 'Hisar', 'jhajjar' => 'Jhajjar', 'jind' => 'Jind', 'kaithal' => 'Kaithal', 'karnal' => 'Karnal', 'kurukshetra' => 'Kurukshetra', 'mahendragarh' => 'Mahendragarh', 'mewat' => 'Mewat', 'palwal' => 'Palwal', 'panchkula' => 'Panchkula', 'panipat' => 'Panipat', 'rewari' => 'Rewari', 'rohtak' => 'Rohtak', 'sirsa' => 'Sirsa', 'sonipat' => 'Sonipat', 'yamunanagar' => 'Yamunanagar'];
         ?>
         <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6 mb-12">
-          <div class="flex items-center space-x-3">
-            <div class="bg-red-100 p-2 rounded-lg"><?php echo getIcon('MapPin', 'h-6 w-6 text-red-500'); ?></div>
-            <h2 class="text-3xl font-bold text-gray-900">We Are Serving in These Areas</h2>
+          <div 
+            onclick="toggleServingAreas()" 
+            class="flex items-center space-x-3 cursor-pointer select-none group"
+          >
+            <div class="bg-red-100 p-2 rounded-lg group-hover:bg-red-200 transition-colors">
+              <?php echo getIcon('MapPin', 'h-6 w-6 text-red-500'); ?>
+            </div>
+            <h2 class="text-3xl font-bold text-gray-900 flex items-center gap-2">
+              We Are Serving in These Areas
+              <span class="transform transition-transform duration-200" id="serving-chevron">
+                <?php echo getIcon('ChevronDown', 'h-6 w-6 text-gray-500 group-hover:text-red-500'); ?>
+              </span>
+            </h2>
           </div>
           <div class="relative w-full md:w-80">
             <select 
@@ -228,7 +238,7 @@ include dirname(__DIR__) . '/includes/head.php';
           </div>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-12">
+        <div id="serving-areas-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-12 hidden">
           <?php
           foreach ($allDistricts as $slug => $name):
             if ($slug !== $district_name):
@@ -238,6 +248,22 @@ include dirname(__DIR__) . '/includes/head.php';
         </div>
       </div>
     </div>
+    
+    <script>
+    function toggleServingAreas() {
+      const container = document.getElementById('serving-areas-grid');
+      const chevron = document.getElementById('serving-chevron');
+      if (container && chevron) {
+        if (container.classList.contains('hidden')) {
+          container.classList.remove('hidden');
+          chevron.style.transform = 'rotate(180deg)';
+        } else {
+          container.classList.add('hidden');
+          chevron.style.transform = 'rotate(0deg)';
+        }
+      }
+    }
+    </script>
   </section>
 
   <!-- Consultation Form -->

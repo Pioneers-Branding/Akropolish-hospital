@@ -37,11 +37,19 @@ $districts = [
   <div class="container mx-auto px-4">
     <div class="max-w-6xl mx-auto">
       <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6 mb-12">
-        <div class="flex items-center space-x-3">
-          <div class="bg-[#328CCB]/10 p-2 rounded-lg">
+        <div 
+          onclick="toggleServingAreas()" 
+          class="flex items-center space-x-3 cursor-pointer select-none group"
+        >
+          <div class="bg-[#328CCB]/10 p-2 rounded-lg group-hover:bg-[#328CCB]/20 transition-colors">
             <?php echo getIcon('MapPin', 'h-6 w-6 text-[#328CCB]'); ?>
           </div>
-          <h2 class="text-3xl font-bold text-gray-900">We are serving in these areas</h2>
+          <h2 class="text-3xl font-bold text-gray-900 flex items-center gap-2">
+            We are serving in these areas
+            <span class="transform transition-transform duration-200" id="serving-chevron">
+              <?php echo getIcon('ChevronDown', 'h-6 w-6 text-gray-500 group-hover:text-[#328CCB]'); ?>
+            </span>
+          </h2>
         </div>
         <div class="relative w-full md:w-80">
           <select 
@@ -61,7 +69,7 @@ $districts = [
         </div>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-12">
+      <div id="serving-areas-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-12 hidden">
         <?php foreach ($districts as $slug => $name): ?>
           <div class="group">
             <a href="/orthopedic-hospital/haryana/<?php echo $slug; ?>/" class="flex items-center space-x-3 text-gray-600 hover:text-[#328CCB] transition-colors duration-200">
@@ -74,6 +82,22 @@ $districts = [
     </div>
   </div>
 </section>
+
+<script>
+function toggleServingAreas() {
+  const container = document.getElementById('serving-areas-grid');
+  const chevron = document.getElementById('serving-chevron');
+  if (container && chevron) {
+    if (container.classList.contains('hidden')) {
+      container.classList.remove('hidden');
+      chevron.style.transform = 'rotate(180deg)';
+    } else {
+      container.classList.add('hidden');
+      chevron.style.transform = 'rotate(0deg)';
+    }
+  }
+}
+</script>
 
 <?php
 include 'includes/footer.php';
