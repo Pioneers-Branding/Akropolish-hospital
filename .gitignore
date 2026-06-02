@@ -1,6 +1,5 @@
 # Ignore system files
 .DS_Store
-.htaccess
 
 # Ignore Claude files
 .claude/

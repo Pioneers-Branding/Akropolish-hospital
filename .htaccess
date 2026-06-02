@@ -1,0 +1,37 @@
+RewriteEngine On
+
+# ─── Favicon & legacy asset fixes ────────────────────────────────────────────
+RewriteRule ^favicon\.ico$ /favicon.svg [R=301,L]
+RewriteRule ^vite\.svg$ /favicon.svg [R=301,L]
+
+
+RewriteRule ^\.well-known/apple-app-site-association$ - [R=404,L]
+RewriteRule ^apple-app-site-association$ - [R=404,L]
+
+# ─── Legacy /doctor/ (singular) → /doctors/ (plural) ─────────────────────────
+RewriteRule ^doctor/([^/]+)/?$ /doctors/$1 [R=301,L]
+
+# ─── Legacy /services/ paths → correct department pages ──────────────────────
+RewriteRule ^services/ct-scan/?$ /ct-scan.php [R=301,L]
+RewriteRule ^services/bronchoscopy/?$ /bronchoscopy.php [R=301,L]
+RewriteRule ^services/colonoscopy/?$ /colonoscopy.php [R=301,L]
+RewriteRule ^services/endoscopy/?$ /endoscopy.php [R=301,L]
+RewriteRule ^services/([^/]+)/?$ /$1.php [R=301,L]
+
+# ─── Redirect parent specialty directories to main pages ─────────────────────
+RewriteRule ^orthopedic-hospital/haryana/?$ /orthopedics.php [R=301,L]
+RewriteRule ^haddi-ka-doctor/haryana/?$ /haddi-ka-doctor.php [R=301,L]
+
+# ─── Doctor sub-pages: /doctors/dr-slug → doctors/dr-slug.php ────────────────
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^doctors/([^/]+)/?$ /doctors/$1.php [NC,L]
+
+# ─── Clean URLs: strip .php extension for all top-level pages ────────────────
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^([^\.]+)/?$ $1.php [NC,L]
+
+# ─── Redirect index.php to / ─────────────────────────────────────────────────
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
+RewriteRule ^index\.php$ / [R=301,L]

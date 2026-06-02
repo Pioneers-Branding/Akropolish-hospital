@@ -703,7 +703,9 @@ $deptConfig = [
         ],
         'emergency_symptoms' => [
             ['symptom' => 'Severe Injury or Deformity', 'description' => 'Visible bone, severe bleeding, or obvious deformity after injury'],
-            ['symptom' => 'Inability to Bear Weight', 'description' => 'Cannot put weight on injured limb or joint after fall or injury']
+            ['symptom' => 'Inability to Bear Weight', 'description' => 'Cannot put weight on injured limb or joint after fall or injury'],
+            ['symptom' => 'Severe Joint Swelling or Locking', 'description' => 'Sudden extreme swelling, warmth, or joint that is locked and cannot move'],
+            ['symptom' => 'Numbness or Loss of Sensation', 'description' => 'Tingling, numbness, or loss of feeling in arm, leg, hand, or foot after injury']
         ]
     ],
     'pediatrics' => [

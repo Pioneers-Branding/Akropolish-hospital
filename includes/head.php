@@ -3,10 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="google-site-verification" content="kg93KBDXRUW22RCSQGBlsAUWoVAZ2WXvDfnzhT7rzxE" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="shortcut icon" href="/favicon.svg" />
+  <link rel="icon" type="image/x-icon" href="/favicon.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title><?php echo $page_title ?? 'Akropolis Super Speciality Hospital | NABH Accredited Healthcare'; ?></title>
-  <meta name="description" content="<?php echo $page_description ?? 'Akropolis Super Speciality Hospital - NABH accredited healthcare with 24/7 emergency services, expert doctors, and advanced medical facilities in Noida.'; ?>" />
+  <meta name="description" content="<?php echo $page_description ?? 'Akropolis Super Speciality Hospital - NABH accredited healthcare with 24/7 emergency services, expert doctors, and advanced medical facilities in Gurugram, Haryana.'; ?>" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">

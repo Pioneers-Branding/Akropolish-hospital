@@ -3,6 +3,33 @@ $uri = urldecode(
     parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH)
 );
 
+// Suppress Apple App Site Association noise
+if (
+    $uri === '/apple-app-site-association' ||
+    $uri === '/.well-known/apple-app-site-association'
+) {
+    http_response_code(404);
+    exit;
+}
+
+// Legacy /doctor/ (singular) → redirect to /doctors/
+if (preg_match('#^/doctor/(.+)$#', $uri, $m)) {
+    header('Location: /doctors/' . $m[1], true, 301);
+    exit;
+}
+
+// Legacy /services/ paths
+$serviceMap = [
+    '/services/ct-scan'      => 'ct-scan.php',
+    '/services/bronchoscopy' => 'bronchoscopy.php',
+    '/services/colonoscopy'  => 'colonoscopy.php',
+    '/services/endoscopy'    => 'endoscopy.php',
+];
+if (isset($serviceMap[rtrim($uri, '/')])) {
+    include $serviceMap[rtrim($uri, '/')];
+    return;
+}
+
 // If it's a directory, check for index.php inside it
 if (is_dir(__DIR__ . $uri)) {
     $indexFile = rtrim(__DIR__ . $uri, '/') . '/index.php';
@@ -12,20 +39,53 @@ if (is_dir(__DIR__ . $uri)) {
     }
 }
 
-// Clean URL mapping
+// Doctor sub-pages: /doctors/dr-slug
+if (preg_match('#^/doctors/([a-z0-9\-]+)/?$#', $uri, $m)) {
+    $doctorFile = __DIR__ . '/doctors/' . $m[1] . '.php';
+    if (file_exists($doctorFile)) {
+        include $doctorFile;
+        return;
+    }
+}
+
+// Full clean URL mapping
 $clean_urls = [
-    '/departments' => 'departments.php',
-    '/department' => 'departments.php',
-    '/about' => 'about.php',
-    '/contact' => 'contact.php',
-    '/doctors' => 'doctors.php',
-    '/orthopedics' => 'orthopedics.php',
-    '/cardiology' => 'cardiology.php',
-    '/neurology' => 'neurology.php',
-    '/nephrology' => 'nephrology.php',
-    '/oncology' => 'oncology.php',
-    '/plastic-surgery' => 'plastic-surgery.php',
-    '/obstetrics-gynecology' => 'obstetrics-gynecology.php'
+    // Main pages
+    '/about'                    => 'about.php',
+    '/contact'                  => 'contact.php',
+    '/departments'              => 'departments.php',
+    '/department'               => 'departments.php',
+    '/doctors'                  => 'doctors.php',
+    '/doctor-profile'           => 'doctor-profile.php',
+    '/thank-you'                => 'thank-you.php',
+
+    // Departments
+    '/orthopedics'              => 'orthopedics.php',
+    '/cardiology'               => 'cardiology.php',
+    '/neurology'                => 'neurology.php',
+    '/nephrology'               => 'nephrology.php',
+    '/oncology'                 => 'oncology.php',
+    '/pediatrics'               => 'pediatrics.php',
+    '/plastic-surgery'          => 'plastic-surgery.php',
+    '/obstetrics-gynecology'    => 'obstetrics-gynecology.php',
+    '/ent'                      => 'ent.php',
+    '/ophthalmology'            => 'ophthalmology.php',
+    '/gastroenterology'         => 'gastroenterology.php',
+    '/dermatology'              => 'dermatology.php',
+
+    // Diagnostics & Services
+    '/dialysis'                 => 'dialysis.php',
+    '/ct-scan'                  => 'ct-scan.php',
+    '/laboratory'               => 'laboratory.php',
+    '/endoscopy'                => 'endoscopy.php',
+    '/colonoscopy'              => 'colonoscopy.php',
+    '/bronchoscopy'             => 'bronchoscopy.php',
+    '/emergency'                => 'emergency.php',
+    '/health-nutrition'         => 'health-nutrition.php',
+
+    // Specialties
+    '/haddi-ka-doctor'          => 'haddi-ka-doctor.php',
+    '/migraine-treatment'       => 'migraine-treatment.php',
 ];
 
 if (isset($clean_urls[rtrim($uri, '/')])) {
@@ -33,7 +93,7 @@ if (isset($clean_urls[rtrim($uri, '/')])) {
     return;
 }
 
-// Special redirects from .htaccess style
+// Legacy specialty directory redirects
 if ($uri === '/orthopedic-hospital/haryana' || $uri === '/orthopedic-hospital/haryana/') {
     include 'orthopedics.php';
     return;
@@ -43,7 +103,7 @@ if ($uri === '/haddi-ka-doctor/haryana' || $uri === '/haddi-ka-doctor/haryana/')
     return;
 }
 
-// Fallback to index.php
+// Home
 if ($uri === '/' || $uri === '/index.php') {
     include 'index.php';
     return;
