@@ -294,19 +294,24 @@ include 'includes/head.php';
           <span class="text-[#328CCB]"> Hospital</span>
         </h2>
         <p class="text-gray-600 text-lg max-w-3xl mx-auto leading-relaxed">
-          Located in the heart of Noida with easy accessibility and ample parking facilities.
+          Located in Jhajjar with easy accessibility and ample parking facilities.
         </p>
       </div>
 
       <div class="bg-white rounded-3xl shadow-xl overflow-hidden floating-card">
         <div class="grid lg:grid-cols-2">
-          <!-- Map Placeholder -->
-          <div class="bg-gray-200 h-96 lg:h-full flex items-center justify-center">
-            <div class="text-center">
-              <?php echo getIcon('MapPin', 'h-16 w-16 text-gray-400 mx-auto mb-4'); ?>
-              <h3 class="text-xl font-bold text-gray-600 mb-2">Interactive Map</h3>
-              <p class="text-gray-500">Google Maps integration would be here</p>
-            </div>
+          <!-- Google Maps Embed -->
+          <div class="h-96 lg:h-full min-h-[450px]">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3710.794260118669!2d77.0455906!3d28.3976223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d23971c50e10b%3A0xf294f48f7588a6bd!2sAkropolis%20Super%20Speciality%20Hospital%3A%20Orthopedic%20Hospital%20in%20Gurgaon%20%7C%20Neuro%2C%20Cardiologist%2C%20CT%20Scan%2C%20ENT%20Hospital%20in%20Gurgaon!5e1!3m2!1sen!2sin!4v1780421258988!5m2!1sen!2sin"
+              width="100%"
+              height="100%"
+              style="border:0; min-height:450px;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Akropolis Super Speciality Hospital Location"
+            ></iframe>
           </div>
 
           <!-- Location Details -->
