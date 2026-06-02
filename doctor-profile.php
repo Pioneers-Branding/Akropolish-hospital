@@ -133,7 +133,7 @@ $lastName = isset($nameParts[count($nameParts) - 1]) ? $nameParts[count($namePar
 
           <!-- Book Appointment Button -->
           <a
-            href="tel:<?php echo CONTACT_INFO['phone']; ?>"
+            href="/contact.php"
             class="bg-[#D66C43] hover:bg-[#c55a36] text-white px-6 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2 shadow-lg w-fit mx-auto cta-glow"
           >
             <?php echo getIcon('Calendar', 'h-5 w-5'); ?>

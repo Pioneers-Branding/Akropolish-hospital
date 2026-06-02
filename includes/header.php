@@ -22,11 +22,11 @@
         <?php
         $navigation = [
             ['name' => 'Home', 'href' => '/', 'page' => 'home'],
-            ['name' => 'About', 'href' => '/about', 'page' => 'about'],
-            ['name' => 'Departments', 'href' => '/departments', 'page' => 'departments', 'hasMegaMenu' => true],
-            ['name' => 'Doctors', 'href' => '/doctors', 'page' => 'doctors'],
-            ['name' => 'Services', 'href' => '/departments#services', 'hasDropdown' => true],
-            ['name' => 'Contact', 'href' => '/contact', 'page' => 'contact']
+            ['name' => 'About', 'href' => '/about.php', 'page' => 'about'],
+            ['name' => 'Departments', 'href' => '/departments.php', 'page' => 'departments', 'hasMegaMenu' => true],
+            ['name' => 'Doctors', 'href' => '/doctors.php', 'page' => 'doctors'],
+            ['name' => 'Services', 'href' => '/departments.php#services', 'hasDropdown' => true],
+            ['name' => 'Contact', 'href' => '/contact.php', 'page' => 'contact']
         ];
 
         foreach ($navigation as $item):
@@ -222,7 +222,7 @@
             <span>Emergency Services</span>
           </a>
           <a
-            href="/contact"
+            href="/contact.php"
             class="nav-link w-full bg-[#328CCB] hover:bg-[#2a7bb5] text-white px-4 py-3 rounded-lg font-semibold transition-colors duration-200 flex items-center justify-center space-x-2"
             data-page="contact"
           >

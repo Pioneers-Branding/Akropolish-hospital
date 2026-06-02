@@ -363,55 +363,6 @@ include dirname(__DIR__) . '/includes/head.php';
     </div>
   </section>
 
-  <!-- Departments Grid Section -->
-  <section id="departments" class="py-20 bg-white section-fade">
-    <div class="container mx-auto px-4">
-      <div class="text-center mb-16">
-        <div class="inline-flex items-center space-x-2 bg-[#328CCB]/10 text-[#328CCB] px-4 py-2 rounded-full text-sm font-medium mb-6">
-          <?php echo getIcon('Heart', 'h-4 w-4'); ?>
-          <span>Our Departments</span>
-        </div>
-        <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mt-2 mb-6">
-          World-Class <span class="text-[#328CCB]">Medical Excellence</span>
-        </h2>
-        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-          Comprehensive healthcare services under one roof for patients from <?php echo $district_display; ?>
-        </p>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <?php
-        $featuredDepts = [
-            ['id' => 'cardiology', 'page' => 'cardiology.php', 'title' => 'Cardiology', 'description' => 'Advanced heart care with state-of-the-art cardiac procedures.', 'icon' => 'Heart', 'image' => 'https://brandingpioneers.co.in/akropolis/Cardiology.jpg'],
-            ['id' => 'neurology', 'page' => 'neurology.php', 'title' => 'Neurology', 'description' => 'Comprehensive brain and nervous system care.', 'icon' => 'Brain', 'image' => 'https://images.pexels.com/photos/3779448/pexels-photo-3779448.jpeg?auto=compress&cs=tinysrgb&w=800'],
-            ['id' => 'nephrology', 'page' => 'nephrology.php', 'title' => 'Nephrology', 'description' => 'Comprehensive kidney care and dialysis services.', 'icon' => 'Droplets', 'image' => 'https://brandingpioneers.co.in/akropolis/Nephrology.webp'],
-            ['id' => 'orthopedics', 'page' => 'orthopedics.php', 'title' => 'Orthopedics', 'description' => 'Expert bone, joint, and muscle care.', 'icon' => 'Bone', 'image' => 'https://brandingpioneers.co.in/akropolis/Orthopaedics.jpg'],
-            ['id' => 'pediatrics', 'page' => 'pediatrics.php', 'title' => 'Pediatrics', 'description' => 'Specialized care for newborns and children.', 'icon' => 'Baby', 'image' => 'https://brandingpioneers.co.in/akropolis/NICU & Pediatrics.webp'],
-            ['id' => 'oncology', 'page' => 'oncology.php', 'title' => 'Oncology', 'description' => 'Comprehensive cancer care and treatment.', 'icon' => 'Activity', 'image' => 'https://brandingpioneers.co.in/akropolis/Oncology.webp']
-        ];
-
-        foreach ($featuredDepts as $dept):
-        ?>
-          <div class="department-card bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden">
-            <div class="relative h-48 overflow-hidden">
-              <img src="<?php echo $dept['image']; ?>" alt="<?php echo $dept['title']; ?>" class="w-full h-full object-cover" />
-              <div class="absolute top-4 left-4 bg-white/95 backdrop-blur-sm p-3 rounded-xl shadow-lg">
-                <?php echo getIcon($dept['icon'], 'h-6 w-6 text-[#328CCB]'); ?>
-              </div>
-            </div>
-            <div class="p-6">
-              <h3 class="text-xl font-bold text-gray-900 mb-2"><?php echo $dept['title']; ?></h3>
-              <p class="text-gray-600 text-sm mb-4"><?php echo $dept['description']; ?></p>
-              <a href="/<?php echo $dept['page']; ?>" class="inline-flex items-center space-x-2 bg-[#328CCB] hover:bg-[#2a7bb5] text-white px-4 py-2 rounded-lg font-semibold text-sm transition-all duration-300">
-                <span>Learn More</span>
-                <?php echo getIcon('ArrowRight', 'h-4 w-4'); ?>
-              </a>
-            </div>
-          </div>
-        <?php endforeach; ?>
-      </div>
-    </div>
-  </section>
 
   <!-- Doctors Section -->
   <section id="doctors" class="py-20 bg-gray-50 overflow-hidden section-fade">

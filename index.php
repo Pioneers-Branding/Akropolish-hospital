@@ -66,7 +66,7 @@ include 'includes/head.php';
           <!-- CTA Buttons -->
           <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-12">
             <a
-              href="/doctors.php"
+              href="/contact.php"
               class="bg-[#328CCB] hover:bg-[#2a7bb5] text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2 shadow-lg cta-glow"
             >
               <?php echo getIcon('Calendar', 'h-5 w-5'); ?>

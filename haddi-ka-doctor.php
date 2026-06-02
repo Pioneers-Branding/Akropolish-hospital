@@ -53,7 +53,7 @@ $districts = [
           <h1 class="text-4xl font-bold text-gray-900 mb-2">हरियाणा के सबसे प्रसिद्ध हड्डी के डॉक्टर</h1>
           <p class="text-[#328CCB] text-xl font-semibold mb-4">डॉ प्रतीक गिरोत्रा - प्रमुख, हड्डी रोग विभाग</p>
           <div class="flex flex-wrap justify-center md:justify-start gap-4">
-            <a href="tel:<?php echo CONTACT_INFO['phone']; ?>" class="bg-[#328CCB] text-white px-6 py-3 rounded-xl font-bold flex items-center space-x-2">
+            <a href="/contact.php" class="bg-[#328CCB] text-white px-6 py-3 rounded-xl font-bold flex items-center space-x-2">
               <?php echo getIcon('Calendar', 'h-5 w-5'); ?>
               <span>Appointment Book Karein</span>
             </a>

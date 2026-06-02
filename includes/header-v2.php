@@ -21,11 +21,11 @@
         <?php
         $navigation = [
             ['name' => 'Home', 'href' => '/', 'page' => 'home'],
-            ['name' => 'About', 'href' => '/about', 'page' => 'about'],
-            ['name' => 'Departments', 'href' => '/departments', 'page' => 'departments', 'hasMegaMenu' => true],
-            ['name' => 'Doctors', 'href' => '/doctors', 'page' => 'doctors'],
-            ['name' => 'Services', 'href' => '/departments#services', 'hasDropdown' => true],
-            ['name' => 'Contact', 'href' => '/contact', 'page' => 'contact']
+            ['name' => 'About', 'href' => '/about.php', 'page' => 'about'],
+            ['name' => 'Departments', 'href' => '/departments.php', 'page' => 'departments', 'hasMegaMenu' => true],
+            ['name' => 'Doctors', 'href' => '/doctors.php', 'page' => 'doctors'],
+            ['name' => 'Services', 'href' => '/departments.php#services', 'hasDropdown' => true],
+            ['name' => 'Contact', 'href' => '/contact.php', 'page' => 'contact']
         ];
 
         foreach ($navigation as $item):
@@ -61,7 +61,7 @@
                 <?php endforeach; ?>
               </div>
               <div class="mt-8 pt-6 border-t border-gray-100 text-center">
-                <a href="/departments" class="nav-link inline-flex items-center space-x-2 bg-[#328CCB] hover:bg-[#2a7bb5] text-white px-6 py-3 rounded-lg font-semibold transition-colors duration-200" data-page="departments">
+                <a href="/departments.php" class="nav-link inline-flex items-center space-x-2 bg-[#328CCB] hover:bg-[#2a7bb5] text-white px-6 py-3 rounded-lg font-semibold transition-colors duration-200" data-page="departments">
                   <span>View All Departments</span>
                   <?php echo getIcon('ChevronDown', 'h-4 w-4 rotate-270'); ?>
                 </a>
@@ -92,7 +92,7 @@
                 <?php endforeach; ?>
               </div>
               <div class="px-4 py-2 border-t border-gray-100">
-                <a href="/departments" class="nav-link block text-center bg-[#328CCB] hover:bg-[#2a7bb5] text-white px-4 py-2 rounded-lg font-semibold transition-colors duration-200 text-sm" data-page="departments">View All Services</a>
+                <a href="/departments.php" class="nav-link block text-center bg-[#328CCB] hover:bg-[#2a7bb5] text-white px-4 py-2 rounded-lg font-semibold transition-colors duration-200 text-sm" data-page="departments">View All Services</a>
               </div>
             </div>
             <?php endif; ?>
@@ -146,7 +146,7 @@
             <?php echo getIcon('Phone', 'h-4 w-4'); ?>
             <span>Emergency Services</span>
           </a>
-          <a href="/contact" class="nav-link w-full bg-[#328CCB] hover:bg-[#2a7bb5] text-white px-4 py-3 rounded-lg font-semibold transition-colors duration-200 flex items-center justify-center space-x-2" data-page="contact">
+          <a href="/contact.php" class="nav-link w-full bg-[#328CCB] hover:bg-[#2a7bb5] text-white px-4 py-3 rounded-lg font-semibold transition-colors duration-200 flex items-center justify-center space-x-2" data-page="contact">
             <?php echo getIcon('Calendar', 'h-4 w-4'); ?>
             <span>Book Appointment</span>
           </a>
