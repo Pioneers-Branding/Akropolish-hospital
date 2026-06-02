@@ -1,7 +1,13 @@
 <?php
 require_once 'includes/data.php';
+require_once 'includes/schema.php';
 $page_title = 'Akropolis Super Speciality Hospital | Best Multi-Specialty Hospital in Gurugram, Haryana';
 $meta_description = 'Akropolis Super Speciality Hospital - NABH accredited multi-specialty hospital in Gurugram, Haryana. Expert doctors, advanced technology, 24×7 emergency care. Book appointment now!';
+$canonical_url = '/';
+$schema_blocks = [
+    schemaWebSite(),
+    schemaBreadcrumb([['name' => 'Home', 'url' => '/']]),
+];
 include 'includes/head.php';
 ?>
 

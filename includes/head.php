@@ -9,6 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title><?php echo $page_title ?? 'Akropolis Super Speciality Hospital | NABH Accredited Healthcare'; ?></title>
   <meta name="description" content="<?php echo $page_description ?? 'Akropolis Super Speciality Hospital - NABH accredited healthcare with 24/7 emergency services, expert doctors, and advanced medical facilities in Gurugram, Haryana.'; ?>" />
+  <link rel="canonical" href="https://akropolishospital.com<?php echo isset($canonical_url) ? $canonical_url : strtok($_SERVER['REQUEST_URI'] ?? '/', '?'); ?>" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -36,6 +37,21 @@
 
   <!-- Custom Styles -->
   <link rel="stylesheet" href="/css/styles.css">
+
+  <!-- JSON-LD Structured Data -->
+  <?php
+  if (!function_exists('schemaHospital')) {
+      require_once __DIR__ . '/schema.php';
+  }
+  // Always output base hospital schema
+  echo renderSchema(schemaHospital(strtok($_SERVER['REQUEST_URI'] ?? '/', '?')));
+  // Output any page-specific schema blocks set before including head.php
+  if (!empty($schema_blocks) && is_array($schema_blocks)) {
+      foreach ($schema_blocks as $block) {
+          echo renderSchema($block);
+      }
+  }
+  ?>
 </head>
 <body class="min-h-screen bg-white">
   <div id="root">

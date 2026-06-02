@@ -1,5 +1,8 @@
 <?php
 require_once __DIR__ . '/../includes/data.php';
+if (!function_exists('schemaHospital')) {
+    require_once __DIR__ . '/../includes/schema.php';
+}
 
 // Find the doctor
 $doctor = null;
@@ -31,8 +34,27 @@ if (!$doctor) {
     exit;
 }
 
-$page_title = $doctor['name'] . ' | ' . $doctor['specialization'] . ' | Akropolis Hospital';
+$page_title = $doctor['name'] . ' | ' . $doctor['specialization'] . ' | Akropolis Hospital Gurugram';
+$page_description = $doctor['name'] . ' is an experienced ' . $doctor['specialization'] . ' at Akropolis Super Speciality Hospital, Gurugram. ' . ($doctor['bio'] ?? 'Expert specialist providing advanced healthcare.');
+$canonical_url = '/doctors/' . $doctor['id'];
+$schema_blocks = [
+    schemaPhysician([
+        'name'           => $doctor['name'],
+        'id'             => $doctor['id'],
+        'specialty'      => $doctor['specialization'] ?? '',
+        'image'          => $doctor['image'] ?? '',
+        'bio'            => $doctor['bio'] ?? '',
+        'qualifications' => $doctor['qualifications'] ?? [],
+    ]),
+    schemaBreadcrumb([
+        ['name' => 'Home', 'url' => '/'],
+        ['name' => 'Doctors', 'url' => '/doctors'],
+        ['name' => $doctor['name'], 'url' => '/doctors/' . $doctor['id']],
+    ]),
+];
 include __DIR__ . '/../includes/head.php';
+
+
 
 // Get first name and last name
 $nameParts = explode(' ', $doctor['name']);
