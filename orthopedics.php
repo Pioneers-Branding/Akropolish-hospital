@@ -36,11 +36,29 @@ $districts = [
 <section class="py-16 bg-gray-50 border-t border-gray-200 section-fade">
   <div class="container mx-auto px-4">
     <div class="max-w-6xl mx-auto">
-      <div class="flex items-center space-x-3 mb-12">
-        <div class="bg-[#328CCB]/10 p-2 rounded-lg">
-          <?php echo getIcon('MapPin', 'h-6 w-6 text-[#328CCB]'); ?>
+      <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6 mb-12">
+        <div class="flex items-center space-x-3">
+          <div class="bg-[#328CCB]/10 p-2 rounded-lg">
+            <?php echo getIcon('MapPin', 'h-6 w-6 text-[#328CCB]'); ?>
+          </div>
+          <h2 class="text-3xl font-bold text-gray-900">We are serving in these areas</h2>
         </div>
-        <h2 class="text-3xl font-bold text-gray-900">We are serving in these areas</h2>
+        <div class="relative w-full md:w-80">
+          <select 
+            onchange="if(this.value) window.location.href=this.value;" 
+            class="block w-full bg-white border border-gray-300 rounded-xl px-4 py-3 pr-10 text-gray-700 font-medium focus:outline-none focus:ring-2 focus:ring-[#328CCB] focus:border-[#328CCB] cursor-pointer appearance-none shadow-sm transition-all"
+          >
+            <option value="">Select Your Location / District</option>
+            <?php foreach ($districts as $slug => $name): ?>
+              <option value="/orthopedic-hospital/haryana/<?php echo $slug; ?>/">
+                <?php echo $name; ?>
+              </option>
+            <?php endforeach; ?>
+          </select>
+          <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-gray-500">
+            <?php echo getIcon('ChevronDown', 'h-5 w-5'); ?>
+          </div>
+        </div>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-12">

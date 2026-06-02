@@ -7,4 +7,4 @@
 $district_name = 'kurukshetra';
 $landmarks = ['Kurukshetra City', 'Pehowa', 'Shahabad'];
 
-require_once '/Users/bp/Desktop/components/heart-district-template.php';
+require_once __DIR__ . '/../../../components/heart-district-template.php';

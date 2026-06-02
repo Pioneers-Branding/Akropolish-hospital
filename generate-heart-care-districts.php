@@ -69,7 +69,7 @@ foreach ($districts as $slug => $data) {
     $districtIndex .= " */\n\n";
     $districtIndex .= "\$district_name = '{$slug}';\n";
     $districtIndex .= "\$landmarks = ['" . implode("', '", $data['landmarks']) . "'];\n\n";
-    $districtIndex .= "require_once '" . dirname(__DIR__) . "/components/heart-district-template.php';\n";
+    $districtIndex .= "require_once __DIR__ . '/../../../components/heart-district-template.php';\n";
 
     file_put_contents($districtDir . '/index.php', $districtIndex);
     echo "Created: {$slug}/index.php\n";

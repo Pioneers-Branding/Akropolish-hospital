@@ -7,4 +7,4 @@
 $district_name = 'sirsa';
 $landmarks = ['Sirsa City', 'Ellenabad', 'Rania'];
 
-require_once '/Users/bp/Desktop/components/heart-district-template.php';
+require_once __DIR__ . '/../../../components/heart-district-template.php';

@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="google-site-verification" content="_IhyvA0aT7QngolfxMGT3X-TQoEEv2Qh18k793Kra3E" />
+  <meta name="google-site-verification" content="kg93KBDXRUW22RCSQGBlsAUWoVAZ2WXvDfnzhT7rzxE" />
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title><?php echo $page_title ?? 'Akropolis Super Speciality Hospital | NABH Accredited Healthcare'; ?></title>

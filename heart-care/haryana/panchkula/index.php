@@ -7,4 +7,4 @@
 $district_name = 'panchkula';
 $landmarks = ['Sector 21', 'Panchkula', 'Morni'];
 
-require_once '/Users/bp/Desktop/components/heart-district-template.php';
+require_once __DIR__ . '/../../../components/heart-district-template.php';

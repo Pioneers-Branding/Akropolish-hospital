@@ -7,4 +7,4 @@
 $district_name = 'mewat';
 $landmarks = ['Nuh', 'Firozpur Jhirka', 'Taoru'];
 
-require_once '/Users/bp/Desktop/components/heart-district-template.php';
+require_once __DIR__ . '/../../../components/heart-district-template.php';

@@ -138,25 +138,6 @@ function initHoverEffects() {
     card.addEventListener('mouseleave', function() {
       this.classList.remove('is-hovered');
     });
-
-    // Add 3D tilt effect
-    card.addEventListener('mousemove', function(e) {
-      const rect = this.getBoundingClientRect();
-      const x = e.clientX - rect.left;
-      const y = e.clientY - rect.top;
-
-      const centerX = rect.width / 2;
-      const centerY = rect.height / 2;
-
-      const rotateX = (y - centerY) / 20;
-      const rotateY = (centerX - x) / 20;
-
-      this.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-10px)`;
-    });
-
-    card.addEventListener('mouseleave', function() {
-      this.style.transform = '';
-    });
   });
 
   // Image zoom effect

@@ -202,13 +202,34 @@ include dirname(__DIR__) . '/includes/head.php';
   <section class="py-20 bg-white">
     <div class="container mx-auto px-4">
       <div class="max-w-6xl mx-auto">
-        <div class="flex items-center space-x-3 mb-12">
-          <div class="bg-red-100 p-2 rounded-lg"><?php echo getIcon('MapPin', 'h-6 w-6 text-red-500'); ?></div>
-          <h2 class="text-3xl font-bold text-gray-900">We Are Serving in These Areas</h2>
+        <?php
+        $allDistricts = ['ambala' => 'Ambala', 'bhiwani' => 'Bhiwani', 'charkhi-dadri' => 'Charkhi Dadri', 'faridabad' => 'Faridabad', 'fatehabad' => 'Fatehabad', 'gurgaon' => 'Gurgaon', 'hisar' => 'Hisar', 'jhajjar' => 'Jhajjar', 'jind' => 'Jind', 'kaithal' => 'Kaithal', 'karnal' => 'Karnal', 'kurukshetra' => 'Kurukshetra', 'mahendragarh' => 'Mahendragarh', 'mewat' => 'Mewat', 'palwal' => 'Palwal', 'panchkula' => 'Panchkula', 'panipat' => 'Panipat', 'rewari' => 'Rewari', 'rohtak' => 'Rohtak', 'sirsa' => 'Sirsa', 'sonipat' => 'Sonipat', 'yamunanagar' => 'Yamunanagar'];
+        ?>
+        <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6 mb-12">
+          <div class="flex items-center space-x-3">
+            <div class="bg-red-100 p-2 rounded-lg"><?php echo getIcon('MapPin', 'h-6 w-6 text-red-500'); ?></div>
+            <h2 class="text-3xl font-bold text-gray-900">We Are Serving in These Areas</h2>
+          </div>
+          <div class="relative w-full md:w-80">
+            <select 
+              onchange="if(this.value) window.location.href=this.value;" 
+              class="block w-full bg-white border border-gray-300 rounded-xl px-4 py-3 pr-10 text-gray-700 font-medium focus:outline-none focus:ring-2 focus:ring-red-500 focus:border-red-500 cursor-pointer appearance-none shadow-sm transition-all"
+            >
+              <option value="">Select Your Location / District</option>
+              <?php foreach ($allDistricts as $slug => $name): ?>
+                <option value="/heart-care/haryana/<?php echo $slug; ?>/" <?php echo ($slug === $district_name) ? 'selected' : ''; ?>>
+                  <?php echo $name; ?>
+                </option>
+              <?php endforeach; ?>
+            </select>
+            <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-gray-500">
+              <?php echo getIcon('ChevronDown', 'h-5 w-5'); ?>
+            </div>
+          </div>
         </div>
+
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-12">
           <?php
-          $allDistricts = ['ambala' => 'Ambala', 'bhiwani' => 'Bhiwani', 'charkhi-dadri' => 'Charkhi Dadri', 'faridabad' => 'Faridabad', 'fatehabad' => 'Fatehabad', 'gurgaon' => 'Gurgaon', 'hisar' => 'Hisar', 'jhajjar' => 'Jhajjar', 'jind' => 'Jind', 'kaithal' => 'Kaithal', 'karnal' => 'Karnal', 'kurukshetra' => 'Kurukshetra', 'mahendragarh' => 'Mahendragarh', 'mewat' => 'Mewat', 'palwal' => 'Palwal', 'panchkula' => 'Panchkula', 'panipat' => 'Panipat', 'rewari' => 'Rewari', 'rohtak' => 'Rohtak', 'sirsa' => 'Sirsa', 'sonipat' => 'Sonipat', 'yamunanagar' => 'Yamunanagar'];
           foreach ($allDistricts as $slug => $name):
             if ($slug !== $district_name):
           ?>

@@ -98,7 +98,22 @@ $pageDept = $deptConfig[$dept_key];
           </h3>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <?php 
+        $symptoms_count = count($pageDept['emergency_symptoms']);
+        $grid_cols_class = 'grid-cols-1 md:grid-cols-2 lg:grid-cols-4';
+        $max_width_class = 'max-w-5xl';
+        if ($symptoms_count === 1) {
+            $grid_cols_class = 'grid-cols-1';
+            $max_width_class = 'max-w-md';
+        } elseif ($symptoms_count === 2) {
+            $grid_cols_class = 'grid-cols-1 md:grid-cols-2';
+            $max_width_class = 'max-w-2xl';
+        } elseif ($symptoms_count === 3) {
+            $grid_cols_class = 'grid-cols-1 md:grid-cols-3';
+            $max_width_class = 'max-w-4xl';
+        }
+        ?>
+        <div class="grid <?php echo $grid_cols_class; ?> gap-4 <?php echo $max_width_class; ?> mx-auto">
           <?php foreach ($pageDept['emergency_symptoms'] as $symptom): ?>
             <div class="bg-white rounded-lg p-4 border border-red-200">
               <h4 class="font-bold text-red-700 mb-2"><?php echo $symptom['symptom']; ?></h4>
@@ -564,24 +579,44 @@ $pageDept = $deptConfig[$dept_key];
         <?php if (in_array($dept_key, ['obstetrics-gynecology', 'plastic-surgery'])): ?>
         <!-- Service Areas Section for SEO -->
         <div class="mt-20 pt-16 border-t border-gray-100">
-          <div class="flex items-center justify-center space-x-3 mb-12">
-            <div class="bg-[#328CCB]/10 p-2 rounded-lg">
-              <?php echo getIcon('MapPin', 'h-6 w-6 text-[#328CCB]'); ?>
+          <?php
+          $haryanaDistricts = [
+              'ambala' => 'Ambala', 'bhiwani' => 'Bhiwani', 'charkhi-dadri' => 'Charkhi Dadri',
+              'faridabad' => 'Faridabad', 'fatehabad' => 'Fatehabad', 'gurgaon' => 'Gurgaon',
+              'hisar' => 'Hisar', 'jhajjar' => 'Jhajjar', 'jind' => 'Jind', 'kaithal' => 'Kaithal',
+              'karnal' => 'Karnal', 'kurukshetra' => 'Kurukshetra', 'mahendragarh' => 'Mahendragarh',
+              'mewat' => 'Mewat', 'palwal' => 'Palwal', 'panchkula' => 'Panchkula', 'panipat' => 'Panipat',
+              'rewari' => 'Rewari', 'rohtak' => 'Rohtak', 'sirsa' => 'Sirsa', 'sonipat' => 'Sonipat',
+              'yamunanagar' => 'Yamunanagar'
+          ];
+          ?>
+          <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-6 mb-12">
+            <div class="flex items-center space-x-3">
+              <div class="bg-[#328CCB]/10 p-2 rounded-lg">
+                <?php echo getIcon('MapPin', 'h-6 w-6 text-[#328CCB]'); ?>
+              </div>
+              <h2 class="text-3xl font-bold text-gray-900">Serving Across Haryana</h2>
             </div>
-            <h2 class="text-3xl font-bold text-gray-900">Serving Across Haryana</h2>
+            <div class="relative w-full md:w-80">
+              <select 
+                onchange="if(this.value) window.location.href=this.value;" 
+                class="block w-full bg-white border border-gray-300 rounded-xl px-4 py-3 pr-10 text-gray-700 font-medium focus:outline-none focus:ring-2 focus:ring-[#328CCB] focus:border-[#328CCB] cursor-pointer appearance-none shadow-sm transition-all"
+              >
+                <option value="">Select Your Location / District</option>
+                <?php foreach ($haryanaDistricts as $slug => $name): ?>
+                  <option value="/<?php echo $dept_key; ?>/haryana/<?php echo $slug; ?>/">
+                    <?php echo $name; ?>
+                  </option>
+                <?php endforeach; ?>
+              </select>
+              <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-4 text-gray-500">
+                <?php echo getIcon('ChevronDown', 'h-5 w-5'); ?>
+              </div>
+            </div>
           </div>
           
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-12 text-left">
             <?php
-            $haryanaDistricts = [
-                'ambala' => 'Ambala', 'bhiwani' => 'Bhiwani', 'charkhi-dadri' => 'Charkhi Dadri',
-                'faridabad' => 'Faridabad', 'fatehabad' => 'Fatehabad', 'gurgaon' => 'Gurgaon',
-                'hisar' => 'Hisar', 'jhajjar' => 'Jhajjar', 'jind' => 'Jind', 'kaithal' => 'Kaithal',
-                'karnal' => 'Karnal', 'kurukshetra' => 'Kurukshetra', 'mahendragarh' => 'Mahendragarh',
-                'mewat' => 'Mewat', 'palwal' => 'Palwal', 'panchkula' => 'Panchkula', 'panipat' => 'Panipat',
-                'rewari' => 'Rewari', 'rohtak' => 'Rohtak', 'sirsa' => 'Sirsa', 'sonipat' => 'Sonipat',
-                'yamunanagar' => 'Yamunanagar'
-            ];
 
             // Department specific keyword rich text
             $keywordText = 'में सबसे अच्छे विशेषज्ञ';
