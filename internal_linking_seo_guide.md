@@ -17,9 +17,9 @@ To prevent search engines from flagging the content as spammy or over-linked, fo
 
 | Target URL | Relevancy / Topic | Recommended English Anchor Text |
 | :--- | :--- | :--- |
-| `/orthopedics.php` | Knee pain, joint pain, spine, fractures | `best orthopedic hospital in Gurgaon`, `Orthopedics Department`, `Knee Replacement Surgery`, `Spine Care and Orthopedics` |
+| `/orthopedics.php` | Knee pain, joint pain, fractures, joints | `best orthopedic hospital in Gurgaon`, `Orthopedics Department`, `Knee Replacement Surgery`, `Robotic Knee Surgery` |
 | `/cardiology.php` | Heart attacks, chest pain, cardiology | `best cardiologist in Gurgaon`, `Cardiology Department`, `Heart Blockage Treatment` |
-| `/neurology.php` | Spine pain, numbness, paralysis, nerves | `best neurologist in Gurgaon`, `Neurology Department`, `Advanced Neurology Center` |
+| `/neurology.php` | Spine pain, back pain, neck pain, numbness, paralysis, spine surgery | `best neurologist in Gurgaon`, `Neurology Department`, `best spine surgery hospital in Gurgaon`, `Spine Care and Neurology Center` |
 | `/nephrology.php` | Kidney disease, dialysis, urinary tract | `Nephrology Department`, `Kidney Specialist in Gurgaon`, `Dialysis Center` |
 | `/gastroenterology.php` | Gas, acidity, stomach pain, endoscopy | `Gastroenterology Department`, `Best Gastroenterologist in Gurgaon` |
 | `/emergency.php` | Acute pain, accident, heart emergencies | `24/7 Emergency Care`, `Emergency Services` |
