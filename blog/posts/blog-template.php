@@ -41,5 +41,5 @@ function load_blogs(string $dataFile): array
  */
 function blog_post_url(string $lang, string $slug): string
 {
-    return '/blog/' . $lang . '/' . $slug . '.php';
+    return '/blog/' . $lang . '/' . $slug;
 }

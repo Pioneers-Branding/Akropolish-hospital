@@ -411,5 +411,31 @@
   <url><loc>https://akropolishospital.com/obstetrics-gynecology/haryana/sonipat/</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
   <url><loc>https://akropolishospital.com/obstetrics-gynecology/haryana/yamunanagar/</loc><changefreq>weekly</changefreq><priority>0.6</priority></url>
 
+  <!-- Blog Main Pages -->
+  <url><loc>https://akropolishospital.com/blog</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://akropolishospital.com/blog/en</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://akropolishospital.com/blog/hi</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+
+  <!-- English Blog Posts -->
+  <url><loc>https://akropolishospital.com/blog/en/early-signs-of-heart-disease</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://akropolishospital.com/blog/en/managing-diabetes-daily</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://akropolishospital.com/blog/en/knee-replacement-recovery</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://akropolishospital.com/blog/en/child-nutrition-myths</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://akropolishospital.com/blog/en/understanding-migraine-triggers</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://akropolishospital.com/blog/en/importance-of-regular-health-checkups</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://akropolishospital.com/blog/en/pregnancy-care-first-trimester</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://akropolishospital.com/blog/en/kidney-stones-prevention</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://akropolishospital.com/blog/en/mental-health-after-40</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+
+  <!-- Hindi Blog Posts -->
+  <url><loc>https://akropolishospital.com/blog/hi/ghutno-ke-dard-ke-liye-doctor-kab-dikhaye</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://akropolishospital.com/blog/hi/kamar-dard-kab-gambhir-mana-jata-hai</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://akropolishospital.com/blog/hi/jodo-ke-dar-ka-sabse-acha-ilaj</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://akropolishospital.com/blog/hi/bina-surgery-knee-treatment</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://akropolishospital.com/blog/hi/gardan-ke-dard-ke-peechhe-kya-karan</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://akropolishospital.com/blog/hi/heart-attack-aur-gas-ke-dur-mein-anter</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://akropolishospital.com/blog/hi/hriday-ko-swasth-rakhne-ke-liye-kya-karen</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://akropolishospital.com/blog/hi/managing-diabetes-daily</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://akropolishospital.com/blog/hi/knee-replacement-recovery</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
 
 </urlset>

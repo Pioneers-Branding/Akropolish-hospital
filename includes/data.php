@@ -137,20 +137,20 @@ $departments = [
 
 // Mega Menu Departments
 $megaMenuDepartments = [
-    ['id' => 'orthopedics', 'name' => 'Orthopedics', 'description' => 'Bone, joint and muscle care', 'icon' => 'Bone', 'href' => '/orthopedics.php'],
-    ['id' => 'plastic-surgery', 'name' => 'Plastic Surgery', 'description' => 'Reconstructive and cosmetic surgery', 'icon' => 'Scissors', 'href' => '/plastic-surgery.php'],
-    ['id' => 'obstetrics-gynecology', 'name' => 'Obstetrics & Gynecology', 'description' => 'Women\'s health and maternity care', 'icon' => 'Heart', 'href' => '/obstetrics-gynecology.php'],
-    ['id' => 'cardiology', 'name' => 'Cardiology', 'description' => 'Heart and cardiovascular care', 'icon' => 'HeartPulse', 'href' => '/cardiology.php'],
-    ['id' => 'neurology', 'name' => 'Neurology', 'description' => 'Brain and nervous system care', 'icon' => 'Brain', 'href' => '/neurology.php'],
-    ['id' => 'nephrology', 'name' => 'Nephrology', 'description' => 'Kidney care and dialysis services', 'icon' => 'Droplets', 'href' => '/nephrology.php'],
-    ['id' => 'gastroenterology', 'name' => 'Gastroenterology', 'description' => 'Digestive system disorders', 'icon' => 'Pill', 'href' => '/gastroenterology.php'],
-    ['id' => 'pediatrics', 'name' => 'Pediatrics', 'description' => 'Newborn and children\'s care', 'icon' => 'Baby', 'href' => '/pediatrics.php'],
-    ['id' => 'dermatology', 'name' => 'Dermatology', 'description' => 'Skin, hair and nail care', 'icon' => 'Sparkles', 'href' => '/dermatology.php'],
-    ['id' => 'ent', 'name' => 'ENT', 'description' => 'Ear, nose and throat care', 'icon' => 'Ear', 'href' => '/ent.php'],
-    ['id' => 'ophthalmology', 'name' => 'Ophthalmology', 'description' => 'Eye care and vision treatment', 'icon' => 'Eye', 'href' => '/ophthalmology.php'],
-    ['id' => 'health-nutrition', 'name' => 'Health & Nutrition', 'description' => 'Nutritional counseling and wellness programs', 'icon' => 'Apple', 'href' => '/health-nutrition.php'],
-    ['id' => 'oncology', 'name' => 'Oncology', 'description' => 'Cancer treatment and care', 'icon' => 'Shield', 'href' => '/oncology.php'],
-    ['id' => 'emergency', 'name' => 'Emergency', 'description' => '24/7 Immediate Emergency & Trauma Care', 'icon' => 'Ambulance', 'href' => '/emergency.php']
+    ['id' => 'orthopedics', 'name' => 'Orthopedics', 'description' => 'Bone, joint and muscle care', 'icon' => 'Bone', 'href' => '/orthopedics'],
+    ['id' => 'plastic-surgery', 'name' => 'Plastic Surgery', 'description' => 'Reconstructive and cosmetic surgery', 'icon' => 'Scissors', 'href' => '/plastic-surgery'],
+    ['id' => 'obstetrics-gynecology', 'name' => 'Obstetrics & Gynecology', 'description' => 'Women\'s health and maternity care', 'icon' => 'Heart', 'href' => '/obstetrics-gynecology'],
+    ['id' => 'cardiology', 'name' => 'Cardiology', 'description' => 'Heart and cardiovascular care', 'icon' => 'HeartPulse', 'href' => '/cardiology'],
+    ['id' => 'neurology', 'name' => 'Neurology', 'description' => 'Brain and nervous system care', 'icon' => 'Brain', 'href' => '/neurology'],
+    ['id' => 'nephrology', 'name' => 'Nephrology', 'description' => 'Kidney care and dialysis services', 'icon' => 'Droplets', 'href' => '/nephrology'],
+    ['id' => 'gastroenterology', 'name' => 'Gastroenterology', 'description' => 'Digestive system disorders', 'icon' => 'Pill', 'href' => '/gastroenterology'],
+    ['id' => 'pediatrics', 'name' => 'Pediatrics', 'description' => 'Newborn and children\'s care', 'icon' => 'Baby', 'href' => '/pediatrics'],
+    ['id' => 'dermatology', 'name' => 'Dermatology', 'description' => 'Skin, hair and nail care', 'icon' => 'Sparkles', 'href' => '/dermatology'],
+    ['id' => 'ent', 'name' => 'ENT', 'description' => 'Ear, nose and throat care', 'icon' => 'Ear', 'href' => '/ent'],
+    ['id' => 'ophthalmology', 'name' => 'Ophthalmology', 'description' => 'Eye care and vision treatment', 'icon' => 'Eye', 'href' => '/ophthalmology'],
+    ['id' => 'health-nutrition', 'name' => 'Health & Nutrition', 'description' => 'Nutritional counseling and wellness programs', 'icon' => 'Apple', 'href' => '/health-nutrition'],
+    ['id' => 'oncology', 'name' => 'Oncology', 'description' => 'Cancer treatment and care', 'icon' => 'Shield', 'href' => '/oncology'],
+    ['id' => 'emergency', 'name' => 'Emergency', 'description' => '24/7 Immediate Emergency & Trauma Care', 'icon' => 'Ambulance', 'href' => '/emergency']
 ];
 
 

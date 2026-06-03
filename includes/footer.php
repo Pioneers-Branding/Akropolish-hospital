@@ -48,12 +48,12 @@
         <ul class="space-y-3">
           <?php
           $quickLinks = [
-            ['name' => 'Home', 'href' => '/index.php', 'page' => 'home'],
-            ['name' => 'About Us', 'href' => '/about.php', 'page' => 'about'],
-            ['name' => 'Departments', 'href' => '/departments.php', 'page' => 'departments'],
-            ['name' => 'Doctors', 'href' => '/doctors.php', 'page' => 'doctors'],
+            ['name' => 'Home', 'href' => '/', 'page' => 'home'],
+            ['name' => 'About Us', 'href' => '/about', 'page' => 'about'],
+            ['name' => 'Departments', 'href' => '/departments', 'page' => 'departments'],
+            ['name' => 'Doctors', 'href' => '/doctors', 'page' => 'doctors'],
             ['name' => 'Blog', 'href' => '/blog', 'page' => 'blog'],
-            ['name' => 'Contact', 'href' => '/contact.php', 'page' => 'contact']
+            ['name' => 'Contact', 'href' => '/contact', 'page' => 'contact']
           ];
 
           foreach ($quickLinks as $link):
@@ -78,12 +78,12 @@
         <ul class="space-y-3">
           <?php
           $patientServices = [
-            ['name' => 'CT Scan', 'href' => '/ct-scan.php', 'page' => 'ct-scan'],
-            ['name' => 'Endoscopy', 'href' => '/endoscopy.php', 'page' => 'endoscopy'],
-            ['name' => 'Colonoscopy', 'href' => '/colonoscopy.php', 'page' => 'colonoscopy'],
-            ['name' => 'Bronchoscopy', 'href' => '/bronchoscopy.php', 'page' => 'bronchoscopy'],
-            ['name' => 'Dialysis', 'href' => '/dialysis.php', 'page' => 'dialysis'],
-            ['name' => 'Laboratory', 'href' => '/laboratory.php', 'page' => 'laboratory']
+            ['name' => 'CT Scan', 'href' => '/ct-scan', 'page' => 'ct-scan'],
+            ['name' => 'Endoscopy', 'href' => '/endoscopy', 'page' => 'endoscopy'],
+            ['name' => 'Colonoscopy', 'href' => '/colonoscopy', 'page' => 'colonoscopy'],
+            ['name' => 'Bronchoscopy', 'href' => '/bronchoscopy', 'page' => 'bronchoscopy'],
+            ['name' => 'Dialysis', 'href' => '/dialysis', 'page' => 'dialysis'],
+            ['name' => 'Laboratory', 'href' => '/laboratory', 'page' => 'laboratory']
           ];
 
           foreach ($patientServices as $service):
@@ -164,7 +164,7 @@
       <span>Emergency</span>
     </a>
     <a
-      href="/contact.php"
+      href="/contact"
       class="nav-link flex-1 bg-[#328CCB] hover:bg-[#2a7bb5] text-white px-4 py-3 rounded-lg font-semibold text-center transition-all duration-300 flex items-center justify-center space-x-2 shadow-lg"
       data-page="contact"
     >

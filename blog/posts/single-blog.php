@@ -14,15 +14,15 @@
 $lang = '';
 $slug = '';
 
-// Detect language and slug from the URL: /blog/hi/early-signs.php
-$request_uri = $_SERVER['REQUEST_URI'] ?? '';
-if (preg_match('#/blog/(hi|en)/([a-z0-9\-]+)\.php#', $request_uri, $m)) {
+// Detect language and slug from the URL: /blog/hi/early-signs (clean) or /blog/hi/early-signs.php
+$request_uri = urldecode(parse_url($_SERVER['REQUEST_URI'] ?? '', PHP_URL_PATH));
+if (preg_match('#^/blog/(hi|en)/([a-z0-9\-]+)(?:\.php)?/?$#i', $request_uri, $m)) {
     $lang = $m[1];
     $slug = $m[2];
 } else {
     // Fallback: parse from script name
     $script = $_SERVER['SCRIPT_NAME'] ?? '';
-    if (preg_match('#/blog/(hi|en)/([a-z0-9\-]+)\.php#', $script, $m)) {
+    if (preg_match('#/blog/(hi|en)/([a-z0-9\-]+)(?:\.php)?#i', $script, $m)) {
         $lang = $m[1];
         $slug = $m[2];
     }
@@ -79,8 +79,8 @@ foreach ($other_blogs as $ob) {
     }
 }
 
-$en_url = ($lang === 'en' || $has_translation) ? "/blog/en/{$blog['slug']}.php" : "/blog/en";
-$hi_url = ($lang === 'hi' || $has_translation) ? "/blog/hi/{$blog['slug']}.php" : "/blog/hi";
+$en_url = ($lang === 'en' || $has_translation) ? "/blog/en/{$blog['slug']}" : "/blog/en";
+$hi_url = ($lang === 'hi' || $has_translation) ? "/blog/hi/{$blog['slug']}" : "/blog/hi";
 
 $page_title       = $blog['title'] . ' | Akropolis Hospital';
 $page_description = $blog['excerpt'];
