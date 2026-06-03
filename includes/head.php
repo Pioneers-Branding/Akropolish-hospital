@@ -7,6 +7,11 @@
   <link rel="shortcut icon" href="/favicon.svg" />
   <link rel="icon" type="image/x-icon" href="/favicon.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="<?php echo $page_robots ?? 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'; ?>" />
+  <meta name="author" content="<?php echo $page_author ?? 'Akropolis Super Speciality Hospital'; ?>" />
+  <meta name="publisher" content="<?php echo $page_publisher ?? 'Akropolis Super Speciality Hospital'; ?>" />
+  <meta name="copyright" content="&copy; <?php echo date('Y'); ?> Akropolis Super Speciality Hospital. All rights reserved." />
+  <meta name="generator" content="Akropolis Hospital CMS" />
   <title><?php echo $page_title ?? 'Akropolis Super Speciality Hospital | NABH Accredited Healthcare'; ?></title>
   <meta name="description" content="<?php echo $page_description ?? 'Akropolis Super Speciality Hospital - NABH accredited healthcare with 24/7 emergency services, expert doctors, and advanced medical facilities in Gurugram, Haryana.'; ?>" />
   <link rel="canonical" href="https://akropolishospital.com<?php echo isset($canonical_url) ? $canonical_url : strtok($_SERVER['REQUEST_URI'] ?? '/', '?'); ?>" />

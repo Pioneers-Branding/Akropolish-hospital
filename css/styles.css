@@ -467,7 +467,7 @@ html {
   transform: scale(1.2) rotate(5deg);
 }
 
-/* Smooth Image Zoom */
+/* Smooth Image Zoom - Zoom disabled */
 .img-zoom {
   overflow: hidden;
 }
@@ -477,7 +477,7 @@ html {
 }
 
 .img-zoom:hover img {
-  transform: scale(1.1);
+  /* Zoom removed as requested */
 }
 
 /* Loading Animation */

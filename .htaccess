@@ -27,6 +27,11 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^doctors/([^/]+)/?$ /doctors/$1.php [NC,L]
 
+# ─── Blog routes: /blog/{lang}/{slug} → /blog/posts/single-blog.php ──────────
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^blog/(hi|en)/([a-z0-9\-]+)\.php$ /blog/posts/single-blog.php [NC,L]
+
 # ─── Clean URLs: strip .php extension for all top-level pages ────────────────
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f

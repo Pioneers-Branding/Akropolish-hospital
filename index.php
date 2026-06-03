@@ -299,7 +299,7 @@ include 'includes/head.php';
                   <img
                     src="<?php echo htmlspecialchars($doctor['image']); ?>"
                     alt="<?php echo htmlspecialchars($doctor['name']); ?>"
-                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                    class="w-full h-full object-cover"
                   />
                   <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   <div class="absolute bottom-4 left-4 right-4 translate-y-full group-hover:translate-y-0 transition-transform duration-300">
@@ -364,7 +364,7 @@ include 'includes/head.php';
                 <img 
                   src="<?php echo $testimonial['videoThumbnail']; ?>" 
                   alt="<?php echo $testimonial['patientName']; ?>"
-                  class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  class="w-full h-full object-cover"
                 />
                 <div class="absolute inset-0 bg-black/40 flex items-center justify-center">
                   <button 
@@ -505,7 +505,7 @@ include 'includes/head.php';
               <img 
                 src="<?php echo $post['image']; ?>" 
                 alt="<?php echo $post['title']; ?>"
-                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                class="w-full h-full object-cover"
               />
               <div class="absolute top-4 left-4 bg-[#328CCB] text-white px-3 py-1 rounded-full text-xs font-bold">
                 <?php echo $post['category']; ?>

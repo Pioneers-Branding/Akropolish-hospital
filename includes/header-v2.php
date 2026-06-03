@@ -25,6 +25,7 @@
             ['name' => 'Departments', 'href' => '/departments.php', 'page' => 'departments', 'hasMegaMenu' => true],
             ['name' => 'Doctors', 'href' => '/doctors.php', 'page' => 'doctors'],
             ['name' => 'Services', 'href' => '/departments.php#services', 'hasDropdown' => true],
+            ['name' => 'Blog', 'href' => '/blog', 'page' => 'blog'],
             ['name' => 'Contact', 'href' => '/contact.php', 'page' => 'contact']
         ];
 

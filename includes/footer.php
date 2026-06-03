@@ -52,6 +52,7 @@
             ['name' => 'About Us', 'href' => '/about.php', 'page' => 'about'],
             ['name' => 'Departments', 'href' => '/departments.php', 'page' => 'departments'],
             ['name' => 'Doctors', 'href' => '/doctors.php', 'page' => 'doctors'],
+            ['name' => 'Blog', 'href' => '/blog', 'page' => 'blog'],
             ['name' => 'Contact', 'href' => '/contact.php', 'page' => 'contact']
           ];
 
@@ -143,13 +144,7 @@
           © 2025 Akropolis Super Speciality Hospital. All rights reserved.
         </p>
         <div class="flex space-x-6 mt-4 md:mt-0">
-          <a href="/contact.php" class="nav-link text-gray-400 hover:text-white transition-colors duration-200" data-page="contact">
-            Privacy Policy
-          </a>
-          <a href="/contact.php" class="nav-link text-gray-400 hover:text-white transition-colors duration-200" data-page="contact">
-            Terms of Service
-          </a>
-          <a href="/index.php" class="nav-link text-gray-400 hover:text-white transition-colors duration-200" data-page="home">
+          <a href="/sitemap.xml" class="text-gray-400 hover:text-white transition-colors duration-200" target="_blank">
             Sitemap
           </a>
         </div>

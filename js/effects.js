@@ -140,7 +140,8 @@ function initHoverEffects() {
     });
   });
 
-  // Image zoom effect
+  // Image zoom effect - disabled as requested
+  /*
   const zoomContainers = document.querySelectorAll('.img-zoom');
   zoomContainers.forEach(container => {
     container.addEventListener('mousemove', function(e) {
@@ -154,6 +155,7 @@ function initHoverEffects() {
       img.style.transformOrigin = `${x}% ${y}%`;
     });
   });
+  */
 
   // Button ripple effect
   const rippleBtns = document.querySelectorAll('.btn-primary, .btn-secondary, .btn-emergency, .cta-glow');

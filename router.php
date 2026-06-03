@@ -3,6 +3,28 @@ $uri = urldecode(
     parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH)
 );
 
+// ─── Blog routes: must come BEFORE the file-existence check ──────────────
+// Because URLs like /blog/hi/some-slug.php don't exist as real files,
+// we route them to the dynamic single-blog.php template.
+if (preg_match('#^/blog/(hi|en)/([a-z0-9\-]+)\.php$#', $uri, $m)) {
+    $_SERVER['SCRIPT_NAME'] = '/blog/posts/single-blog.php';
+    require __DIR__ . '/blog/posts/single-blog.php';
+    return true;
+}
+if (preg_match('#^/blog/(hi|en)/([a-z0-9\-]+)/?$#', $uri, $m)) {
+    $_SERVER['SCRIPT_NAME'] = '/blog/posts/single-blog.php';
+    require __DIR__ . '/blog/posts/single-blog.php';
+    return true;
+}
+if (preg_match('#^/blog/(hi|en)/?$#', $uri, $m)) {
+    require __DIR__ . '/blog/' . $m[1] . '/index.php';
+    return true;
+}
+if ($uri === '/blog' || $uri === '/blog/') {
+    require __DIR__ . '/blog/index.php';
+    return true;
+}
+
 // Suppress Apple App Site Association noise
 if (
     $uri === '/apple-app-site-association' ||
@@ -46,6 +68,12 @@ if (preg_match('#^/doctors/([a-z0-9\-]+)/?$#', $uri, $m)) {
         include $doctorFile;
         return;
     }
+}
+
+// Blog routes (already handled at top of file for built-in server compatibility)
+if (preg_match('#^/blog/(hi|en)/([a-z0-9\-]+)\.php$#', $uri)) {
+    // already handled above
+    return true;
 }
 
 // Full clean URL mapping
