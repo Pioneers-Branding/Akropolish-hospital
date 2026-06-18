@@ -8,7 +8,7 @@ $published_blogs = load_blogs(__DIR__ . '/posts/blogs.php');
 
 $page_title       = 'Health Blog | Expert Medical Articles - Akropolis Super Speciality Hospital';
 $page_description = 'Read the latest health and medical articles from Akropolis Hospital experts. Tips on cardiology, orthopedics, pediatrics, neurology, and more.';
-$canonical_url    = '/blog/en';
+$canonical_url    = '/blog/en/';
 
 $blog_schema = json_encode([
     '@context'    => 'https://schema.org',

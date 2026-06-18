@@ -3,7 +3,7 @@ $dept_key = 'bronchoscopy';
 require_once 'includes/data.php';
 require_once 'includes/schema.php';
 $pageDeptData = $deptConfig['bronchoscopy'] ?? [];
-$page_title = 'Best Bronchoscopy Centre in Gurugram | Lung Diagnostics - Akropolis Hospital';
+$page_title = 'Best Bronchoscopy Centre Gurugram | Akropolis';
 $page_description = 'Advanced bronchoscopy services at Akropolis Hospital, Gurugram. Lung cancer diagnosis, airway obstruction, biopsy by expert pulmonologists.';
 $canonical_url = '/bronchoscopy';
 $schema_blocks = [

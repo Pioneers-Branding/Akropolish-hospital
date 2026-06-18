@@ -8,7 +8,7 @@ $published_blogs = load_blogs(__DIR__ . '/posts/blogs.php');
 
 $page_title       = 'हेल्थ ब्लॉग | विशेषज्ञ चिकित्सा लेख - अक्रोपोलिस सुपर स्पेशलिटी हॉस्पिटल';
 $page_description = 'अक्रोपोलिस हॉस्पिटल के विशेषज्ञों से नवीनतम स्वास्थ्य और चिकित्सा लेख पढ़ें। हृदय रोग, हड्डी रोग, बाल रोग, न्यूरोलॉजी और अधिक पर सलाह।';
-$canonical_url    = '/blog/hi';
+$canonical_url    = '/blog/hi/';
 
 $blog_schema = json_encode([
     '@context'    => 'https://schema.org',

@@ -3,8 +3,8 @@ $dept_key = 'pediatrics';
 require_once 'includes/data.php';
 require_once 'includes/schema.php';
 $pageDeptData = $deptConfig['pediatrics'] ?? [];
-$page_title = 'Best Pediatrics Hospital in Gurugram | Child Care - Akropolis Hospital';
-$page_description = 'Expert pediatric care at Akropolis Hospital, Gurugram. Newborn care, vaccinations, growth monitoring, and 24x7 pediatric emergency by experienced pediatricians.';
+$page_title = 'Best Pediatrics Hospital Gurugram | Child Care | Akropolis';
+$page_description = 'Expert pediatric care at Akropolis Hospital, Gurugram. Newborn care, vaccinations, growth monitoring, and 24x7 pediatric emergency by experienced...';
 $canonical_url = '/pediatrics';
 $schema_blocks = [
     schemaMedicalPage('Pediatrics', '/pediatrics', $page_description),

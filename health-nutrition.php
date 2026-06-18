@@ -3,8 +3,8 @@ $dept_key = 'health-nutrition';
 require_once 'includes/data.php';
 require_once 'includes/schema.php';
 $pageDeptData = $deptConfig['health-nutrition'] ?? [];
-$page_title = 'Health & Nutrition Counseling in Gurugram | Dietitian - Akropolis Hospital';
-$page_description = 'Expert nutritional counseling at Akropolis Hospital, Gurugram. Personalized diet plans, weight management, diabetes nutrition by certified clinical nutritionists.';
+$page_title = 'Health & Nutrition Counseling Gurugram | Akropolis';
+$page_description = 'Expert nutritional counseling at Akropolis Hospital, Gurugram. Personalized diet plans, weight management, diabetes nutrition by certified clinical...';
 $canonical_url = '/health-nutrition';
 $schema_blocks = [
     schemaMedicalPage('Health & Nutrition', '/health-nutrition', $page_description),

@@ -15,7 +15,7 @@ foreach ($doctors as $d) {
 
 // If no doctor found, show error
 if (!$doctor) {
-    $page_title = 'Doctor Not Found | Akropolis Hospital';
+    $page_title = 'Doctor Not Found | Akropolis';
     include 'includes/head.php';
     include 'includes/header-v2.php';
     ?>

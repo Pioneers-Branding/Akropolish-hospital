@@ -13,7 +13,7 @@ foreach ($doctors as $d) {
     }
 }
 
-$page_title = 'Haddi Ka Doctor | Dr. Prateek Girotra | Akropolis Hospital';
+$page_title = 'Haddi Ka Doctor | Dr. Prateek Girotra | Akropolis';
 include 'includes/head.php';
 include 'includes/header-v2.php';
 

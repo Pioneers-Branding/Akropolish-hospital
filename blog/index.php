@@ -4,7 +4,7 @@ require_once __DIR__ . '/../includes/schema.php';
 
 $page_title       = 'Health Blog | Akropolis Super Speciality Hospital';
 $page_description = 'Read expert-curated health and medical articles from Akropolis Hospital. Available in English and Hindi.';
-$canonical_url    = '/blog';
+$canonical_url    = '/blog/';
 
 $schema_blocks = [
     schemaBreadcrumb([

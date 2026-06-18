@@ -3,8 +3,8 @@ $dept_key = 'neurology';
 require_once 'includes/data.php';
 require_once 'includes/schema.php';
 $pageDeptData = $deptConfig['neurology'] ?? [];
-$page_title = 'Best Neurology Hospital in Gurugram | Brain & Nerve Care - Akropolis Hospital';
-$page_description = 'Expert neurology care at Akropolis Hospital, Gurugram. Stroke management, epilepsy, Parkinson\'s treatment by experienced neurologists. 24x7 emergency neuro care.';
+$page_title = 'Best Neurology Hospital Gurugram | Akropolis';
+$page_description = 'Expert neurology care at Akropolis Hospital, Gurugram. Stroke management, epilepsy, Parkinson\'s treatment by experienced neurologists. 24x7 emergency...';
 $canonical_url = '/neurology';
 $schema_blocks = [
     schemaMedicalPage('Neurology', '/neurology', $page_description),

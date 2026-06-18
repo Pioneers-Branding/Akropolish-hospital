@@ -3,7 +3,7 @@ $dept_key = 'laboratory';
 require_once 'includes/data.php';
 require_once 'includes/schema.php';
 $pageDeptData = $deptConfig['laboratory'] ?? [];
-$page_title = 'Best Diagnostic Laboratory in Gurugram | Lab Tests - Akropolis Hospital';
+$page_title = 'Best Diagnostic Laboratory Gurugram | Lab Tests | Akropolis';
 $page_description = 'NABL accredited diagnostic laboratory at Akropolis Hospital, Gurugram. Blood tests, cardiac markers, hormone tests, pathology. Fast results 24x7.';
 $canonical_url = '/laboratory';
 $schema_blocks = [

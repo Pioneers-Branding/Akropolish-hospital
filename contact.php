@@ -1,8 +1,8 @@
 <?php
 require_once 'includes/data.php';
 require_once 'includes/schema.php';
-$page_title = 'Contact Us | Book Appointment - Akropolis Super Speciality Hospital Gurugram';
-$page_description = 'Contact Akropolis Super Speciality Hospital, Gurugram. Book an appointment, reach our 24×7 emergency line, or visit us. Address: Sector 69, Gurugram, Haryana.';
+$page_title = 'Contact Us | Book Appointment | Akropolis Gurugram';
+$page_description = 'Contact Akropolis Super Speciality Hospital, Gurugram. Book an appointment, reach our 24×7 emergency line, or visit us. Address: Sector 69, Gurugram,...';
 $canonical_url = '/contact';
 $schema_blocks = [
     schemaContactPage(),

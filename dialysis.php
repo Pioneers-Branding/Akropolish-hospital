@@ -3,8 +3,8 @@ $dept_key = 'dialysis';
 require_once 'includes/data.php';
 require_once 'includes/schema.php';
 $pageDeptData = $deptConfig['dialysis'] ?? [];
-$page_title = 'Best Dialysis Center in Gurugram | Kidney Dialysis - Akropolis Hospital';
-$page_description = 'Advanced dialysis services at Akropolis Hospital, Gurugram. Hemodialysis, peritoneal dialysis, emergency renal care. 24x7 dialysis facility with expert nephrologists.';
+$page_title = 'Best Dialysis Center Gurugram | Kidney Dialysis | Akropolis';
+$page_description = 'Advanced dialysis services at Akropolis Hospital, Gurugram. Hemodialysis, peritoneal dialysis, emergency renal care. 24x7 dialysis facility with expert...';
 $canonical_url = '/dialysis';
 $schema_blocks = [
     schemaMedicalPage('Dialysis', '/dialysis', $page_description),

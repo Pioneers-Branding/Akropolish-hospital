@@ -3,7 +3,7 @@ $dept_key = 'ent';
 require_once 'includes/data.php';
 require_once 'includes/schema.php';
 $pageDeptData = $deptConfig['ent'] ?? [];
-$page_title = 'Best ENT Hospital in Gurugram | Ear Nose Throat Care - Akropolis Hospital';
+$page_title = 'Best ENT Hospital Gurugram | Akropolis';
 $page_description = 'Expert ENT care at Akropolis Hospital, Gurugram. Sinusitis, hearing loss, tonsillitis, ear infections treatment by certified otolaryngologists.';
 $canonical_url = '/ent';
 $schema_blocks = [

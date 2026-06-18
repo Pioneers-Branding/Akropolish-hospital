@@ -3,8 +3,8 @@ $dept_key = 'endoscopy';
 require_once 'includes/data.php';
 require_once 'includes/schema.php';
 $pageDeptData = $deptConfig['endoscopy'] ?? [];
-$page_title = 'Best Endoscopy Centre in Gurugram | Colonoscopy, EGD - Akropolis Hospital';
-$page_description = 'Advanced endoscopy services at Akropolis Hospital, Gurugram. Upper GI endoscopy, colonoscopy, ERCP by expert gastroenterologists. Painless procedures under sedation.';
+$page_title = 'Best Endoscopy Centre Gurugram | Akropolis';
+$page_description = 'Advanced endoscopy services at Akropolis Hospital, Gurugram. Upper GI endoscopy, colonoscopy, ERCP by expert gastroenterologists. Painless procedures...';
 $canonical_url = '/endoscopy';
 $schema_blocks = [
     schemaMedicalPage('Endoscopy', '/endoscopy', $page_description),

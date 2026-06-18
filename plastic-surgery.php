@@ -3,7 +3,7 @@ $dept_key = 'plastic-surgery';
 require_once 'includes/data.php';
 require_once 'includes/schema.php';
 $pageDeptData = $deptConfig['plastic-surgery'] ?? [];
-$page_title = 'Best Plastic Surgery Hospital in Gurugram | Reconstructive & Cosmetic - Akropolis';
+$page_title = 'Best Plastic Surgery Hospital Gurugram | Akropolis';
 $page_description = 'Expert plastic and reconstructive surgery at Akropolis Hospital, Gurugram. Cosmetic, burn care, micro-surgery by certified plastic surgeons.';
 $canonical_url = '/plastic-surgery';
 $schema_blocks = [

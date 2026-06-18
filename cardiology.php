@@ -3,8 +3,8 @@ $dept_key = 'cardiology';
 require_once 'includes/data.php';
 require_once 'includes/schema.php';
 $pageDeptData = $deptConfig['cardiology'];
-$page_title = 'Best Cardiology Hospital in Gurugram | Heart Care - Akropolis Hospital';
-$page_description = 'Expert cardiology care at Akropolis Hospital, Gurugram. Advanced cardiac procedures, 24×7 emergency, angioplasty, stenting, and preventive heart care by experienced cardiologists.';
+$page_title = 'Best Cardiology Hospital Gurugram | Heart Care | Akropolis';
+$page_description = 'Expert cardiology care at Akropolis Hospital, Gurugram. Advanced cardiac procedures, 24×7 emergency, angioplasty, stenting, and preventive heart care...';
 $canonical_url = '/cardiology';
 $schema_blocks = [
     schemaMedicalPage('Cardiology', '/cardiology', $page_description),

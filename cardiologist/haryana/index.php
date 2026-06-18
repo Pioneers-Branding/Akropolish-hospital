@@ -2,11 +2,11 @@
 /**
  * Haryana State Page for Cardiologists
  */
-require_once __DIR__ . '/includes/data.php';
+require_once dirname(__DIR__, 2) . '/includes/data.php';
 $page_title = 'Best Cardiologist in Haryana | Akropolis Hospital';
 $page_description = 'Find the best cardiologist in Haryana at Akropolis Super Speciality Hospital. Expert heart specialists in Gurgaon, Faridabad, Rohtak, Hisar, and all major districts.';
-include __DIR__ . '/includes/head.php';
-include __DIR__ . '/includes/header-v2.php';
+include dirname(__DIR__, 2) . '/includes/head.php';
+include dirname(__DIR__, 2) . '/includes/header-v2.php';
 ?>
 
 <main>
@@ -153,4 +153,4 @@ function toggleFaq(index) {
 }
 </script>
 
-<?php include __DIR__ . '/includes/footer.php'; include __DIR__ . '/includes/scripts.php'; ?>
+<?php include dirname(__DIR__, 2) . '/includes/footer.php'; include dirname(__DIR__, 2) . '/includes/scripts.php'; ?>

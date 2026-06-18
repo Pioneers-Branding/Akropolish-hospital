@@ -1,6 +1,6 @@
 <?php
 require_once 'includes/data.php';
-$page_title = 'Thank You | Akropolis Super Speciality Hospital';
+$page_title = 'Thank You | Akropolis';
 include 'includes/head.php';
 ?>
 

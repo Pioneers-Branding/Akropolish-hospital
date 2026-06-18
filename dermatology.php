@@ -3,7 +3,7 @@ $dept_key = 'dermatology';
 require_once 'includes/data.php';
 require_once 'includes/schema.php';
 $pageDeptData = $deptConfig['dermatology'] ?? [];
-$page_title = 'Best Dermatology Hospital in Gurugram | Skin & Hair Care - Akropolis Hospital';
+$page_title = 'Best Dermatology Hospital Gurugram | Akropolis';
 $page_description = 'Expert dermatology and aesthetic care at Akropolis Hospital, Gurugram. Acne, eczema, psoriasis, hair loss treatment by board-certified dermatologists.';
 $canonical_url = '/dermatology';
 $schema_blocks = [

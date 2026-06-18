@@ -3,7 +3,7 @@ $dept_key = 'colonoscopy';
 require_once 'includes/data.php';
 require_once 'includes/schema.php';
 $pageDeptData = $deptConfig['colonoscopy'] ?? [];
-$page_title = 'Best Colonoscopy Centre in Gurugram | Colon Screening - Akropolis Hospital';
+$page_title = 'Best Colonoscopy Centre Gurugram | Akropolis';
 $page_description = 'Expert colonoscopy and colon cancer screening at Akropolis Hospital, Gurugram. Painless procedure under sedation by experienced gastroenterologists.';
 $canonical_url = '/colonoscopy';
 $schema_blocks = [

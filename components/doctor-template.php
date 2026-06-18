@@ -16,7 +16,7 @@ foreach ($doctors as $d) {
 // If no doctor found, show error
 if (!$doctor) {
     header("HTTP/1.0 404 Not Found");
-    $page_title = 'Doctor Not Found | Akropolis Hospital';
+    $page_title = 'Doctor Not Found | Akropolis';
     include __DIR__ . '/../includes/head.php';
     include __DIR__ . '/../includes/header-v2.php';
     ?>
@@ -34,7 +34,7 @@ if (!$doctor) {
     exit;
 }
 
-$page_title = $doctor['name'] . ' | ' . $doctor['specialization'] . ' | Akropolis Hospital Gurugram';
+$page_title = $doctor['name'] . ' | ' . $doctor['specialization'] . ' | Akropolis';
 $page_description = $doctor['name'] . ' is an experienced ' . $doctor['specialization'] . ' at Akropolis Super Speciality Hospital, Gurugram. ' . ($doctor['bio'] ?? 'Expert specialist providing advanced healthcare.');
 $canonical_url = '/doctors/' . $doctor['id'];
 $schema_blocks = [

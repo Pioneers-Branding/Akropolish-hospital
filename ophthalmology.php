@@ -3,7 +3,7 @@ $dept_key = 'ophthalmology';
 require_once 'includes/data.php';
 require_once 'includes/schema.php';
 $pageDeptData = $deptConfig['ophthalmology'] ?? [];
-$page_title = 'Best Eye Hospital in Gurugram | Ophthalmology - Akropolis Hospital';
+$page_title = 'Best Eye Hospital Gurugram | Ophthalmology | Akropolis';
 $page_description = 'Expert eye care at Akropolis Hospital, Gurugram. Cataract surgery, LASIK, glaucoma management, retina care by certified ophthalmologists.';
 $canonical_url = '/ophthalmology';
 $schema_blocks = [

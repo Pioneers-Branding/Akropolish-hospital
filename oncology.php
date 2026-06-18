@@ -3,7 +3,7 @@ $dept_key = 'oncology';
 require_once 'includes/data.php';
 require_once 'includes/schema.php';
 $pageDeptData = $deptConfig['oncology'] ?? [];
-$page_title = 'Best Oncology Hospital in Gurugram | Cancer Treatment - Akropolis Hospital';
+$page_title = 'Best Oncology Hospital Gurugram | Akropolis';
 $page_description = 'Advanced cancer diagnosis and treatment at Akropolis Hospital, Gurugram. Chemotherapy, radiation therapy, surgical oncology by expert oncologists.';
 $canonical_url = '/oncology';
 $schema_blocks = [

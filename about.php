@@ -1,8 +1,8 @@
 <?php
 require_once 'includes/data.php';
 require_once 'includes/schema.php';
-$page_title = 'About Us | Akropolis Super Speciality Hospital Gurugram';
-$page_description = 'Learn about Akropolis Super Speciality Hospital – NABH accredited multi-specialty hospital in Gurugram, Haryana with 25+ years of excellence, expert doctors, and compassionate care.';
+$page_title = 'About Us | Akropolis';
+$page_description = 'Learn about Akropolis Super Speciality Hospital – NABH accredited multi-specialty hospital in Gurugram, Haryana with 25+ years of excellence, expert...';
 $canonical_url = '/about';
 $schema_blocks = [
     json_encode(['@context' => 'https://schema.org', '@type' => 'AboutPage', 'name' => 'About Akropolis Super Speciality Hospital', 'url' => 'https://akropolishospital.com/about', 'isPartOf' => ['@id' => 'https://akropolishospital.com/#hospital']], JSON_UNESCAPED_SLASHES),
