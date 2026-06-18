@@ -39,7 +39,7 @@ include dirname(__DIR__) . '/includes/head.php';
         <ol class="flex items-center space-x-2">
           <li><a href="/" class="hover:text-[#328CCB]">Home</a></li>
           <li><?php echo getIcon('ChevronRight', 'h-4 w-4'); ?></li>
-          <li><a href="/oncology.php" class="hover:text-[#328CCB]">ऑन्कोलॉजी</a></li>
+          <li><a href="/oncology" class="hover:text-[#328CCB]">ऑन्कोलॉजी</a></li>
           <li><?php echo getIcon('ChevronRight', 'h-4 w-4'); ?></li>
           <li><a href="/brain-tumor-treatment/haryana/" class="hover:text-[#328CCB]">Haryana</a></li>
           <li><?php echo getIcon('ChevronRight', 'h-4 w-4'); ?></li>
@@ -66,7 +66,7 @@ include dirname(__DIR__) . '/includes/head.php';
                 <?php echo getIcon('Brain', 'h-5 w-5'); ?>
               </div>
             </div>
-            <h1 class="text-2xl font-bold text-gray-900 mb-2">
+            <h3 class="text-2xl font-bold text-gray-900 mb-2">
               डॉ. न्यूरो सर्जन
             </h1>
             <p class="text-purple-600 font-semibold text-lg mb-2">
@@ -140,10 +140,9 @@ include dirname(__DIR__) . '/includes/head.php';
       <div class="lg:col-span-2 space-y-8">
         <!-- Main Content Card -->
         <div class="bg-white rounded-2xl shadow-lg p-8 md:p-12 border border-gray-100">
-          <h2 class="text-3xl font-bold text-gray-900 mb-8 border-b pb-4">
+          <h1 class="text-3xl font-bold text-gray-900 mb-8 border-b pb-4">
             <?php echo $district_display; ?> में सबसे अच्छे ब्रेन ट्यूमर इलाज
-          </h2>
-
+          </h1>
           <div class="prose prose-lg max-w-none text-gray-700 leading-relaxed space-y-6">
             <p class="font-medium text-lg text-gray-900">
                 क्या आप <?php echo $district_display; ?> में ब्रेन ट्यूमर या मस्तिष्क संबंधी समस्या का सबसे अच्छा इलाज खोज रहे हैं?
@@ -230,7 +229,7 @@ include dirname(__DIR__) . '/includes/head.php';
 
         <!-- FAQ Card -->
         <div class="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
-          <h2 class="text-2xl font-bold text-gray-900 mb-8">अक्सर पूछे जाने वाले प्रश्न (FAQ)</h2>
+          <h2 class="text-2xl font-bold text-gray-900 mb-8">अक्सर पूछे जाने वाले प्रश्न (FAQ)</h1>
           <div class="space-y-4">
             <?php
             $faqs = [

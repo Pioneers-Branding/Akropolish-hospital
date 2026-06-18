@@ -23,7 +23,7 @@ if (!$doctor) {
     <div class="min-h-screen bg-white flex items-center justify-center">
         <div class="text-center">
             <h2 class="text-2xl font-bold text-gray-900 mb-4">Doctor Not Found</h2>
-            <a href="/doctors.php" class="bg-[#328CCB] hover:bg-[#2a7bb5] text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 inline-block">
+            <a href="/doctors" class="bg-[#328CCB] hover:bg-[#2a7bb5] text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 inline-block">
                 Go Back to Doctors
             </a>
         </div>
@@ -79,7 +79,7 @@ $lastName = isset($nameParts[count($nameParts) - 1]) ? $nameParts[count($namePar
   <!-- Back Button -->
   <div class="bg-white shadow-sm border-b">
     <div class="container mx-auto px-4 py-4">
-      <a href="/doctors.php" class="flex items-center space-x-2 text-gray-600 hover:text-[#328CCB] transition-colors duration-200">
+      <a href="/doctors" class="flex items-center space-x-2 text-gray-600 hover:text-[#328CCB] transition-colors duration-200">
         <?php echo getIcon('ArrowLeft', 'h-5 w-5'); ?>
         <span>Back to Doctors</span>
       </a>
@@ -153,7 +153,7 @@ $lastName = isset($nameParts[count($nameParts) - 1]) ? $nameParts[count($namePar
 
           <!-- Book Appointment Button -->
           <a
-            href="/contact.php"
+            href="/contact"
             class="bg-[#D66C43] hover:bg-[#c55a36] text-white px-6 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2 shadow-lg w-fit mx-auto cta-glow"
           >
             <?php echo getIcon('Calendar', 'h-5 w-5'); ?>

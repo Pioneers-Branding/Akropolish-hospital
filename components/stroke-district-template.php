@@ -31,7 +31,7 @@ include dirname(__DIR__) . '/includes/head.php';
         <ol class="flex items-center space-x-2">
           <li><a href="/" class="hover:text-[#328CCB]">Home</a></li>
           <li><?php echo getIcon('ChevronRight', 'h-4 w-4'); ?></li>
-          <li><a href="/neurology.php" class="hover:text-[#328CCB]">Stroke Care</a></li>
+          <li><a href="/neurology" class="hover:text-[#328CCB]">Stroke Care</a></li>
           <li><?php echo getIcon('ChevronRight', 'h-4 w-4'); ?></li>
           <li><a href="/stroke-treatment/haryana/" class="hover:text-[#328CCB]">Haryana</a></li>
           <li><?php echo getIcon('ChevronRight', 'h-4 w-4'); ?></li>
@@ -84,7 +84,7 @@ include dirname(__DIR__) . '/includes/head.php';
 
         <div class="relative">
           <div class="relative overflow-hidden rounded-3xl shadow-2xl">
-            <img src="https://images.pexels.com/photos/3779448/pexels-photo-3779448.jpeg?auto=compress&cs=tinysrgb&w=600" alt="<?php echo $target_keyword; ?>" class="w-full h-[400px] lg:h-[450px] object-cover" />
+            <img width="800" height="600" src="https://images.pexels.com/photos/3779448/pexels-photo-3779448.jpeg?auto=compress&cs=tinysrgb&w=600" alt="<?php echo $target_keyword; ?>" class="w-full h-[400px] lg:h-[450px] object-cover" />
           </div>
           <div class="absolute -bottom-6 -right-6 bg-white rounded-2xl shadow-xl p-5 border border-gray-100">
             <div class="flex items-center space-x-4">

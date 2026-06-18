@@ -6,7 +6,7 @@
 // SEO Variables
 $state_display = 'Haryana';
 $target_keyword = "$state_display mein Migraine Treatment";
-$meta_title = "Migraine Treatment in $state_display | Best Headache Specialist | Akropolis Hospital";
+$meta_title = "Migraine Treatment in $state_display | Best Headache Specialist";
 $meta_description = "$state_display ke sabhi districts mein migraine aur headache treatment. Dr. Priya Sharma (Neurologist) provides world-class treatment at Akropolis Hospital, Gurugram.";
 
 // Include Data

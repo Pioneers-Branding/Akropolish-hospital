@@ -14,7 +14,11 @@
   <meta name="generator" content="Akropolis Hospital CMS" />
   <title><?php echo $page_title ?? 'Akropolis Super Speciality Hospital | NABH Accredited Healthcare'; ?></title>
   <meta name="description" content="<?php echo $page_description ?? 'Akropolis Super Speciality Hospital - NABH accredited healthcare with 24/7 emergency services, expert doctors, and advanced medical facilities in Gurugram, Haryana.'; ?>" />
-  <link rel="canonical" href="https://akropolishospital.com<?php echo isset($canonical_url) ? $canonical_url : strtok($_SERVER['REQUEST_URI'] ?? '/', '?'); ?>" />
+  <?php 
+    $final_canonical = isset($canonical_url) ? $canonical_url : strtok($_SERVER['REQUEST_URI'] ?? '/', '?');
+    $final_canonical = preg_replace('/\.php$/', '', $final_canonical);
+  ?>
+  <link rel="canonical" href="https://akropolishospital.com<?php echo $final_canonical; ?>" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">

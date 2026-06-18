@@ -199,7 +199,7 @@ include __DIR__ . '/../../includes/head.php';
 
   <!-- Featured Image -->
   <div class="container mx-auto px-4 max-w-4xl -mt-8">
-    <img src="<?php echo $blog['image']; ?>" alt="<?php echo htmlspecialchars($blog['title']); ?>"
+    <img width="800" height="600" src="<?php echo $blog['image']; ?>" alt="<?php echo htmlspecialchars($blog['title']); ?>"
          class="w-full h-64 lg:h-96 object-cover rounded-2xl shadow-2xl" />
   </div>
 
@@ -221,7 +221,7 @@ include __DIR__ . '/../../includes/head.php';
             ? 'अक्रोपोलिस हॉस्पिटल के अनुभवी डॉक्टरों से अपॉइंटमेंट बुक करें।'
             : 'Book an appointment with our experienced Akropolis Hospital doctors.'; ?>
         </p>
-        <a href="/contact.php" class="inline-flex items-center space-x-2 bg-[#D66C43] hover:bg-[#c55a36] text-white px-6 py-3 rounded-full font-semibold transition-colors">
+        <a href="/contact" class="inline-flex items-center space-x-2 bg-[#D66C43] hover:bg-[#c55a36] text-white px-6 py-3 rounded-full font-semibold transition-colors">
           <?php echo getIcon('Phone', 'h-4 w-4'); ?>
           <span><?php echo $lang === 'hi' ? 'अभी कॉल करें: ' : 'Call Now: '; ?><?php echo CONTACT_INFO['emergency']; ?></span>
         </a>
@@ -296,7 +296,7 @@ include __DIR__ . '/../../includes/head.php';
           <?php foreach ($related as $rb): ?>
             <a href="<?php echo blog_post_url($lang, $rb['slug']); ?>"
                class="group bg-white rounded-xl shadow-md hover:shadow-xl overflow-hidden transition-shadow">
-              <img src="<?php echo $rb['image']; ?>" alt="<?php echo htmlspecialchars($rb['title']); ?>"
+              <img width="800" height="600" src="<?php echo $rb['image']; ?>" alt="<?php echo htmlspecialchars($rb['title']); ?>"
                    class="w-full h-40 object-cover" />
               <div class="p-5">
                 <span class="text-xs bg-[#328CCB]/10 text-[#328CCB] px-2 py-0.5 rounded-full font-semibold">

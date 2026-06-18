@@ -48,12 +48,12 @@ $districts = [
   <div class="bg-white border-b shadow-sm">
     <div class="container mx-auto px-4 py-12">
       <div class="flex flex-col md:flex-row items-center gap-8">
-        <img src="<?php echo $doctor['image']; ?>" class="w-48 h-48 rounded-full border-4 border-[#328CCB]/20 object-cover" />
+        <img width="400" height="400" src="<?php echo $doctor['image']; ?>" class="w-48 h-48 rounded-full border-4 border-[#328CCB]/20 object-cover" />
         <div class="text-center md:text-left">
           <h1 class="text-4xl font-bold text-gray-900 mb-2">हरियाणा के सबसे प्रसिद्ध हड्डी के डॉक्टर</h1>
           <p class="text-[#328CCB] text-xl font-semibold mb-4">डॉ प्रतीक गिरोत्रा - प्रमुख, हड्डी रोग विभाग</p>
           <div class="flex flex-wrap justify-center md:justify-start gap-4">
-            <a href="/contact.php" class="bg-[#328CCB] text-white px-6 py-3 rounded-xl font-bold flex items-center space-x-2">
+            <a href="/contact" class="bg-[#328CCB] text-white px-6 py-3 rounded-xl font-bold flex items-center space-x-2">
               <?php echo getIcon('Calendar', 'h-5 w-5'); ?>
               <span>Appointment Book Karein</span>
             </a>
@@ -106,8 +106,8 @@ $districts = [
           <h3 class="font-bold text-gray-900 mb-6 text-xl">Quick Links</h3>
           <ul class="space-y-4">
             <li><a href="/doctors/dr-prateek-girotra" class="text-gray-600 hover:text-[#328CCB] flex items-center gap-2"><?php echo getIcon('User', 'h-4 w-4'); ?> Doctor Profile</a></li>
-            <li><a href="/orthopedics.php" class="text-gray-600 hover:text-[#328CCB] flex items-center gap-2"><?php echo getIcon('Bone', 'h-4 w-4'); ?> Orthopedics Dept</a></li>
-            <li><a href="/about.php" class="text-gray-600 hover:text-[#328CCB] flex items-center gap-2"><?php echo getIcon('Heart', 'h-4 w-4'); ?> About Hospital</a></li>
+            <li><a href="/orthopedics" class="text-gray-600 hover:text-[#328CCB] flex items-center gap-2"><?php echo getIcon('Bone', 'h-4 w-4'); ?> Orthopedics Dept</a></li>
+            <li><a href="/about" class="text-gray-600 hover:text-[#328CCB] flex items-center gap-2"><?php echo getIcon('Heart', 'h-4 w-4'); ?> About Hospital</a></li>
           </ul>
         </div>
       </div>

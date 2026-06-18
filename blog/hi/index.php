@@ -278,7 +278,7 @@ include __DIR__ . '/../../includes/head.php';
         अक्रोपोलिस हॉस्पिटल के अनुभवी विशेषज्ञों से परामर्श लें और सही उपचार पाएं।
       </p>
       <a
-        href="/contact.php"
+        href="/contact"
         class="inline-flex items-center space-x-2 bg-[#D66C43] hover:bg-[#c55a36] text-white px-5 sm:px-8 py-3 sm:py-4 rounded-full font-semibold text-sm sm:text-base lg:text-lg transition-colors shadow-lg whitespace-nowrap"
       >
         <?php echo getIcon('Calendar', 'h-4 w-4 sm:h-5 sm:w-5'); ?>

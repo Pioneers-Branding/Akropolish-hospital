@@ -84,7 +84,7 @@
 
               <div class="mt-8 pt-6 border-t border-gray-100 text-center">
                 <a
-                  href="/departments.php"
+                  href="/departments"
                   class="nav-link inline-flex items-center space-x-2 bg-[#328CCB] hover:bg-[#2a7bb5] text-white px-6 py-3 rounded-lg font-semibold transition-colors duration-200"
                   data-page="departments"
                 >
@@ -131,7 +131,7 @@
               </div>
               <div class="px-4 py-2 border-t border-gray-100">
                 <a
-                  href="/departments.php"
+                  href="/departments"
                   class="nav-link block text-center bg-[#328CCB] hover:bg-[#2a7bb5] text-white px-4 py-2 rounded-lg font-semibold transition-colors duration-200 text-sm"
                   data-page="departments"
                 >
@@ -223,7 +223,7 @@
             <span>Emergency Services</span>
           </a>
           <a
-            href="/contact.php"
+            href="/contact"
             class="nav-link w-full bg-[#328CCB] hover:bg-[#2a7bb5] text-white px-4 py-3 rounded-lg font-semibold transition-colors duration-200 flex items-center justify-center space-x-2"
             data-page="contact"
           >

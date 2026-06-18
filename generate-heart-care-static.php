@@ -65,7 +65,7 @@ include '{$baseDir}/includes/header-v2.php';
         <ol class="flex items-center space-x-2">
           <li><a href="/" class="hover:text-[#328CCB]">Home</a></li>
           <li><?php echo getIcon('ChevronRight', 'h-4 w-4'); ?></li>
-          <li><a href="/cardiology.php" class="hover:text-[#328CCB]">Heart Care</a></li>
+          <li><a href="/cardiology" class="hover:text-[#328CCB]">Heart Care</a></li>
           <li><?php echo getIcon('ChevronRight', 'h-4 w-4'); ?></li>
           <li><a href="/heart-care/haryana/" class="hover:text-[#328CCB]">Haryana</a></li>
           <li><?php echo getIcon('ChevronRight', 'h-4 w-4'); ?></li>
@@ -98,7 +98,7 @@ include '{$baseDir}/includes/header-v2.php';
         </div>
         <div class="relative">
           <div class="relative overflow-hidden rounded-3xl shadow-2xl">
-            <img src="https://brandingpioneers.co.in/akropolis/Cardiology.jpg" alt="$targetKeyword" class="w-full h-[400px] lg:h-[450px] object-cover" />
+            <img width="800" height="600" src="https://brandingpioneers.co.in/akropolis/Cardiology.jpg" alt="$targetKeyword" class="w-full h-[400px] lg:h-[450px] object-cover" />
           </div>
           <div class="absolute -bottom-6 -right-6 bg-white rounded-2xl shadow-xl p-5 border border-gray-100">
             <div class="flex items-center space-x-4">

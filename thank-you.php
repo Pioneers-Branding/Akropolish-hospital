@@ -66,7 +66,7 @@ include 'includes/head.php';
 
       <div class="flex flex-col sm:flex-row gap-4 justify-center">
         <a
-          href="/index.php"
+          href="/"
           class="inline-flex items-center justify-center gap-2 px-8 py-3 bg-[#328CCB] text-white rounded-lg hover:bg-[#2a7bb5] transition-colors font-semibold shadow-lg hover:shadow-xl"
         >
           <?php echo getIcon('Home', 'w-5 h-5'); ?>
@@ -74,7 +74,7 @@ include 'includes/head.php';
         </a>
 
         <a
-          href="/contact.php"
+          href="/contact"
           class="inline-flex items-center justify-center gap-2 px-8 py-3 bg-white text-[#328CCB] border-2 border-[#328CCB] rounded-lg hover:bg-blue-50 transition-colors font-semibold"
         >
           <?php echo getIcon('ArrowLeft', 'w-5 h-5'); ?>

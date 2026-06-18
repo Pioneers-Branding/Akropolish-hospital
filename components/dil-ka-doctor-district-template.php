@@ -39,7 +39,7 @@ include dirname(__DIR__) . '/includes/head.php';
         <ol class="flex items-center space-x-2">
           <li><a href="/" class="hover:text-[#328CCB]">Home</a></li>
           <li><?php echo getIcon('ChevronRight', 'h-4 w-4'); ?></li>
-          <li><a href="/cardiology.php" class="hover:text-[#328CCB]">दिल की देखभाल</a></li>
+          <li><a href="/cardiology" class="hover:text-[#328CCB]">दिल की देखभाल</a></li>
           <li><?php echo getIcon('ChevronRight', 'h-4 w-4'); ?></li>
           <li><a href="/dil-ka-doctor/haryana/" class="hover:text-[#328CCB]">Haryana</a></li>
           <li><?php echo getIcon('ChevronRight', 'h-4 w-4'); ?></li>
@@ -58,7 +58,7 @@ include dirname(__DIR__) . '/includes/head.php';
             <div class="bg-red-100 p-6 rounded-full inline-block mb-4">
               <svg class="h-16 w-16 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
             </div>
-            <h1 class="text-2xl font-bold text-gray-900 mb-2">
+            <h3 class="text-2xl font-bold text-gray-900 mb-2">
               अक्रोपोलिस हॉस्पिटल
             </h1>
             <p class="text-red-500 font-semibold text-lg mb-2">
@@ -128,10 +128,9 @@ include dirname(__DIR__) . '/includes/head.php';
       <!-- Right Main Content -->
       <div class="lg:col-span-2 space-y-8">
         <div class="bg-white rounded-2xl shadow-lg p-8 md:p-12 border border-gray-100">
-          <h2 class="text-3xl font-bold text-gray-900 mb-8 border-b pb-4">
+          <h1 class="text-3xl font-bold text-gray-900 mb-8 border-b pb-4">
             <?php echo $district_display; ?> में सबसे अच्छा दिल का अस्पताल
-          </h2>
-
+          </h1>
           <div class="prose prose-lg max-w-none text-gray-700 leading-relaxed space-y-6">
             <p class="font-medium text-lg text-gray-900">
                 क्या आप <?php echo $district_display; ?> में दिल की बीमारी का सबसे अच्छा इलाज खोज रहे हैं?
@@ -207,7 +206,7 @@ include dirname(__DIR__) . '/includes/head.php';
 
         <!-- FAQ Card -->
         <div class="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
-          <h2 class="text-2xl font-bold text-gray-900 mb-8">अक्सर पूछे जाने वाले प्रश्न (FAQ)</h2>
+          <h2 class="text-2xl font-bold text-gray-900 mb-8">अक्सर पूछे जाने वाले प्रश्न (FAQ)</h1>
           <div class="space-y-4">
             <?php
             $faqs = [

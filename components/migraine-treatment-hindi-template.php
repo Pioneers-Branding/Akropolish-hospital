@@ -6,7 +6,7 @@
 // SEO Variables
 $district_display = ucwords(str_replace('-', ' ', $district_name));
 $target_keyword = "$district_display mein Migraine Headache Ka Ilaj";
-$meta_title = "Migraine Treatment in $district_display | Dr. Priya Sharma | Akropolis Hospital";
+$meta_title = "Migraine Treatment in $district_display | Dr. Priya Sharma";
 $meta_description = "$district_display mein migraine headache ka sabse accha ilaj. Dr. Priya Sharma (Neurologist) migraine aur severe headache treatment mein experts hain. Book appointment now!";
 
 // Include Data
@@ -89,9 +89,9 @@ if (!$doctor) {
               alt="<?php echo htmlspecialchars($doctor['name']); ?>"
               class="w-32 h-32 rounded-full object-cover border-4 border-[#328CCB]/20 mx-auto mb-4"
             />
-            <h1 class="text-2xl font-bold text-gray-900 mb-2">
+            <h3 class="text-2xl font-bold text-gray-900 mb-2">
               <?php echo htmlspecialchars($doctor['name']); ?>
-            </h1>
+            </h3>
             <p class="text-[#328CCB] font-semibold text-lg mb-2">
               Migraine & Headache Specialist
             </p>
@@ -136,10 +136,9 @@ if (!$doctor) {
       <!-- Right Main Content -->
       <div class="lg:col-span-2 space-y-8">
         <div class="bg-white rounded-2xl shadow-lg p-8 md:p-12 border border-gray-100">
-          <h2 class="text-3xl font-bold text-gray-900 mb-8 border-b pb-4">
+          <h1 class="text-3xl font-bold text-gray-900 mb-8 border-b pb-4">
             <?php echo $district_display; ?> में माइग्रेन और सिरदर्द का इलाज
-          </h2>
-
+          </h1>
           <div class="prose prose-lg max-w-none text-gray-700 leading-relaxed space-y-6">
             <p class="font-medium text-lg text-gray-900">
                 क्या आपको <?php echo $district_display; ?> में तेज सिरदर्द, माइग्रेन या बार-बार होने वाले सिरदर्द की समस्या है?
@@ -227,7 +226,7 @@ if (!$doctor) {
 
         <!-- FAQ Card -->
         <div class="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
-          <h2 class="text-2xl font-bold text-gray-900 mb-8">अक्सर पूछे जाने वाले प्रश्न (FAQ)</h2>
+          <h2 class="text-2xl font-bold text-gray-900 mb-8">अक्सर पूछे जाने वाले प्रश्न (FAQ)</h1>
           <div class="space-y-4">
             <?php
             $faqs = [

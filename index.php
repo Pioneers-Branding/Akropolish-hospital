@@ -1,7 +1,7 @@
 <?php
 require_once 'includes/data.php';
 require_once 'includes/schema.php';
-$page_title = 'Akropolis Super Speciality Hospital | Best Multi-Specialty Hospital in Gurugram, Haryana';
+$page_title = 'Best Multi-Specialty Hospital in Gurugram | Akropolis';
 $meta_description = 'Akropolis Super Speciality Hospital - NABH accredited multi-specialty hospital in Gurugram, Haryana. Expert doctors, advanced technology, 24×7 emergency care. Book appointment now!';
 $canonical_url = '/';
 $schema_blocks = [
@@ -49,8 +49,7 @@ include 'includes/head.php';
 
           <!-- Subheadline -->
           <p class="text-xl lg:text-2xl text-gray-600 mb-8 leading-relaxed">
-            Experience world-class healthcare with advanced technology,
-            expert doctors, and compassionate care at Akropolis Super Speciality Hospital.
+            Get top-quality healthcare at Akropolis Hospital. We use the latest technology to care for you. Our expert doctors are here to help.
           </p>
 
           <!-- Key Features -->
@@ -72,7 +71,7 @@ include 'includes/head.php';
           <!-- CTA Buttons -->
           <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-12">
             <a
-              href="/contact.php"
+              href="/contact"
               class="bg-[#328CCB] hover:bg-[#2a7bb5] text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2 shadow-lg cta-glow"
             >
               <?php echo getIcon('Calendar', 'h-5 w-5'); ?>
@@ -189,16 +188,13 @@ include 'includes/head.php';
               <span class="text-[#328CCB]"> Healthcare Excellence</span>
             </h2>
             <p class="text-gray-600 text-lg leading-relaxed">
-              Akropolis Super Speciality Hospital stands as a beacon of advanced healthcare,
-              offering comprehensive medical services with cutting-edge technology and
-              compassionate care. Our NABH accredited facility ensures the highest standards
-              of patient safety and treatment outcomes.
+              Akropolis Hospital is a top choice for your health. We offer great medical care with modern tools. Our hospital is NABH accredited. This means we meet high standards to keep you safe and healthy.
             </p>
           </div>
 
           <div class="flex flex-col sm:flex-row gap-4">
             <a
-              href="/about.php"
+              href="/about"
               class="bg-[#D66C43] hover:bg-[#c55a36] text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-2 w-fit shadow-lg cta-glow"
             >
               <span>Learn More About Us</span>
@@ -238,7 +234,7 @@ include 'includes/head.php';
         ?>
           <div class="department-card bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 overflow-hidden">
             <div class="relative h-48 overflow-hidden">
-              <img src="<?php echo $dept['image']; ?>" alt="<?php echo $dept['title']; ?>" class="w-full h-full object-cover" />
+              <img width="800" height="600" src="<?php echo $dept['image']; ?>" alt="<?php echo $dept['title']; ?>" class="w-full h-full object-cover" />
               <div class="absolute top-4 left-4 bg-white/95 backdrop-blur-sm p-3 rounded-xl shadow-lg">
                 <?php echo getIcon($dept['icon'], 'h-6 w-6 text-[#328CCB]'); ?>
               </div>
@@ -256,7 +252,7 @@ include 'includes/head.php';
       </div>
 
       <div class="text-center mt-16">
-        <a href="/departments.php" class="bg-[#D66C43] hover:bg-[#c55a36] text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-2 w-fit mx-auto shadow-lg cta-glow">
+        <a href="/departments" class="bg-[#D66C43] hover:bg-[#c55a36] text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-2 w-fit mx-auto shadow-lg cta-glow">
           <span>View All Departments</span>
           <?php echo getIcon('ArrowRight', 'h-5 w-5'); ?>
         </a>
@@ -277,7 +273,7 @@ include 'includes/head.php';
             Consult Our <span class="text-[#328CCB]">Specialist Doctors</span>
           </h2>
           <p class="text-gray-600 mt-4 text-lg">
-            Our team of highly qualified and experienced medical professionals is dedicated to providing you with the best care.
+            Our expert doctors have years of training. They work hard to give you the best care possible.
           </p>
         </div>
         <div class="flex space-x-4 mt-8 md:mt-0">
@@ -361,7 +357,7 @@ include 'includes/head.php';
           <?php foreach ($testimonials as $index => $testimonial): ?>
             <div class="testimonial-card <?php echo $index === 0 ? 'block' : 'hidden'; ?> animate-fade-in">
               <div class="relative rounded-3xl overflow-hidden shadow-2xl group aspect-video">
-                <img 
+                <img width="800" height="600" 
                   src="<?php echo $testimonial['videoThumbnail']; ?>" 
                   alt="<?php echo $testimonial['patientName']; ?>"
                   class="w-full h-full object-cover"
@@ -426,8 +422,8 @@ include 'includes/head.php';
                 <?php echo getIcon('Award', 'h-8 w-8 text-[#328CCB]'); ?>
               </div>
               <div>
-                <h4 class="font-bold text-gray-900 mb-1 text-lg">NABH Accreditation</h4>
-                <p class="text-gray-600">The highest benchmark for quality healthcare in India, ensuring patient safety and care.</p>
+                <h4 class="font-bold text-gray-900 mb-1 text-lg">NABH Accredited</h4>
+                <p class="text-gray-600">This is a top mark for quality care in India. It means you are safe with us.</p>
               </div>
             </div>
             <div class="flex items-start space-x-4 p-6 bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300">
@@ -436,7 +432,7 @@ include 'includes/head.php';
               </div>
               <div>
                 <h4 class="font-bold text-gray-900 mb-1 text-lg">Patient-First Approach</h4>
-                <p class="text-gray-600">Our medical care is built around compassion, transparency, and clinical excellence.</p>
+                <p class="text-gray-600">We put you first. We care for you with kindness, honesty, and great medical skill.</p>
               </div>
             </div>
             <div class="flex items-start space-x-4 p-6 bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300">
@@ -445,7 +441,7 @@ include 'includes/head.php';
               </div>
               <div>
                 <h4 class="font-bold text-gray-900 mb-1 text-lg">24/7 Response</h4>
-                <p class="text-gray-600">Ready to handle emergencies round the clock with a dedicated trauma and cardiac team.</p>
+                <p class="text-gray-600">We are always ready. Our emergency, heart, and trauma teams work all day and night.</p>
               </div>
             </div>
           </div>
@@ -468,7 +464,7 @@ include 'includes/head.php';
           <?php $allLogos = array_merge($insuranceLogos, $insuranceLogos); ?>
           <?php foreach ($allLogos as $partner): ?>
             <div class="partner-card flex-shrink-0 w-48 px-4 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300">
-              <img 
+              <img width="200" height="100" 
                 src="<?php echo $partner['logo']; ?>" 
                 alt="<?php echo $partner['name']; ?>"
                 class="max-h-16 w-auto object-contain"
@@ -492,7 +488,7 @@ include 'includes/head.php';
           </div>
           <h2 class="text-4xl lg:text-5xl font-bold text-gray-900">Latest from <span class="text-[#328CCB]">Our Blog</span></h2>
         </div>
-        <a href="/index.php" class="text-[#328CCB] font-bold flex items-center space-x-2 hover:translate-x-2 transition-transform mt-6 md:mt-0">
+        <a href="/" class="text-[#328CCB] font-bold flex items-center space-x-2 hover:translate-x-2 transition-transform mt-6 md:mt-0">
           <span>Read All Articles</span>
           <?php echo getIcon('ArrowRight', 'h-5 w-5'); ?>
         </a>
@@ -502,7 +498,7 @@ include 'includes/head.php';
         <?php foreach (array_slice($blogPosts, 0, 3) as $post): ?>
           <div class="bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden group hover:shadow-2xl transition-all duration-300">
             <div class="relative h-56 overflow-hidden">
-              <img 
+              <img width="800" height="600" 
                 src="<?php echo $post['image']; ?>" 
                 alt="<?php echo $post['title']; ?>"
                 class="w-full h-full object-cover"
@@ -528,7 +524,7 @@ include 'includes/head.php';
               <p class="text-gray-600 text-sm mb-6 line-clamp-2">
                 <?php echo $post['excerpt']; ?>
               </p>
-              <a href="/index.php" class="inline-flex items-center space-x-2 text-[#D66C43] font-bold hover:text-[#c55a36] transition-colors">
+              <a href="/" class="inline-flex items-center space-x-2 text-[#D66C43] font-bold hover:text-[#c55a36] transition-colors">
                 <span>Read More</span>
                 <?php echo getIcon('ArrowRight', 'h-4 w-4'); ?>
               </a>

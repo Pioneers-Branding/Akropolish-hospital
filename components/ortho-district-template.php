@@ -45,7 +45,7 @@ include dirname(__DIR__) . '/includes/head.php';
         <ol class="flex items-center space-x-2">
           <li><a href="/" class="hover:text-[#328CCB]">Home</a></li>
           <li><?php echo getIcon('ChevronRight', 'h-4 w-4'); ?></li>
-          <li><a href="/orthopedics.php" class="hover:text-[#328CCB]">Orthopedics</a></li>
+          <li><a href="/orthopedics" class="hover:text-[#328CCB]">Orthopedics</a></li>
           <li><?php echo getIcon('ChevronRight', 'h-4 w-4'); ?></li>
           <li class="text-[#328CCB] font-medium" aria-current="page"><?php echo $district_display; ?></li>
         </ol>
@@ -125,7 +125,7 @@ include dirname(__DIR__) . '/includes/head.php';
         <!-- Hero Image -->
         <div class="relative hero-image">
           <div class="relative overflow-hidden rounded-3xl shadow-2xl img-zoom">
-            <img src="https://brandingpioneers.co.in/akropolis/Orthopaedics.jpg" alt="<?php echo $target_keyword; ?> - Expert Orthopedic Care" class="w-full h-[400px] lg:h-[500px] object-cover" />
+            <img width="800" height="600" src="https://brandingpioneers.co.in/akropolis/Orthopaedics.jpg" alt="<?php echo $target_keyword; ?> - Expert Orthopedic Care" class="w-full h-[400px] lg:h-[500px] object-cover" />
           </div>
           <div class="absolute -bottom-6 -right-6 bg-white rounded-2xl shadow-xl p-5 border border-gray-100 floating-card glass-card float-slow">
             <div class="flex items-center space-x-4">
@@ -202,22 +202,13 @@ include dirname(__DIR__) . '/includes/head.php';
 
         <div class="prose prose-lg text-gray-600 space-y-6">
           <p>
-            Akropolis Super Speciality Hospital is recognized as the <strong><?php echo $target_keyword; ?></strong>,
-            providing specialized orthopedic care for patients across <?php echo $district_display; ?>. Whether you are seeking
-            treatment for a sports injury near <strong><?php echo $landmarks[0]; ?></strong> or looking for expert joint
-            replacement surgery near <strong><?php echo $landmarks[1]; ?></strong>, our team of experienced orthopedic
-            surgeons is here to help.
+            Akropolis Hospital is the <strong><?php echo $target_keyword; ?></strong>. We provide expert bone and joint care for patients in <?php echo $district_display; ?>. Do you have a sports injury near <strong><?php echo $landmarks[0]; ?></strong>? Or do you need joint surgery near <strong><?php echo $landmarks[1]; ?></strong>? Our skilled doctors are ready to help.
           </p>
           <p>
-            Our facility is equipped with the latest diagnostic technology including digital X-ray, MRI, and CT scan,
-            along with minimally invasive surgical tools to ensure faster recovery and better outcomes. We specialize in
-            complex trauma, spine surgeries, and pediatric orthopedics, making us the preferred choice for residents of
-            <?php echo $district_display; ?> and surrounding areas like <?php echo $landmarks[2]; ?>.
+            Our hospital has top tools like digital X-rays, MRIs, and CT scans. We use small cuts for surgery so you heal faster and feel better. We are experts in trauma care, spine surgery, and child bone care. Patients from <?php echo $district_display; ?> and <?php echo $landmarks[2]; ?> trust us for their care.
           </p>
           <p>
-            For patients traveling from <?php echo $district_display; ?>, we offer convenient access with ample parking
-            facilities. Our hospital is easily reachable and we provide comprehensive pre and post-operative care
-            including physiotherapy and rehabilitation services.
+            If you travel from <?php echo $district_display; ?>, you will find our hospital easy to reach. We have plenty of free parking. We care for you before and after surgery. We also offer physical therapy to help you get back on your feet.
           </p>
         </div>
 
@@ -287,7 +278,7 @@ include dirname(__DIR__) . '/includes/head.php';
       <div class="grid lg:grid-cols-2 gap-16 items-center">
         <div class="relative floating-card">
           <div class="relative overflow-hidden rounded-3xl shadow-2xl img-zoom">
-            <img src="https://brandingpioneers.co.in/akropolis/help-desk-img.webp" alt="Akropolis Super Speciality Hospital" class="w-full h-[500px] object-cover" />
+            <img width="800" height="600" src="https://brandingpioneers.co.in/akropolis/help-desk-img.webp" alt="Akropolis Super Speciality Hospital" class="w-full h-[500px] object-cover" />
           </div>
           <div class="absolute -bottom-6 -left-6 bg-[#328CCB] text-white rounded-2xl shadow-xl p-6">
             <div class="text-4xl font-bold mb-1">15+</div>
@@ -354,7 +345,7 @@ include dirname(__DIR__) . '/includes/head.php';
             </div>
           </div>
 
-          <a href="/about.php" class="bg-[#D66C43] hover:bg-[#c55a36] text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-2 w-fit shadow-lg cta-glow">
+          <a href="/about" class="bg-[#D66C43] hover:bg-[#c55a36] text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-2 w-fit shadow-lg cta-glow">
             <span>Learn More About Us</span>
             <?php echo getIcon('ArrowRight', 'h-5 w-5'); ?>
           </a>
@@ -404,7 +395,7 @@ include dirname(__DIR__) . '/includes/head.php';
             <div class="doctor-card-wrapper flex-shrink-0 w-full md:w-1/2 lg:w-1/3">
               <div class="doctor-card bg-white rounded-3xl shadow-lg border border-gray-100 overflow-hidden hover:shadow-2xl transition-all duration-300 group">
                 <div class="relative h-80 overflow-hidden">
-                  <img src="<?php echo htmlspecialchars($doctor['image']); ?>" alt="<?php echo htmlspecialchars($doctor['name']); ?>" class="w-full h-full object-cover" />
+                  <img width="400" height="400" src="<?php echo htmlspecialchars($doctor['image']); ?>" alt="<?php echo htmlspecialchars($doctor['name']); ?>" class="w-full h-full object-cover" />
                   <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   <div class="absolute bottom-4 left-4 right-4 translate-y-full group-hover:translate-y-0 transition-transform duration-300">
                     <a href="/doctors/<?php echo $doctor['id']; ?>" class="w-full bg-white/95 backdrop-blur-sm text-[#328CCB] py-3 rounded-xl font-bold text-center block shadow-lg">View Profile</a>
@@ -442,7 +433,7 @@ include dirname(__DIR__) . '/includes/head.php';
           <?php $allLogos = array_merge($insuranceLogos, $insuranceLogos); ?>
           <?php foreach ($allLogos as $partner): ?>
             <div class="partner-card flex-shrink-0 w-48 px-4 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300">
-              <img src="<?php echo $partner['logo']; ?>" alt="<?php echo $partner['name']; ?>" class="max-h-16 w-auto object-contain" loading="lazy" />
+              <img width="200" height="100" src="<?php echo $partner['logo']; ?>" alt="<?php echo $partner['name']; ?>" class="max-h-16 w-auto object-contain" loading="lazy" />
             </div>
           <?php endforeach; ?>
         </div>
@@ -600,7 +591,7 @@ include dirname(__DIR__) . '/includes/head.php';
           Book an appointment with our orthopedic experts today. Serving <?php echo $district_display; ?> and all of Haryana.
         </p>
         <div class="flex flex-col sm:flex-row items-center justify-center gap-6">
-          <a href="/doctors.php" class="bg-white text-[#328CCB] hover:bg-gray-100 px-10 py-5 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-2 shadow-xl">
+          <a href="/doctors" class="bg-white text-[#328CCB] hover:bg-gray-100 px-10 py-5 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-2 shadow-xl">
             <?php echo getIcon('Calendar', 'h-5 w-5'); ?>
             <span>Book Appointment</span>
           </a>

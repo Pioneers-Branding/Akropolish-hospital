@@ -279,7 +279,7 @@ include __DIR__ . '/../../includes/head.php';
         Consult Akropolis Hospital's experienced specialists and get the right treatment.
       </p>
       <a
-        href="/contact.php"
+        href="/contact"
         class="inline-flex items-center space-x-2 bg-[#D66C43] hover:bg-[#c55a36] text-white px-8 py-4 rounded-full font-semibold text-lg transition-colors shadow-lg"
       >
         <?php echo getIcon('Calendar', 'h-5 w-5'); ?>

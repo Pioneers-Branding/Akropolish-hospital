@@ -13,7 +13,7 @@ include '/Users/bp/Desktop/Akropolish /includes/header-v2.php';
         <ol class="flex items-center space-x-2">
           <li><a href="/" class="hover:text-[#328CCB]">Home</a></li>
           <li><?php echo getIcon('ChevronRight', 'h-4 w-4'); ?></li>
-          <li><a href="/cardiology.php" class="hover:text-[#328CCB]">Cardiology</a></li>
+          <li><a href="/cardiology" class="hover:text-[#328CCB]">Cardiology</a></li>
           <li><?php echo getIcon('ChevronRight', 'h-4 w-4'); ?></li>
           <li><a href="/cardiologist/haryana/" class="hover:text-[#328CCB]">Haryana</a></li>
           <li><?php echo getIcon('ChevronRight', 'h-4 w-4'); ?></li>

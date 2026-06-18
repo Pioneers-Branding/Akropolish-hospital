@@ -6,7 +6,7 @@
 // SEO Variables
 $district_display = ucwords(str_replace('-', ' ', $district_name));
 $target_keyword = "$district_display mein Sabse Acchi Lady Doctor (Gynecologist)";
-$meta_title = "$target_keyword | Dr. Anu Nagpal | Akropolis Hospital";
+$meta_title = "$target_keyword | Dr. Anu Nagpal";
 $meta_description = "$district_display mein sabse acchi lady doctor ki khoj yahan khatam hoti hai. Dr. Anu Nagpal pradan karti hain delivery aur mahila rogon ka surakshit upchar.";
 
 // Include Data
@@ -66,9 +66,9 @@ foreach ($doctors as $d) {
               alt="<?php echo htmlspecialchars($doctor['name']); ?>"
               class="w-32 h-32 rounded-full object-cover border-4 border-[#328CCB]/20 mx-auto mb-4"
             />
-            <h1 class="text-2xl font-bold text-gray-900 mb-2">
+            <h3 class="text-2xl font-bold text-gray-900 mb-2">
               <?php echo htmlspecialchars($doctor['name']); ?>
-            </h1>
+            </h3>
             <p class="text-[#328CCB] font-semibold text-lg mb-2">
               Senior Gynecologist & Obstetrician
             </p>
@@ -113,10 +113,9 @@ foreach ($doctors as $d) {
       <!-- Right Main Content -->
       <div class="lg:col-span-2 space-y-8">
         <div class="bg-white rounded-2xl shadow-lg p-8 md:p-12 border border-gray-100">
-          <h2 class="text-3xl font-bold text-gray-900 mb-8 border-b pb-4">
+          <h1 class="text-3xl font-bold text-gray-900 mb-8 border-b pb-4">
             <?php echo $district_display; ?> में सबसे अच्छी लेडी डॉक्टर (Gynecologist): डॉ अनु नागपाल
-          </h2>
-          
+          </h1>
           <div class="prose prose-lg max-w-none text-gray-700 leading-relaxed space-y-6">
             <p class="font-medium text-lg text-gray-900">
                 क्या आप <?php echo $district_display; ?> में अपनी प्रेग्नेंसी या महिलाओं से जुड़ी किसी भी समस्या के लिए सबसे अच्छी लेडी डॉक्टर की तलाश कर रही हैं? 
@@ -173,7 +172,7 @@ foreach ($doctors as $d) {
 
         <!-- FAQ Card -->
         <div class="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
-          <h2 class="text-2xl font-bold text-gray-900 mb-8">अक्सर पूछे जाने वाले प्रश्न (FAQ)</h2>
+          <h2 class="text-2xl font-bold text-gray-900 mb-8">अक्सर पूछे जाने वाले प्रश्न (FAQ)</h1>
           <div class="space-y-4">
             <?php
             $faqs = [

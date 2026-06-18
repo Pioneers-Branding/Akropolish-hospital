@@ -79,13 +79,13 @@ When adding a new blog post at the **TOP** of the array in `blogs.php`, use this
         'status'       => 'published',
         'faqs'         => [
             ['question' => 'घुटनों के दर्द के लिए डॉक्टर को कब दिखाना चाहिए?',
-             'answer'   => 'अगर दर्द 2 हफ्ते से ज़्यादा रहे, तो <a href="/orthopedics.php">Orthopedics Department</a> से जांच कराएं।'],
+             'answer'   => 'अगर दर्द 2 हफ्ते से ज़्यादा रहे, तो <a href="/orthopedics">Orthopedics Department</a> से जांच कराएं।'],
         ],
         'content'      => '
 <h2>शीर्षक</h2>
-<p>घुटने का दर्द होने पर Akropolis Hospital - the <a href="/orthopedics.php">best orthopedic hospital in Gurgaon</a> में जांच कराएं।</p>
-<p>जांच के लिए <a href="/ct-scan.php">MRI and X-Ray Scan</a> आवश्यक हो सकते हैं।</p>
-<p>परामर्श हेतु आप <a href="/contact.php">Book Appointment Online</a> कर सकते हैं।</p>
+<p>घुटने का दर्द होने पर Akropolis Hospital - the <a href="/orthopedics">best orthopedic hospital in Gurgaon</a> में जांच कराएं।</p>
+<p>जांच के लिए <a href="/ct-scan">MRI and X-Ray Scan</a> आवश्यक हो सकते हैं।</p>
+<p>परामर्श हेतु आप <a href="/contact">Book Appointment Online</a> कर सकते हैं।</p>
 ',
     ],
 ```
