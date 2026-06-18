@@ -38,6 +38,7 @@ include 'includes/head.php';
           Meet Our Expert
           <span class="block">Medical Team</span>
         </h1>
+        <h2 class="sr-only">Our Specialists Directory</h2>
 
         <p class="text-xl lg:text-2xl mb-8 text-blue-100 max-w-3xl mx-auto leading-relaxed">
           Highly qualified specialist doctors committed to providing world-class healthcare

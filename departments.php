@@ -38,6 +38,7 @@ include 'includes/head.php';
           Our Medical
           <span class="block">Departments</span>
         </h1>
+        <h2 class="sr-only">Our Departments Overview</h2>
 
         <p class="text-xl lg:text-2xl mb-8 text-blue-100 max-w-3xl mx-auto leading-relaxed">
           Comprehensive healthcare services across all medical specialties with expert doctors,
