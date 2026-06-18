@@ -7,4 +7,4 @@
 $district_name = 'rohtak';
 $landmarks = ['Rohtak City', 'Meham', 'Sampla'];
 
-require_once '/Users/bp/Desktop/components/heart-blockage-district-template.php';
+require_once '/Users/bp/Desktop/Project/components/heart-blockage-district-template.php';

@@ -172,22 +172,22 @@ include dirname(__DIR__) . '/includes/head.php';
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           <div class="bg-gray-50 rounded-xl p-6 text-center">
             <div class="flex justify-center mb-4"><div class="bg-red-100 p-4 rounded-full"><?php echo getIcon('Award', 'h-8 w-8 text-red-500'); ?></div></div>
-            <h3 class="font-bold text-gray-900 mb-2">NABH Accredited</h3>
+            <p class="text-lg font-bold text-gray-900 mb-2">NABH Accredited</p>
             <p class="text-sm text-gray-600">Quality cardiac care meeting international standards</p>
           </div>
           <div class="bg-gray-50 rounded-xl p-6 text-center">
             <div class="flex justify-center mb-4"><div class="bg-red-100 p-4 rounded-full"><?php echo getIcon('Activity', 'h-8 w-8 text-red-500'); ?></div></div>
-            <h3 class="font-bold text-gray-900 mb-2">Advanced Cath Lab</h3>
+            <p class="text-lg font-bold text-gray-900 mb-2">Advanced Cath Lab</p>
             <p class="text-sm text-gray-600">State-of-the-art digital cath lab 24/7</p>
           </div>
           <div class="bg-gray-50 rounded-xl p-6 text-center">
             <div class="flex justify-center mb-4"><div class="bg-red-100 p-4 rounded-full"><?php echo getIcon('Users', 'h-8 w-8 text-red-500'); ?></div></div>
-            <h3 class="font-bold text-gray-900 mb-2">Expert Team</h3>
+            <p class="text-lg font-bold text-gray-900 mb-2">Expert Team</p>
             <p class="text-sm text-gray-600">15+ experienced interventional cardiologists</p>
           </div>
           <div class="bg-gray-50 rounded-xl p-6 text-center">
             <div class="flex justify-center mb-4"><div class="bg-red-100 p-4 rounded-full"><?php echo getIcon('Shield', 'h-8 w-8 text-red-500'); ?></div></div>
-            <h3 class="font-bold text-gray-900 mb-2">High Success Rate</h3>
+            <p class="text-lg font-bold text-gray-900 mb-2">High Success Rate</p>
             <p class="text-sm text-gray-600">98% success rate in cardiac procedures</p>
           </div>
         </div>

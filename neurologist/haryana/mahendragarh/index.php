@@ -7,4 +7,4 @@
 $district_name = 'mahendragarh';
 $landmarks = ['Narnaul', 'Mahendragarh', 'Kanina'];
 
-require_once '/Users/bp/Desktop/components/neurologist-district-template.php';
+require_once '/Users/bp/Desktop/Project/components/neurologist-district-template.php';

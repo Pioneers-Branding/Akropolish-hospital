@@ -107,42 +107,42 @@ include dirname(__DIR__) . '/includes/head.php';
       <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
         <div class="bg-blue-50 rounded-xl p-6 text-center border border-blue-100">
           <div class="flex justify-center mb-4"><div class="bg-blue-100 p-4 rounded-full"><?php echo getIcon('Zap', 'h-8 w-8 text-blue-500'); ?></div></div>
-          <h3 class="font-bold text-gray-900 mb-2">Stroke</h3>
+          <p class="text-lg font-bold text-gray-900 mb-2">Stroke</p>
           <p class="text-sm text-gray-600">Emergency stroke treatment and rehabilitation</p>
         </div>
         <div class="bg-blue-50 rounded-xl p-6 text-center border border-blue-100">
           <div class="flex justify-center mb-4"><div class="bg-blue-100 p-4 rounded-full"><?php echo getIcon('Activity', 'h-8 w-8 text-blue-500'); ?></div></div>
-          <h3 class="font-bold text-gray-900 mb-2">Epilepsy</h3>
+          <p class="text-lg font-bold text-gray-900 mb-2">Epilepsy</p>
           <p class="text-sm text-gray-600">Seizure management and treatment</p>
         </div>
         <div class="bg-blue-50 rounded-xl p-6 text-center border border-blue-100">
           <div class="flex justify-center mb-4"><div class="bg-blue-100 p-4 rounded-full"><?php echo getIcon('Headphones', 'h-8 w-8 text-blue-500'); ?></div></div>
-          <h3 class="font-bold text-gray-900 mb-2">Migraine</h3>
+          <p class="text-lg font-bold text-gray-900 mb-2">Migraine</p>
           <p class="text-sm text-gray-600">Chronic headache treatment</p>
         </div>
         <div class="bg-blue-50 rounded-xl p-6 text-center border border-blue-100">
           <div class="flex justify-center mb-4"><div class="bg-blue-100 p-4 rounded-full"><?php echo getIcon('Brain', 'h-8 w-8 text-blue-500'); ?></div></div>
-          <h3 class="font-bold text-gray-900 mb-2">Parkinson's</h3>
+          <p class="text-lg font-bold text-gray-900 mb-2">Parkinson's</p>
           <p class="text-sm text-gray-600">Movement disorder management</p>
         </div>
         <div class="bg-blue-50 rounded-xl p-6 text-center border border-blue-100">
           <div class="flex justify-center mb-4"><div class="bg-blue-100 p-4 rounded-full"><?php echo getIcon('User', 'h-8 w-8 text-blue-500'); ?></div></div>
-          <h3 class="font-bold text-gray-900 mb-2">Paralysis</h3>
+          <p class="text-lg font-bold text-gray-900 mb-2">Paralysis</p>
           <p class="text-sm text-gray-600">Stroke recovery and paralysis treatment</p>
         </div>
         <div class="bg-blue-50 rounded-xl p-6 text-center border border-blue-100">
           <div class="flex justify-center mb-4"><div class="bg-blue-100 p-4 rounded-full"><?php echo getIcon('AlertCircle', 'h-8 w-8 text-blue-500'); ?></div></div>
-          <h3 class="font-bold text-gray-900 mb-2">Spinal Issues</h3>
+          <p class="text-lg font-bold text-gray-900 mb-2">Spinal Issues</p>
           <p class="text-sm text-gray-600">Back pain and spine disorders</p>
         </div>
         <div class="bg-blue-50 rounded-xl p-6 text-center border border-blue-100">
           <div class="flex justify-center mb-4"><div class="bg-blue-100 p-4 rounded-full"><?php echo getIcon('Eye', 'h-8 w-8 text-blue-500'); ?></div></div>
-          <h3 class="font-bold text-gray-900 mb-2">Brain Tumors</h3>
+          <p class="text-lg font-bold text-gray-900 mb-2">Brain Tumors</p>
           <p class="text-sm text-gray-600">Surgical and non-surgical treatment</p>
         </div>
         <div class="bg-blue-50 rounded-xl p-6 text-center border border-blue-100">
           <div class="flex justify-center mb-4"><div class="bg-blue-100 p-4 rounded-full"><?php echo getIcon('Thermometer', 'h-8 w-8 text-blue-500'); ?></div></div>
-          <h3 class="font-bold text-gray-900 mb-2">Nerve Pain</h3>
+          <p class="text-lg font-bold text-gray-900 mb-2">Nerve Pain</p>
           <p class="text-sm text-gray-600">Neuropathy and nerve damage</p>
         </div>
       </div>

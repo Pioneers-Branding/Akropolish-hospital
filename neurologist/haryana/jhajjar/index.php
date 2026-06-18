@@ -7,4 +7,4 @@
 $district_name = 'jhajjar';
 $landmarks = ['Jhajjar City', 'Bahadurgarh', 'Kosli'];
 
-require_once '/Users/bp/Desktop/components/neurologist-district-template.php';
+require_once '/Users/bp/Desktop/Project/components/neurologist-district-template.php';

@@ -1,7 +1,8 @@
 <?php
 /**
- * Brain Tumor Treatment - sirsa, Haryana
+ * Brain Tumor Treatment - Sirsa, Haryana
  */
+
 $district_name = "sirsa";
 $landmarks = [
     "Civil Hospital",
@@ -9,4 +10,6 @@ $landmarks = [
     "Bus Stand",
     "Market Area"
 ];
+
+// Include the shared template
 require_once dirname(__DIR__) . '/../../components/brain-tumor-district-template.php';

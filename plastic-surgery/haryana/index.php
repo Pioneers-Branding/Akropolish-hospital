@@ -5,8 +5,8 @@
  */
 $page_title = 'Haryana में प्लास्टिक सर्जरी | अक्रोपोलिस हॉस्पिटल';
 $page_description = 'हरियाणा के सभी जिलों में प्लास्टिक सर्जरी का इलाज। अक्रोपोलिस हॉस्पिटल गुरुग्राम में डॉ. राहुल जैन।';
-require_once dirname(__DIR__, 2) . '/includes/data.php';
-include dirname(__DIR__, 2) . '/includes/head.php';
+require_once dirname(__DIR__) . '/includes/data.php';
+include dirname(__DIR__) . '/includes/head.php';
 ?>
 
 <div class="bg-[#D66C43] text-white py-2 px-4 text-center sticky top-0 z-50">
@@ -16,7 +16,7 @@ include dirname(__DIR__, 2) . '/includes/head.php';
   </div>
 </div>
 
-<?php include dirname(__DIR__, 2) . '/includes/header-v2.php'; ?>
+<?php include dirname(__DIR__) . '/includes/header-v2.php'; ?>
 
 <main class="bg-gray-50">
   <div class="bg-white py-8 border-b">
@@ -52,4 +52,4 @@ include dirname(__DIR__, 2) . '/includes/head.php';
   </div>
 </main>
 
-<?php include dirname(__DIR__, 2) . '/includes/footer.php'; include dirname(__DIR__, 2) . '/includes/scripts.php'; ?>
+<?php include dirname(__DIR__) . '/includes/footer.php'; include dirname(__DIR__) . '/includes/scripts.php'; ?>

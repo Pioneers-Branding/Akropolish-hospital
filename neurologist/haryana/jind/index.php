@@ -7,4 +7,4 @@
 $district_name = 'jind';
 $landmarks = ['Jind City', 'Narwana', 'Uklana'];
 
-require_once '/Users/bp/Desktop/components/neurologist-district-template.php';
+require_once '/Users/bp/Desktop/Project/components/neurologist-district-template.php';

@@ -1,9 +1,9 @@
 <?php
-/**
- * Plastic Surgery District Page - Rewari
- */
 $district_name = 'rewari';
-$district_display = 'Rewari';
-$landmarks = ['Rewari City', 'Bawal', 'Kosli'];
+$landmarks = array (
+  0 => 'Rewari Railway Station',
+  1 => 'Bus Stand',
+  2 => 'Mahavir Marg',
+);
 include __DIR__ . '/../../../components/plastic-surgery-hindi-template.php';
 ?>

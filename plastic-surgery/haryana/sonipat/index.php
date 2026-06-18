@@ -1,9 +1,9 @@
 <?php
-/**
- * Plastic Surgery District Page - Sonipat
- */
 $district_name = 'sonipat';
-$district_display = 'Sonipat';
-$landmarks = ['Sonipat City', 'Gohana', 'Kharkhoda'];
+$landmarks = array (
+  0 => 'Sonipat Railway Station',
+  1 => 'Sector 14',
+  2 => 'Murthal',
+);
 include __DIR__ . '/../../../components/plastic-surgery-hindi-template.php';
 ?>

@@ -1,9 +1,9 @@
 <?php
-/**
- * Plastic Surgery District Page - Rohtak
- */
 $district_name = 'rohtak';
-$district_display = 'Rohtak';
-$landmarks = ['Rohtak City', 'Meham', 'Sampla'];
+$landmarks = array (
+  0 => 'Rohtak Railway Station',
+  1 => 'Bus Stand',
+  2 => 'Medical Chowk',
+);
 include __DIR__ . '/../../../components/plastic-surgery-hindi-template.php';
 ?>

@@ -1,9 +1,9 @@
 <?php
-require_once dirname(__DIR__, 3) . '/includes/data.php';
+require_once '/Users/bp/Desktop/Project/Akropolish /includes/data.php';
 $page_title = 'Best Cardiologist in Sonipat | Akropolis Hospital';
 $page_description = 'Find the best cardiologist in Sonipat at Akropolis Super Speciality Hospital. Expert heart specialists, advanced diagnostics, and 24/7 cardiac care near Sonipat City, Gohana, Kharkhoda. NABH accredited.';
-include dirname(__DIR__, 3) . '/includes/head.php';
-include dirname(__DIR__, 3) . '/includes/header-v2.php';
+include '/Users/bp/Desktop/Project/Akropolish /includes/head.php';
+include '/Users/bp/Desktop/Project/Akropolish /includes/header-v2.php';
 ?>
 
 <main>
@@ -46,7 +46,7 @@ include dirname(__DIR__, 3) . '/includes/header-v2.php';
         </div>
         <div class="relative">
           <div class="relative overflow-hidden rounded-3xl shadow-2xl">
-            <img src="https://brandingpioneers.co.in/akropolis/Cardiology.jpg" alt="Best Cardiologist in Sonipat" class="w-full h-[400px] lg:h-[450px] object-cover" />
+            <img width="800" height="600" src="https://brandingpioneers.co.in/akropolis/Cardiology.jpg" alt="Best Cardiologist in Sonipat" class="w-full h-[400px] lg:h-[450px] object-cover" />
           </div>
           <div class="absolute -bottom-6 -right-6 bg-white rounded-2xl shadow-xl p-5 border border-gray-100">
             <div class="flex items-center space-x-4">
@@ -275,4 +275,4 @@ function toggleFaq(index) {
 }
 </script>
 
-<?php include dirname(__DIR__, 3) . '/includes/footer.php'; include dirname(__DIR__, 3) . '/includes/scripts.php'; ?>
+<?php include '/Users/bp/Desktop/Project/Akropolish /includes/footer.php'; include '/Users/bp/Desktop/Project/Akropolish /includes/scripts.php'; ?>

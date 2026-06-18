@@ -1,7 +1,8 @@
 <?php
 /**
- * Brain Tumor Treatment - rewari, Haryana
+ * Brain Tumor Treatment - Rewari, Haryana
  */
+
 $district_name = "rewari";
 $landmarks = [
     "Civil Hospital",
@@ -9,4 +10,6 @@ $landmarks = [
     "Bus Stand",
     "Market Area"
 ];
+
+// Include the shared template
 require_once dirname(__DIR__) . '/../../components/brain-tumor-district-template.php';

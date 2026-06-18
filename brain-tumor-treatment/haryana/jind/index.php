@@ -1,7 +1,8 @@
 <?php
 /**
- * Brain Tumor Treatment - jind, Haryana
+ * Brain Tumor Treatment - Jind, Haryana
  */
+
 $district_name = "jind";
 $landmarks = [
     "Civil Hospital",
@@ -9,4 +10,6 @@ $landmarks = [
     "Bus Stand",
     "Market Area"
 ];
+
+// Include the shared template
 require_once dirname(__DIR__) . '/../../components/brain-tumor-district-template.php';

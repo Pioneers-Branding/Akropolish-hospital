@@ -1,9 +1,9 @@
 <?php
-/**
- * Plastic Surgery District Page - Panchkula
- */
 $district_name = 'panchkula';
-$district_display = 'Panchkula';
-$landmarks = ['Sector 21', 'Panchkula', 'Morni'];
+$landmarks = array (
+  0 => 'Sector 9 Market',
+  1 => 'Panchkula Bus Stand',
+  2 => 'Chandigarh Border',
+);
 include __DIR__ . '/../../../components/plastic-surgery-hindi-template.php';
 ?>

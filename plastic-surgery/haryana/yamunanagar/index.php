@@ -1,9 +1,9 @@
 <?php
-/**
- * Plastic Surgery District Page - Yamunanagar
- */
 $district_name = 'yamunanagar';
-$district_display = 'Yamunanagar';
-$landmarks = ['Yamunanagar', 'Jagadhri', 'Chhachhrauli'];
+$landmarks = array (
+  0 => 'Yamunanagar Railway Station',
+  1 => 'Jagadhri',
+  2 => 'Bhopal Road',
+);
 include __DIR__ . '/../../../components/plastic-surgery-hindi-template.php';
 ?>

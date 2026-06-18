@@ -1,9 +1,9 @@
 <?php
-/**
- * Plastic Surgery District Page - Karnal
- */
 $district_name = 'karnal';
-$district_display = 'Karnal';
-$landmarks = ['Karnal City', 'Nilokheri', 'Indri'];
+$landmarks = array (
+  0 => 'Karnal Railway Station',
+  1 => 'Bus Stand',
+  2 => 'Sector 5',
+);
 include __DIR__ . '/../../../components/plastic-surgery-hindi-template.php';
 ?>

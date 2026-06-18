@@ -173,22 +173,22 @@ include dirname(__DIR__) . '/includes/head.php';
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           <div class="bg-gray-50 rounded-xl p-6 text-center">
             <div class="flex justify-center mb-4"><div class="bg-purple-100 p-4 rounded-full"><?php echo getIcon('Clock', 'h-8 w-8 text-purple-500'); ?></div></div>
-            <h3 class="font-bold text-gray-900 mb-2">Golden Hour Care</h3>
+            <p class="text-lg font-bold text-gray-900 mb-2">Golden Hour Care</p>
             <p class="text-sm text-gray-600">Door-to-needle time under 60 minutes</p>
           </div>
           <div class="bg-gray-50 rounded-xl p-6 text-center">
             <div class="flex justify-center mb-4"><div class="bg-purple-100 p-4 rounded-full"><?php echo getIcon('Users', 'h-8 w-8 text-purple-500'); ?></div></div>
-            <h3 class="font-bold text-gray-900 mb-2">Expert Team</h3>
+            <p class="text-lg font-bold text-gray-900 mb-2">Expert Team</p>
             <p class="text-sm text-gray-600">Neurologists, neurosurgeons, and therapists</p>
           </div>
           <div class="bg-gray-50 rounded-xl p-6 text-center">
             <div class="flex justify-center mb-4"><div class="bg-purple-100 p-4 rounded-full"><?php echo getIcon('Activity', 'h-8 w-8 text-purple-500'); ?></div></div>
-            <h3 class="font-bold text-gray-900 mb-2">Advanced Equipment</h3>
+            <p class="text-lg font-bold text-gray-900 mb-2">Advanced Equipment</p>
             <p class="text-sm text-gray-600">Biplane cath lab and neuro imaging</p>
           </div>
           <div class="bg-gray-50 rounded-xl p-6 text-center">
             <div class="flex justify-center mb-4"><div class="bg-purple-100 p-4 rounded-full"><?php echo getIcon('Heart', 'h-8 w-8 text-purple-500'); ?></div></div>
-            <h3 class="font-bold text-gray-900 mb-2">Complete Care</h3>
+            <p class="text-lg font-bold text-gray-900 mb-2">Complete Care</p>
             <p class="text-sm text-gray-600">Rehabilitation and follow-up included</p>
           </div>
         </div>

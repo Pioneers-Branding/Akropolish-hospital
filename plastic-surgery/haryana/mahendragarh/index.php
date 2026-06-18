@@ -1,9 +1,9 @@
 <?php
-/**
- * Plastic Surgery District Page - Mahendragarh
- */
 $district_name = 'mahendragarh';
-$district_display = 'Mahendragarh';
-$landmarks = ['Narnaul', 'Mahendragarh', 'Kanina'];
+$landmarks = array (
+  0 => 'Mahendragarh Bus Stand',
+  1 => 'Narnaul Road',
+  2 => 'Kanina Road',
+);
 include __DIR__ . '/../../../components/plastic-surgery-hindi-template.php';
 ?>

@@ -1,9 +1,9 @@
 <?php
-/**
- * Plastic Surgery District Page - Panipat
- */
 $district_name = 'panipat';
-$district_display = 'Panipat';
-$landmarks = ['Panipat City', 'Israna', 'Samalkha'];
+$landmarks = array (
+  0 => 'Panipat Railway Station',
+  1 => 'Bus Stand',
+  2 => 'Sector 25',
+);
 include __DIR__ . '/../../../components/plastic-surgery-hindi-template.php';
 ?>
