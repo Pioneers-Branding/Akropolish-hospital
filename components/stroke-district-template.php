@@ -14,7 +14,7 @@ $page_description = $meta_description;
 include dirname(__DIR__) . '/includes/head.php';
 ?>
 
-<div class="bg-[#EA580C] text-white py-2 px-4 text-center sticky top-0 z-50">
+<div class="bg-[#D66C43] text-white py-2 px-4 text-center sticky top-0 z-50">
   <div class="container mx-auto flex items-center justify-center space-x-2">
     <?php echo getIcon('Phone', 'h-4 w-4'); ?>
     <span class="font-semibold text-sm md:text-base">Stroke Emergency 24x7: <?php echo CONTACT_INFO['emergency']; ?></span>
@@ -29,13 +29,13 @@ include dirname(__DIR__) . '/includes/head.php';
     <div class="container mx-auto px-4">
       <nav class="flex text-sm text-gray-500">
         <ol class="flex items-center space-x-2">
-          <li><a href="/" class="hover:text-[#1E3A8A]">Home</a></li>
+          <li><a href="/" class="hover:text-[#328CCB]">Home</a></li>
           <li><?php echo getIcon('ChevronRight', 'h-4 w-4'); ?></li>
-          <li><a href="/neurology" class="hover:text-[#1E3A8A]">Stroke Care</a></li>
+          <li><a href="/neurology" class="hover:text-[#328CCB]">Stroke Care</a></li>
           <li><?php echo getIcon('ChevronRight', 'h-4 w-4'); ?></li>
-          <li><a href="/stroke-treatment/haryana/" class="hover:text-[#1E3A8A]">Haryana</a></li>
+          <li><a href="/stroke-treatment/haryana/" class="hover:text-[#328CCB]">Haryana</a></li>
           <li><?php echo getIcon('ChevronRight', 'h-4 w-4'); ?></li>
-          <li class="text-[#1E3A8A] font-medium"><?php echo $district_display; ?></li>
+          <li class="text-[#328CCB] font-medium"><?php echo $district_display; ?></li>
         </ol>
       </nav>
     </div>
@@ -60,7 +60,7 @@ include dirname(__DIR__) . '/includes/head.php';
 
           <div class="flex flex-wrap justify-center lg:justify-start gap-4 mb-8">
             <div class="flex items-center space-x-2 text-gray-700"><div class="w-2 h-2 bg-purple-500 rounded-full"></div><span>24/7 Stroke Unit</span></div>
-            <div class="flex items-center space-x-2 text-gray-700"><div class="w-2 h-2 bg-[#EA580C] rounded-full"></div><span>Thrombolysis</span></div>
+            <div class="flex items-center space-x-2 text-gray-700"><div class="w-2 h-2 bg-[#D66C43] rounded-full"></div><span>Thrombolysis</span></div>
             <div class="flex items-center space-x-2 text-gray-700"><div class="w-2 h-2 bg-purple-600 rounded-full"></div><span>Thrombectomy</span></div>
           </div>
 
@@ -69,7 +69,7 @@ include dirname(__DIR__) . '/includes/head.php';
               <?php echo getIcon('Calendar', 'h-5 w-5'); ?>
               <span>Book Consultation</span>
             </a>
-            <a href="tel:<?php echo CONTACT_INFO['emergency']; ?>" class="bg-[#EA580C] hover:bg-[#C2410C] text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2 shadow-lg">
+            <a href="tel:<?php echo CONTACT_INFO['emergency']; ?>" class="bg-[#D66C43] hover:bg-[#c55a36] text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2 shadow-lg">
               <?php echo getIcon('Phone', 'h-5 w-5'); ?>
               <span>Emergency: <?php echo CONTACT_INFO['emergency']; ?></span>
             </a>
@@ -77,7 +77,7 @@ include dirname(__DIR__) . '/includes/head.php';
 
           <div class="grid grid-cols-3 gap-4 max-w-md mx-auto lg:mx-0">
             <div class="text-center"><div class="text-2xl lg:text-3xl font-bold text-purple-500 mb-1">3000+</div><div class="text-xs text-gray-600">Stroke Cases</div></div>
-            <div class="text-center"><div class="text-2xl lg:text-3xl font-bold text-[#EA580C] mb-1">95%</div><div class="text-xs text-gray-600">Success Rate</div></div>
+            <div class="text-center"><div class="text-2xl lg:text-3xl font-bold text-[#D66C43] mb-1">95%</div><div class="text-xs text-gray-600">Success Rate</div></div>
             <div class="text-center"><div class="text-2xl lg:text-3xl font-bold text-purple-600 mb-1">24/7</div><div class="text-xs text-gray-600">Stroke Unit</div></div>
           </div>
         </div>
@@ -149,7 +149,7 @@ include dirname(__DIR__) . '/includes/head.php';
           <p class="text-gray-600 text-center">tPA treatment to dissolve blood clots within 4.5 hours of stroke onset. Quick treatment saves brain tissue.</p>
         </div>
         <div class="bg-white rounded-2xl p-8 shadow-lg border border-gray-100">
-          <div class="flex justify-center mb-6"><div class="bg-[#EA580C]/10 p-4 rounded-full"><?php echo getIcon('Target', 'h-10 w-10 text-[#EA580C]'); ?></div></div>
+          <div class="flex justify-center mb-6"><div class="bg-[#D66C43]/10 p-4 rounded-full"><?php echo getIcon('Target', 'h-10 w-10 text-[#D66C43]'); ?></div></div>
           <h3 class="text-xl font-bold text-gray-900 mb-3 text-center">Thrombectomy</h3>
           <p class="text-gray-600 text-center">Mechanical clot removal for large vessel occlusions. Can be performed up to 24 hours in selected patients.</p>
         </div>
@@ -306,7 +306,7 @@ include dirname(__DIR__) . '/includes/head.php';
         <p class="text-xl text-purple-100 mb-12">Our expert stroke team is available 24/7 for consultation and emergency care. Serving <?php echo $district_display; ?> and all of Haryana. Remember: Time is Brain!</p>
         <div class="flex flex-col sm:flex-row items-center justify-center gap-6">
           <a href="#appointment-form" class="bg-white text-purple-600 hover:bg-gray-100 px-10 py-5 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-2 shadow-xl"><?php echo getIcon('Calendar', 'h-5 w-5'); ?><span>Book Appointment</span></a>
-          <a href="tel:<?php echo CONTACT_INFO['phone']; ?>" class="bg-[#EA580C] hover:bg-[#C2410C] text-white px-10 py-5 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-2 shadow-xl"><?php echo getIcon('Phone', 'h-5 w-5'); ?><span>Call: <?php echo CONTACT_INFO['phone']; ?></span></a>
+          <a href="tel:<?php echo CONTACT_INFO['phone']; ?>" class="bg-[#D66C43] hover:bg-[#c55a36] text-white px-10 py-5 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-2 shadow-xl"><?php echo getIcon('Phone', 'h-5 w-5'); ?><span>Call: <?php echo CONTACT_INFO['phone']; ?></span></a>
         </div>
       </div>
     </div>

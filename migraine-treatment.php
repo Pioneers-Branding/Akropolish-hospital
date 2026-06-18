@@ -11,7 +11,7 @@ include 'includes/head.php';
 ?>
 
 <!-- Emergency Bar -->
-<div class="bg-[#EA580C] text-white py-2 px-4 text-center sticky top-0 z-50">
+<div class="bg-[#D66C43] text-white py-2 px-4 text-center sticky top-0 z-50">
   <div class="container mx-auto flex items-center justify-center space-x-2">
     <?php echo getIcon('Phone', 'h-4 w-4'); ?>
     <span class="font-semibold text-sm md:text-base">
@@ -29,9 +29,9 @@ include 'includes/head.php';
     <div class="container mx-auto px-4 py-4">
       <nav class="flex text-sm text-gray-500" aria-label="Breadcrumb">
         <ol class="flex items-center space-x-2">
-          <li><a href="/" class="hover:text-[#1E3A8A]">Home</a></li>
+          <li><a href="/" class="hover:text-[#328CCB]">Home</a></li>
           <li><?php echo getIcon('ChevronRight', 'h-4 w-4'); ?></li>
-          <li class="text-[#1E3A8A] font-medium">Migraine Treatment</li>
+          <li class="text-[#328CCB] font-medium">Migraine Treatment</li>
         </ol>
       </nav>
     </div>
@@ -73,8 +73,8 @@ include 'includes/head.php';
       ];
       foreach ($districts as $slug => $name):
       ?>
-        <a href="/migraine-treatment/haryana/<?php echo $slug; ?>/" class="bg-white rounded-xl p-6 shadow-md hover:shadow-lg hover:border-[#1E3A8A] transition-all border border-gray-100 text-center group">
-          <span class="font-semibold text-gray-900 group-hover:text-[#1E3A8A]"><?php echo $name; ?></span>
+        <a href="/migraine-treatment/haryana/<?php echo $slug; ?>/" class="bg-white rounded-xl p-6 shadow-md hover:shadow-lg hover:border-[#328CCB] transition-all border border-gray-100 text-center group">
+          <span class="font-semibold text-gray-900 group-hover:text-[#328CCB]"><?php echo $name; ?></span>
         </a>
       <?php endforeach; ?>
     </div>
@@ -83,22 +83,22 @@ include 'includes/head.php';
       <h2 class="text-2xl font-bold text-gray-900 mb-6 text-center">Why Choose Akropolis Hospital for Migraine Treatment?</h2>
       <div class="grid md:grid-cols-3 gap-6">
         <div class="text-center">
-          <div class="bg-[#1E3A8A]/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-            <?php echo getIcon('Stethoscope', 'h-8 w-8 text-[#1E3A8A]'); ?>
+          <div class="bg-[#328CCB]/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+            <?php echo getIcon('Stethoscope', 'h-8 w-8 text-[#328CCB]'); ?>
           </div>
           <h3 class="font-bold text-gray-900 mb-2">Expert Neurologist</h3>
           <p class="text-gray-600 text-sm">Dr. Priya Sharma with 12+ years experience in migraine treatment</p>
         </div>
         <div class="text-center">
-          <div class="bg-[#1E3A8A]/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-            <?php echo getIcon('Pill', 'h-8 w-8 text-[#1E3A8A]'); ?>
+          <div class="bg-[#328CCB]/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+            <?php echo getIcon('Pill', 'h-8 w-8 text-[#328CCB]'); ?>
           </div>
           <h3 class="font-bold text-gray-900 mb-2">Advanced Treatment</h3>
           <p class="text-gray-600 text-sm">Botox therapy, trigger point injections, and latest medications</p>
         </div>
         <div class="text-center">
-          <div class="bg-[#1E3A8A]/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-            <?php echo getIcon('Shield', 'h-8 w-8 text-[#1E3A8A]'); ?>
+          <div class="bg-[#328CCB]/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+            <?php echo getIcon('Shield', 'h-8 w-8 text-[#328CCB]'); ?>
           </div>
           <h3 class="font-bold text-gray-900 mb-2">Insurance Accepted</h3>
           <p class="text-gray-600 text-sm">Cashless treatment with all major insurance providers</p>

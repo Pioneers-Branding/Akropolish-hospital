@@ -27,7 +27,7 @@ foreach ($doctors as $d) {
 ?>
 
 <!-- Emergency Bar -->
-<div class="bg-[#EA580C] text-white py-2 px-4 text-center sticky top-0 z-50">
+<div class="bg-[#D66C43] text-white py-2 px-4 text-center sticky top-0 z-50">
   <div class="container mx-auto flex items-center justify-center space-x-2">
     <?php echo getIcon('Phone', 'h-4 w-4'); ?>
     <span class="font-semibold text-sm md:text-base">
@@ -45,13 +45,13 @@ foreach ($doctors as $d) {
     <div class="container mx-auto px-4 py-4">
       <nav class="flex text-sm text-gray-500" aria-label="Breadcrumb">
         <ol class="flex items-center space-x-2">
-          <li><a href="/" class="hover:text-[#1E3A8A]">Home</a></li>
+          <li><a href="/" class="hover:text-[#328CCB]">Home</a></li>
           <li><?php echo getIcon('ChevronRight', 'h-4 w-4'); ?></li>
-          <li><a href="/plastic-surgery" class="hover:text-[#1E3A8A]">Plastic Surgery</a></li>
+          <li><a href="/plastic-surgery" class="hover:text-[#328CCB]">Plastic Surgery</a></li>
           <li><?php echo getIcon('ChevronRight', 'h-4 w-4'); ?></li>
-          <li><a href="/plastic-surgery/haryana/" class="hover:text-[#1E3A8A]">Haryana</a></li>
+          <li><a href="/plastic-surgery/haryana/" class="hover:text-[#328CCB]">Haryana</a></li>
           <li><?php echo getIcon('ChevronRight', 'h-4 w-4'); ?></li>
-          <li class="text-[#1E3A8A] font-medium"><?php echo $district_display; ?></li>
+          <li class="text-[#328CCB] font-medium"><?php echo $district_display; ?></li>
         </ol>
       </nav>
     </div>
@@ -66,12 +66,12 @@ foreach ($doctors as $d) {
             <img
               src="<?php echo htmlspecialchars($doctor['image']); ?>"
               alt="<?php echo htmlspecialchars($doctor['name']); ?>"
-              class="w-32 h-32 rounded-full object-cover border-4 border-[#1E3A8A]/20 mx-auto mb-4"
+              class="w-32 h-32 rounded-full object-cover border-4 border-[#328CCB]/20 mx-auto mb-4"
             />
             <h3 class="text-2xl font-bold text-gray-900 mb-2">
               <?php echo htmlspecialchars($doctor['name']); ?>
             </h3>
-            <p class="text-[#1E3A8A] font-semibold text-lg mb-2">
+            <p class="text-[#328CCB] font-semibold text-lg mb-2">
               Plastic & Reconstructive Surgeon
             </p>
             <p class="text-gray-600 mb-4">
@@ -86,8 +86,8 @@ foreach ($doctors as $d) {
 
           <div class="space-y-4 mb-8">
             <div class="flex items-center space-x-3">
-              <div class="bg-[#1E3A8A]/10 p-2 rounded-lg">
-                <?php echo getIcon('Award', 'h-5 w-5 text-[#1E3A8A]'); ?>
+              <div class="bg-[#328CCB]/10 p-2 rounded-lg">
+                <?php echo getIcon('Award', 'h-5 w-5 text-[#328CCB]'); ?>
               </div>
               <div>
                 <p class="font-semibold text-gray-900">Experience</p>
@@ -96,7 +96,7 @@ foreach ($doctors as $d) {
             </div>
           </div>
 
-          <a href="tel:<?php echo CONTACT_INFO['phone']; ?>" class="bg-[#1E3A8A] hover:bg-[#1E40AF] text-white w-full py-4 rounded-xl font-bold flex items-center justify-center space-x-2 transition-all duration-300 shadow-md">
+          <a href="tel:<?php echo CONTACT_INFO['phone']; ?>" class="bg-[#328CCB] hover:bg-[#2a7bb5] text-white w-full py-4 rounded-xl font-bold flex items-center justify-center space-x-2 transition-all duration-300 shadow-md">
             <?php echo getIcon('Calendar', 'h-5 w-5'); ?>
             <span>Book Appointment</span>
           </a>
@@ -130,20 +130,20 @@ foreach ($doctors as $d) {
 
             <h3 class="text-2xl font-bold text-gray-900 mt-8 mb-4">हमारी मुख्य सेवाएं (Specialized Services)</h3>
             <ul class="grid md:grid-cols-2 gap-4 list-none pl-0">
-                <li class="flex items-center space-x-2 bg-blue-50 p-3 rounded-lg border-l-4 border-[#1E3A8A]">
-                    <?php echo getIcon('Sparkles', 'h-5 w-5 text-[#1E3A8A]'); ?>
+                <li class="flex items-center space-x-2 bg-blue-50 p-3 rounded-lg border-l-4 border-[#328CCB]">
+                    <?php echo getIcon('Sparkles', 'h-5 w-5 text-[#328CCB]'); ?>
                     <span>लाइपोसक्शन और बॉडी कॉन्टूरिंग</span>
                 </li>
-                <li class="flex items-center space-x-2 bg-blue-50 p-3 rounded-lg border-l-4 border-[#1E3A8A]">
-                    <?php echo getIcon('CheckCircle', 'h-5 w-5 text-[#1E3A8A]'); ?>
+                <li class="flex items-center space-x-2 bg-blue-50 p-3 rounded-lg border-l-4 border-[#328CCB]">
+                    <?php echo getIcon('CheckCircle', 'h-5 w-5 text-[#328CCB]'); ?>
                     <span>हेयर ट्रांसप्लांट सर्जरी</span>
                 </li>
-                <li class="flex items-center space-x-2 bg-blue-50 p-3 rounded-lg border-l-4 border-[#1E3A8A]">
-                    <?php echo getIcon('Activity', 'h-5 w-5 text-[#1E3A8A]'); ?>
+                <li class="flex items-center space-x-2 bg-blue-50 p-3 rounded-lg border-l-4 border-[#328CCB]">
+                    <?php echo getIcon('Activity', 'h-5 w-5 text-[#328CCB]'); ?>
                     <span>निशान और बर्न सर्जरी (Scar Removal)</span>
                 </li>
-                <li class="flex items-center space-x-2 bg-blue-50 p-3 rounded-lg border-l-4 border-[#1E3A8A]">
-                    <?php echo getIcon('Heart', 'h-5 w-5 text-[#1E3A8A]'); ?>
+                <li class="flex items-center space-x-2 bg-blue-50 p-3 rounded-lg border-l-4 border-[#328CCB]">
+                    <?php echo getIcon('Heart', 'h-5 w-5 text-[#328CCB]'); ?>
                     <span>ब्रेस्ट सर्जरी (Breast Augmentation/Reduction)</span>
                 </li>
             </ul>
@@ -154,8 +154,8 @@ foreach ($doctors as $d) {
                 आप सड़क मार्ग (By Road) या ट्रेन/मेट्रो द्वारा आसानी से हमारे पास पहुँच सकते हैं।
             </p>
 
-            <div class="bg-blue-50 p-8 rounded-2xl border-2 border-dashed border-[#1E3A8A]/20 mt-12">
-                <h4 class="text-xl font-bold text-[#1E3A8A] mb-4">विशेष नोट (Special Note)</h4>
+            <div class="bg-blue-50 p-8 rounded-2xl border-2 border-dashed border-[#328CCB]/20 mt-12">
+                <h4 class="text-xl font-bold text-[#328CCB] mb-4">विशेष नोट (Special Note)</h4>
                 <p class="mb-4">
                     डॉ राहुल जैन गुरुग्राम स्थित मुख्य ब्रांच में बैठते हैं। <?php echo $district_display; ?> के मरीज़ों के लिए हम **प्रायोरिटी अपॉइंटमेंट (Priority Appointment)** और **कैशलेस इंश्योरेंस** की सुविधा प्रदान करते हैं।
                 </p>
@@ -196,7 +196,7 @@ foreach ($doctors as $d) {
               <div class="border rounded-xl overflow-hidden">
                 <button onclick="toggleFaq(<?php echo $index; ?>)" class="w-full px-6 py-4 flex items-center justify-between hover:bg-gray-50 transition-colors text-left">
                   <span class="font-bold text-gray-900"><?php echo $faq['q']; ?></span>
-                  <?php echo getIcon('ChevronDown', 'h-5 w-5 text-[#1E3A8A] transition-transform duration-200 faq-icon-' . $index); ?>
+                  <?php echo getIcon('ChevronDown', 'h-5 w-5 text-[#328CCB] transition-transform duration-200 faq-icon-' . $index); ?>
                 </button>
                 <div id="faq-answer-<?php echo $index; ?>" class="hidden px-6 py-4 bg-gray-50 text-gray-700 border-t">
                   <?php echo $faq['a']; ?>

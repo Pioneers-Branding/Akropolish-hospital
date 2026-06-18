@@ -19,7 +19,7 @@ include dirname(__DIR__) . '/includes/head.php';
 ?>
 
 <!-- Emergency Bar -->
-<div class="bg-[#EA580C] text-white py-2 px-4 text-center sticky top-0 z-50">
+<div class="bg-[#D66C43] text-white py-2 px-4 text-center sticky top-0 z-50">
   <div class="container mx-auto flex items-center justify-center space-x-2">
     <?php echo getIcon('Phone', 'h-4 w-4'); ?>
     <span class="font-semibold text-sm md:text-base">
@@ -37,13 +37,13 @@ include dirname(__DIR__) . '/includes/head.php';
     <div class="container mx-auto px-4 py-4">
       <nav class="flex text-sm text-gray-500" aria-label="Breadcrumb">
         <ol class="flex items-center space-x-2">
-          <li><a href="/" class="hover:text-[#1E3A8A]">Home</a></li>
+          <li><a href="/" class="hover:text-[#328CCB]">Home</a></li>
           <li><?php echo getIcon('ChevronRight', 'h-4 w-4'); ?></li>
-          <li><a href="/cardiology" class="hover:text-[#1E3A8A]">दिल की देखभाल</a></li>
+          <li><a href="/cardiology" class="hover:text-[#328CCB]">दिल की देखभाल</a></li>
           <li><?php echo getIcon('ChevronRight', 'h-4 w-4'); ?></li>
-          <li><a href="/dil-ka-doctor/haryana/" class="hover:text-[#1E3A8A]">Haryana</a></li>
+          <li><a href="/dil-ka-doctor/haryana/" class="hover:text-[#328CCB]">Haryana</a></li>
           <li><?php echo getIcon('ChevronRight', 'h-4 w-4'); ?></li>
-          <li class="text-[#1E3A8A] font-medium"><?php echo $district_display; ?></li>
+          <li class="text-[#328CCB] font-medium"><?php echo $district_display; ?></li>
         </ol>
       </nav>
     </div>
@@ -109,7 +109,7 @@ include dirname(__DIR__) . '/includes/head.php';
             <span>अपॉइंटमेंट बुक करें</span>
           </a>
 
-          <a href="tel:<?php echo CONTACT_INFO['emergency']; ?>" class="bg-[#EA580C] hover:bg-[#C2410C] text-white w-full py-4 rounded-xl font-bold flex items-center justify-center space-x-2 transition-all duration-300 shadow-md mt-4">
+          <a href="tel:<?php echo CONTACT_INFO['emergency']; ?>" class="bg-[#D66C43] hover:bg-[#c55a36] text-white w-full py-4 rounded-xl font-bold flex items-center justify-center space-x-2 transition-all duration-300 shadow-md mt-4">
             <?php echo getIcon('Phone', 'h-5 w-5'); ?>
             <span>इमरजेंसी: <?php echo CONTACT_INFO['emergency']; ?></span>
           </a>

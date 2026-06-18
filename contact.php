@@ -12,7 +12,7 @@ include 'includes/head.php';
 ?>
 
 <!-- Emergency Bar -->
-<div class="bg-[#EA580C] text-white py-2 px-4 text-center sticky top-0 z-50">
+<div class="bg-[#D66C43] text-white py-2 px-4 text-center sticky top-0 z-50">
   <div class="container mx-auto flex items-center justify-center space-x-2">
     <?php echo getIcon('Phone', 'h-4 w-4'); ?>
     <span class="font-semibold text-sm md:text-base">
@@ -26,12 +26,12 @@ include 'includes/head.php';
 
 <main>
   <!-- Hero Section -->
-  <section class="relative bg-gradient-to-r from-[#1E3A8A] to-[#1E40AF] text-white overflow-hidden">
+  <section class="relative bg-gradient-to-r from-[#328CCB] to-[#2a7bb5] text-white overflow-hidden">
     <div
       class="absolute inset-0 bg-cover bg-center bg-no-repeat"
       style="background-image: url('https://images.pexels.com/photos/236380/pexels-photo-236380.jpeg?auto=compress&cs=tinysrgb&w=1600');"
     >
-      <div class="absolute inset-0 bg-[#1E3A8A] bg-opacity-75"></div>
+      <div class="absolute inset-0 bg-[#328CCB] bg-opacity-75"></div>
     </div>
 
     <div class="relative container mx-auto px-4 py-20 lg:py-32">
@@ -57,13 +57,13 @@ include 'includes/head.php';
   <section class="py-20 bg-gray-50">
     <div class="container mx-auto px-4">
       <div class="text-center mb-12">
-        <div class="inline-flex items-center space-x-2 bg-[#1E3A8A]/10 text-[#1E3A8A] px-4 py-2 rounded-full text-sm font-medium mb-6">
+        <div class="inline-flex items-center space-x-2 bg-[#328CCB]/10 text-[#328CCB] px-4 py-2 rounded-full text-sm font-medium mb-6">
           <?php echo getIcon('Calendar', 'h-4 w-4'); ?>
           <span>Book Appointment</span>
         </div>
         <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
           Schedule Your
-          <span class="text-[#1E3A8A]"> Appointment</span>
+          <span class="text-[#328CCB]"> Appointment</span>
         </h2>
         <p class="text-gray-600 text-lg max-w-3xl mx-auto leading-relaxed">
           Fill out the form below and our team will contact you within 24 hours to confirm your appointment.
@@ -79,7 +79,7 @@ include 'includes/head.php';
         <!-- Contact Form -->
         <div class="bg-gray-50 rounded-3xl shadow-xl p-8 lg:p-12 floating-card">
           <div class="mb-8">
-            <div class="inline-flex items-center space-x-2 bg-[#EA580C]/10 text-[#EA580C] px-4 py-2 rounded-full text-sm font-medium mb-6">
+            <div class="inline-flex items-center space-x-2 bg-[#D66C43]/10 text-[#D66C43] px-4 py-2 rounded-full text-sm font-medium mb-6">
               <?php echo getIcon('Calendar', 'h-4 w-4'); ?>
               <span>Book Appointment</span>
             </div>
@@ -106,7 +106,7 @@ include 'includes/head.php';
                   id="name"
                   name="name"
                   required
-                  class="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1E3A8A] focus:border-[#1E3A8A] transition-colors duration-200 form-input"
+                  class="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#328CCB] focus:border-[#328CCB] transition-colors duration-200 form-input"
                   placeholder="Enter your full name"
                 />
               </div>
@@ -126,7 +126,7 @@ include 'includes/head.php';
                   id="email"
                   name="email"
                   required
-                  class="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1E3A8A] focus:border-[#1E3A8A] transition-colors duration-200 form-input"
+                  class="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#328CCB] focus:border-[#328CCB] transition-colors duration-200 form-input"
                   placeholder="Enter your email address"
                 />
               </div>
@@ -145,7 +145,7 @@ include 'includes/head.php';
                   type="tel"
                   id="phone"
                   name="phone"
-                  class="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1E3A8A] focus:border-[#1E3A8A] transition-colors duration-200 form-input"
+                  class="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#328CCB] focus:border-[#328CCB] transition-colors duration-200 form-input"
                   placeholder="Enter your phone number"
                 />
               </div>
@@ -160,7 +160,7 @@ include 'includes/head.php';
                 id="subject"
                 name="subject"
                 required
-                class="block w-full px-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1E3A8A] focus:border-[#1E3A8A] transition-colors duration-200 form-input"
+                class="block w-full px-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#328CCB] focus:border-[#328CCB] transition-colors duration-200 form-input"
               >
                 <option value="">Select department</option>
                 <option value="orthopedics">Orthopedics</option>
@@ -187,7 +187,7 @@ include 'includes/head.php';
                   name="message"
                   rows="5"
                   required
-                  class="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1E3A8A] focus:border-[#1E3A8A] transition-colors duration-200 resize-none form-input"
+                  class="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#328CCB] focus:border-[#328CCB] transition-colors duration-200 resize-none form-input"
                   placeholder="Please describe your inquiry or message..."
                 ></textarea>
               </div>
@@ -199,9 +199,9 @@ include 'includes/head.php';
                 Security Check *
               </label>
               <div class="flex items-center gap-3">
-                <div class="flex-1 bg-gradient-to-r from-[#1E3A8A]/10 to-[#EA580C]/10 border border-[#1E3A8A]/30 rounded-lg px-4 py-3 flex items-center justify-between">
+                <div class="flex-1 bg-gradient-to-r from-[#328CCB]/10 to-[#D66C43]/10 border border-[#328CCB]/30 rounded-lg px-4 py-3 flex items-center justify-between">
                   <span id="captcha-question" class="font-bold text-gray-800 text-lg tracking-widest select-none"></span>
-                  <button type="button" id="captcha-refresh" onclick="generateCaptcha()" title="Refresh" class="text-[#1E3A8A] hover:text-[#1E40AF] transition-colors duration-200 ml-2 flex-shrink-0" aria-label="Refresh CAPTCHA">
+                  <button type="button" id="captcha-refresh" onclick="generateCaptcha()" title="Refresh" class="text-[#328CCB] hover:text-[#2a7bb5] transition-colors duration-200 ml-2 flex-shrink-0" aria-label="Refresh CAPTCHA">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
                   </button>
                 </div>
@@ -212,7 +212,7 @@ include 'includes/head.php';
                   name="captcha_answer"
                   required
                   autocomplete="off"
-                  class="w-24 px-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1E3A8A] focus:border-[#1E3A8A] transition-colors duration-200 text-center font-bold text-lg form-input"
+                  class="w-24 px-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#328CCB] focus:border-[#328CCB] transition-colors duration-200 text-center font-bold text-lg form-input"
                   placeholder="?"
                 />
               </div>
@@ -223,7 +223,7 @@ include 'includes/head.php';
             <button
               type="submit"
               id="form-submit-btn"
-              class="w-full bg-[#EA580C] hover:bg-[#C2410C] text-white px-6 py-4 rounded-lg font-semibold transition-all duration-300 flex items-center justify-center space-x-2 transform hover:scale-105 shadow-lg cta-glow"
+              class="w-full bg-[#D66C43] hover:bg-[#c55a36] text-white px-6 py-4 rounded-lg font-semibold transition-all duration-300 flex items-center justify-center space-x-2 transform hover:scale-105 shadow-lg cta-glow"
             >
               <?php echo getIcon('Calendar', 'h-5 w-5'); ?>
               <span>Book Appointment</span>
@@ -232,7 +232,7 @@ include 'includes/head.php';
             <!-- Form Note -->
             <p class="text-sm text-gray-500 text-center">
               We'll get back to you within 24 hours. For emergencies, please call
-              <a href="tel:<?php echo CONTACT_INFO['emergency']; ?>" class="text-[#EA580C] font-semibold hover:underline">
+              <a href="tel:<?php echo CONTACT_INFO['emergency']; ?>" class="text-[#D66C43] font-semibold hover:underline">
                 <?php echo CONTACT_INFO['emergency']; ?>
               </a>
             </p>
@@ -290,8 +290,8 @@ include 'includes/head.php';
           <!-- Operating Hours -->
           <div class="bg-white rounded-2xl shadow-lg border border-gray-100 p-8 service-card">
             <div class="flex items-center space-x-3 mb-6">
-              <div class="bg-[#1E3A8A]/10 p-3 rounded-xl">
-                <?php echo getIcon('Clock', 'h-6 w-6 text-[#1E3A8A]'); ?>
+              <div class="bg-[#328CCB]/10 p-3 rounded-xl">
+                <?php echo getIcon('Clock', 'h-6 w-6 text-[#328CCB]'); ?>
               </div>
               <div>
                 <h3 class="text-2xl font-bold text-gray-900">Operating Hours</h3>
@@ -312,11 +312,11 @@ include 'includes/head.php';
 
               foreach ($operatingHours as $hour):
               ?>
-                <div class="flex items-center justify-between p-4 rounded-lg <?php echo $hour['highlight'] ? 'bg-[#EA580C]/10 border border-[#EA580C]/20' : 'bg-gray-50'; ?>">
-                  <span class="font-semibold <?php echo $hour['highlight'] ? 'text-[#EA580C]' : 'text-gray-700'; ?>">
+                <div class="flex items-center justify-between p-4 rounded-lg <?php echo $hour['highlight'] ? 'bg-[#D66C43]/10 border border-[#D66C43]/20' : 'bg-gray-50'; ?>">
+                  <span class="font-semibold <?php echo $hour['highlight'] ? 'text-[#D66C43]' : 'text-gray-700'; ?>">
                     <?php echo $hour['day']; ?>
                   </span>
-                  <span class="font-bold <?php echo $hour['highlight'] ? 'text-[#EA580C]' : 'text-gray-900'; ?>">
+                  <span class="font-bold <?php echo $hour['highlight'] ? 'text-[#D66C43]' : 'text-gray-900'; ?>">
                     <?php echo $hour['time']; ?>
                   </span>
                 </div>
@@ -327,8 +327,8 @@ include 'includes/head.php';
           <!-- Hospital Features -->
           <div class="bg-white rounded-2xl shadow-lg border border-gray-100 p-8 service-card">
             <div class="flex items-center space-x-3 mb-6">
-              <div class="bg-[#EA580C]/10 p-3 rounded-xl">
-                <?php echo getIcon('Award', 'h-6 w-6 text-[#EA580C]'); ?>
+              <div class="bg-[#D66C43]/10 p-3 rounded-xl">
+                <?php echo getIcon('Award', 'h-6 w-6 text-[#D66C43]'); ?>
               </div>
               <div>
                 <h3 class="text-2xl font-bold text-gray-900">Why Choose Us</h3>
@@ -350,7 +350,7 @@ include 'includes/head.php';
               foreach ($features as $feature):
               ?>
                 <div class="flex items-center space-x-3">
-                  <?php echo getIcon('CheckCircle', 'h-5 w-5 text-[#EA580C] flex-shrink-0'); ?>
+                  <?php echo getIcon('CheckCircle', 'h-5 w-5 text-[#D66C43] flex-shrink-0'); ?>
                   <span class="text-gray-700 font-medium"><?php echo $feature; ?></span>
                 </div>
               <?php endforeach; ?>
@@ -365,13 +365,13 @@ include 'includes/head.php';
   <section class="py-20 bg-gray-50">
     <div class="container mx-auto px-4">
       <div class="text-center mb-16">
-        <div class="inline-flex items-center space-x-2 bg-[#1E3A8A]/10 text-[#1E3A8A] px-4 py-2 rounded-full text-sm font-medium mb-6">
+        <div class="inline-flex items-center space-x-2 bg-[#328CCB]/10 text-[#328CCB] px-4 py-2 rounded-full text-sm font-medium mb-6">
           <?php echo getIcon('MapPin', 'h-4 w-4'); ?>
           <span>Find Us</span>
         </div>
         <h3 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
           Visit Our
-          <span class="text-[#1E3A8A]"> Hospital</span>
+          <span class="text-[#328CCB]"> Hospital</span>
         </h3>
         <p class="text-gray-600 text-lg max-w-3xl mx-auto leading-relaxed">
           Located in Jhajjar with easy accessibility and ample parking facilities.
@@ -402,8 +402,8 @@ include 'includes/head.php';
 
             <div class="space-y-6 mb-8">
               <div class="flex items-start space-x-4">
-                <div class="bg-[#1E3A8A]/10 p-3 rounded-lg flex-shrink-0">
-                  <?php echo getIcon('MapPin', 'h-6 w-6 text-[#1E3A8A]'); ?>
+                <div class="bg-[#328CCB]/10 p-3 rounded-lg flex-shrink-0">
+                  <?php echo getIcon('MapPin', 'h-6 w-6 text-[#328CCB]'); ?>
                 </div>
                 <div>
                   <h4 class="font-bold text-gray-900 mb-1">Address</h4>
@@ -440,7 +440,7 @@ include 'includes/head.php';
               href="https://maps.app.goo.gl/GdmJvL8Yuz1VUMvw8"
               target="_blank"
               rel="noopener noreferrer"
-              class="bg-[#EA580C] hover:bg-[#C2410C] text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-2 shadow-lg cta-glow"
+              class="bg-[#D66C43] hover:bg-[#c55a36] text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-2 shadow-lg cta-glow"
             >
               <?php echo getIcon('Navigation', 'h-5 w-5'); ?>
               <span>Get Directions</span>

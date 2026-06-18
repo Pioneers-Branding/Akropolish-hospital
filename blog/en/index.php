@@ -37,7 +37,7 @@ include __DIR__ . '/../../includes/head.php';
 ?>
 
 <!-- Emergency Bar -->
-<div class="bg-[#EA580C] text-white py-2 px-4 text-center sticky top-0 z-50">
+<div class="bg-[#D66C43] text-white py-2 px-4 text-center sticky top-0 z-50">
   <div class="container mx-auto flex items-center justify-center space-x-2">
     <?php echo getIcon('Phone', 'h-4 w-4'); ?>
     <span class="font-semibold text-sm md:text-base">
@@ -51,18 +51,18 @@ include __DIR__ . '/../../includes/head.php';
 
 <main>
   <!-- Hero Section -->
-  <section class="relative bg-gradient-to-r from-[#1E3A8A] to-[#1E40AF] text-white overflow-hidden">
+  <section class="relative bg-gradient-to-r from-[#328CCB] to-[#2a7bb5] text-white overflow-hidden">
     <div
       class="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
       style="background-image: url('https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg?auto=compress&cs=tinysrgb&w=1600');"
     ></div>
-    <div class="absolute inset-0 bg-gradient-to-r from-[#1E3A8A]/90 to-[#1E40AF]/90"></div>
+    <div class="absolute inset-0 bg-gradient-to-r from-[#328CCB]/90 to-[#2a7bb5]/90"></div>
 
     <div class="relative container mx-auto px-4 py-16 lg:py-24">
       <div class="max-w-4xl mx-auto text-center">
         <!-- Language Switcher -->
         <div class="inline-flex items-center bg-white/10 backdrop-blur-sm rounded-full p-1 mb-6 text-sm">
-          <span class="px-4 py-1.5 rounded-full bg-white text-[#1E3A8A] font-semibold">English</span>
+          <span class="px-4 py-1.5 rounded-full bg-white text-[#328CCB] font-semibold">English</span>
           <a href="/blog/hi" class="px-4 py-1.5 rounded-full text-white/80 hover:text-white">हिंदी</a>
         </div>
 
@@ -92,7 +92,7 @@ include __DIR__ . '/../../includes/head.php';
             />
             <button
               type="submit"
-              class="absolute right-2 top-1/2 -translate-y-1/2 bg-[#EA580C] hover:bg-[#C2410C] text-white p-3 rounded-full transition-colors"
+              class="absolute right-2 top-1/2 -translate-y-1/2 bg-[#D66C43] hover:bg-[#c55a36] text-white p-3 rounded-full transition-colors"
               aria-label="Search"
             >
               <?php echo getIcon('Search', 'h-5 w-5'); ?>
@@ -112,7 +112,7 @@ include __DIR__ . '/../../includes/head.php';
         $categories = array_unique(array_column($published_blogs, 'category'));
         sort($categories);
         foreach ($categories as $cat): ?>
-          <span class="whitespace-nowrap bg-[#1E3A8A]/10 text-[#1E3A8A] hover:bg-[#1E3A8A] hover:text-white px-4 py-2 rounded-full text-sm font-medium transition-colors cursor-pointer">
+          <span class="whitespace-nowrap bg-[#328CCB]/10 text-[#328CCB] hover:bg-[#328CCB] hover:text-white px-4 py-2 rounded-full text-sm font-medium transition-colors cursor-pointer">
             <?php echo htmlspecialchars($cat); ?>
           </span>
         <?php endforeach; ?>
@@ -125,7 +125,7 @@ include __DIR__ . '/../../includes/head.php';
   <section class="py-12 lg:py-16 bg-gray-50">
     <div class="container mx-auto px-4">
       <div class="flex items-center space-x-2 mb-6">
-        <span class="bg-[#EA580C] text-white px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide">
+        <span class="bg-[#D66C43] text-white px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-wide">
           Latest
         </span>
         <h2 class="text-2xl lg:text-3xl font-bold text-gray-900">Just Published</h2>
@@ -140,7 +140,7 @@ include __DIR__ . '/../../includes/head.php';
               alt="<?php echo htmlspecialchars($featured['title']); ?>"
               class="w-full h-full object-cover"
             />
-            <span class="absolute top-4 left-4 bg-white/90 backdrop-blur-sm text-[#1E3A8A] px-3 py-1 rounded-full text-xs font-semibold">
+            <span class="absolute top-4 left-4 bg-white/90 backdrop-blur-sm text-[#328CCB] px-3 py-1 rounded-full text-xs font-semibold">
               <?php echo htmlspecialchars($featured['category']); ?>
             </span>
           </div>
@@ -155,21 +155,21 @@ include __DIR__ . '/../../includes/head.php';
                 <span><?php echo $featured['read_time']; ?></span>
               </div>
             </div>
-            <h3 class="text-2xl lg:text-3xl font-bold text-gray-900 mb-4 group-hover:text-[#1E3A8A] transition-colors">
+            <h3 class="text-2xl lg:text-3xl font-bold text-gray-900 mb-4 group-hover:text-[#328CCB] transition-colors">
               <?php echo htmlspecialchars($featured['title']); ?>
             </h3>
             <p class="text-gray-600 leading-relaxed mb-6">
               <?php echo htmlspecialchars($featured['excerpt']); ?>
             </p>
             <div class="flex items-center space-x-3">
-              <div class="w-10 h-10 bg-[#1E3A8A]/10 rounded-full flex items-center justify-center text-[#1E3A8A] font-bold">
+              <div class="w-10 h-10 bg-[#328CCB]/10 rounded-full flex items-center justify-center text-[#328CCB] font-bold">
                 <?php echo strtoupper(substr($featured['author'], 0, 1)); ?>
               </div>
               <div>
                 <div class="text-sm font-semibold text-gray-900"><?php echo htmlspecialchars($featured['author']); ?></div>
                 <div class="text-xs text-gray-500">Medical Specialist</div>
               </div>
-              <span class="ml-auto inline-flex items-center space-x-1 text-[#1E3A8A] font-semibold group-hover:translate-x-1 transition-transform">
+              <span class="ml-auto inline-flex items-center space-x-1 text-[#328CCB] font-semibold group-hover:translate-x-1 transition-transform">
                 <span>Read More</span>
                 <?php echo getIcon('ArrowRight', 'h-4 w-4'); ?>
               </span>
@@ -185,12 +185,12 @@ include __DIR__ . '/../../includes/head.php';
   <section id="blog-grid" class="py-12 lg:py-20 bg-white">
     <div class="container mx-auto px-4">
       <div class="text-center mb-12">
-        <div class="inline-flex items-center space-x-2 bg-[#1E3A8A]/10 text-[#1E3A8A] px-4 py-2 rounded-full text-sm font-medium mb-4">
+        <div class="inline-flex items-center space-x-2 bg-[#328CCB]/10 text-[#328CCB] px-4 py-2 rounded-full text-sm font-medium mb-4">
           <?php echo getIcon('FileText', 'h-4 w-4'); ?>
           <span>Latest Articles</span>
         </div>
         <h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-3">
-          Recent <span class="text-[#1E3A8A]">Articles</span>
+          Recent <span class="text-[#328CCB]">Articles</span>
         </h3>
         <p class="text-gray-600 max-w-2xl mx-auto">
           Hand-picked medical insights and health guidance from our specialists.
@@ -213,7 +213,7 @@ include __DIR__ . '/../../includes/head.php';
                   loading="lazy"
                   class="w-full h-full object-cover"
                 />
-                <span class="absolute top-3 left-3 bg-white/90 backdrop-blur-sm text-[#1E3A8A] px-3 py-1 rounded-full text-xs font-semibold">
+                <span class="absolute top-3 left-3 bg-white/90 backdrop-blur-sm text-[#328CCB] px-3 py-1 rounded-full text-xs font-semibold">
                   <?php echo htmlspecialchars($blog['category']); ?>
                 </span>
               </a>
@@ -230,7 +230,7 @@ include __DIR__ . '/../../includes/head.php';
                   </div>
                 </div>
 
-                <h3 class="text-lg font-bold text-gray-900 mb-2 leading-snug group-hover:text-[#1E3A8A] transition-colors">
+                <h3 class="text-lg font-bold text-gray-900 mb-2 leading-snug group-hover:text-[#328CCB] transition-colors">
                   <a href="<?php echo blog_post_url($lang, $blog['slug']); ?>">
                     <?php echo htmlspecialchars($blog['title']); ?>
                   </a>
@@ -242,7 +242,7 @@ include __DIR__ . '/../../includes/head.php';
 
                 <div class="flex items-center justify-between pt-4 border-t border-gray-100">
                   <div class="flex items-center space-x-2">
-                    <div class="w-8 h-8 bg-[#1E3A8A]/10 rounded-full flex items-center justify-center text-[#1E3A8A] font-bold text-xs">
+                    <div class="w-8 h-8 bg-[#328CCB]/10 rounded-full flex items-center justify-center text-[#328CCB] font-bold text-xs">
                       <?php echo strtoupper(substr($blog['author'], 0, 1)); ?>
                     </div>
                     <span class="text-xs text-gray-700 font-medium">
@@ -251,7 +251,7 @@ include __DIR__ . '/../../includes/head.php';
                   </div>
                   <a
                     href="<?php echo blog_post_url($lang, $blog['slug']); ?>"
-                    class="inline-flex items-center space-x-1 text-[#1E3A8A] hover:text-[#1E40AF] text-sm font-semibold"
+                    class="inline-flex items-center space-x-1 text-[#328CCB] hover:text-[#2a7bb5] text-sm font-semibold"
                   >
                     <span>Read</span>
                     <?php echo getIcon('ArrowRight', 'h-3.5 w-3.5'); ?>
@@ -266,7 +266,7 @@ include __DIR__ . '/../../includes/head.php';
   </section>
 
   <!-- CTA Section -->
-  <section class="py-16 bg-gradient-to-r from-[#1E3A8A] to-[#1E40AF] text-white">
+  <section class="py-16 bg-gradient-to-r from-[#328CCB] to-[#2a7bb5] text-white">
     <div class="container mx-auto px-4 text-center max-w-3xl">
       <div class="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full text-sm font-medium mb-4">
         <?php echo getIcon('Calendar', 'h-4 w-4 text-yellow-300'); ?>
@@ -280,7 +280,7 @@ include __DIR__ . '/../../includes/head.php';
       </p>
       <a
         href="/contact"
-        class="inline-flex items-center space-x-2 bg-[#EA580C] hover:bg-[#C2410C] text-white px-8 py-4 rounded-full font-semibold text-lg transition-colors shadow-lg"
+        class="inline-flex items-center space-x-2 bg-[#D66C43] hover:bg-[#c55a36] text-white px-8 py-4 rounded-full font-semibold text-lg transition-colors shadow-lg"
       >
         <?php echo getIcon('Calendar', 'h-5 w-5'); ?>
         <span>Book Appointment</span>

@@ -41,20 +41,20 @@ $districts = [
           onclick="toggleServingAreas()" 
           class="flex items-center space-x-3 cursor-pointer select-none group"
         >
-          <div class="bg-[#1E3A8A]/10 p-2 rounded-lg group-hover:bg-[#1E3A8A]/20 transition-colors">
-            <?php echo getIcon('MapPin', 'h-6 w-6 text-[#1E3A8A]'); ?>
+          <div class="bg-[#328CCB]/10 p-2 rounded-lg group-hover:bg-[#328CCB]/20 transition-colors">
+            <?php echo getIcon('MapPin', 'h-6 w-6 text-[#328CCB]'); ?>
           </div>
           <h2 class="text-3xl font-bold text-gray-900 flex items-center gap-2">
             We are serving in these areas
             <span class="transform transition-transform duration-200" id="serving-chevron">
-              <?php echo getIcon('ChevronDown', 'h-6 w-6 text-gray-500 group-hover:text-[#1E3A8A]'); ?>
+              <?php echo getIcon('ChevronDown', 'h-6 w-6 text-gray-500 group-hover:text-[#328CCB]'); ?>
             </span>
           </h2>
         </div>
         <div class="relative w-full md:w-80">
           <select 
             onchange="if(this.value) window.location.href=this.value;" 
-            class="block w-full bg-white border border-gray-300 rounded-xl px-4 py-3 pr-10 text-gray-700 font-medium focus:outline-none focus:ring-2 focus:ring-[#1E3A8A] focus:border-[#1E3A8A] cursor-pointer appearance-none shadow-sm transition-all"
+            class="block w-full bg-white border border-gray-300 rounded-xl px-4 py-3 pr-10 text-gray-700 font-medium focus:outline-none focus:ring-2 focus:ring-[#328CCB] focus:border-[#328CCB] cursor-pointer appearance-none shadow-sm transition-all"
           >
             <option value="">Select Your Location / District</option>
             <?php foreach ($districts as $slug => $name): ?>
@@ -72,8 +72,8 @@ $districts = [
       <div id="serving-areas-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-12 hidden">
         <?php foreach ($districts as $slug => $name): ?>
           <div class="group">
-            <a href="/orthopedic-hospital/haryana/<?php echo $slug; ?>/" class="flex items-center space-x-3 text-gray-600 hover:text-[#1E3A8A] transition-colors duration-200">
-              <div class="h-1.5 w-1.5 bg-gray-300 rounded-full group-hover:bg-[#1E3A8A] transition-colors"></div>
+            <a href="/orthopedic-hospital/haryana/<?php echo $slug; ?>/" class="flex items-center space-x-3 text-gray-600 hover:text-[#328CCB] transition-colors duration-200">
+              <div class="h-1.5 w-1.5 bg-gray-300 rounded-full group-hover:bg-[#328CCB] transition-colors"></div>
               <span class="font-medium">Best Orthopedic Hospital in <?php echo $name; ?></span>
             </a>
           </div>

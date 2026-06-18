@@ -18,7 +18,7 @@
         </p>
 
         <!-- Emergency Contact Highlight -->
-        <div class="bg-[#EA580C] rounded-lg p-4 mb-6 emergency-glow">
+        <div class="bg-[#D66C43] rounded-lg p-4 mb-6 emergency-glow">
           <div class="flex items-center space-x-3">
             <?php echo getIcon('Phone', 'h-5 w-5'); ?>
             <div>
@@ -30,13 +30,13 @@
 
         <!-- Social Media -->
         <div class="flex space-x-4">
-          <a href="https://www.facebook.com/profile.php?id=61580596171533#" target="_blank" class="bg-gray-800 hover:bg-[#1E3A8A] p-2 rounded-lg transition-colors duration-200" rel="noopener noreferrer">
+          <a href="https://www.facebook.com/profile.php?id=61580596171533#" target="_blank" class="bg-gray-800 hover:bg-[#328CCB] p-2 rounded-lg transition-colors duration-200" rel="noopener noreferrer">
             <?php echo getIcon('Facebook', 'h-5 w-5'); ?>
           </a>
-          <a href="https://www.instagram.com/akropolishospital/" target="_blank" class="bg-gray-800 hover:bg-[#EA580C] p-2 rounded-lg transition-colors duration-200" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/akropolishospital/" target="_blank" class="bg-gray-800 hover:bg-[#D66C43] p-2 rounded-lg transition-colors duration-200" rel="noopener noreferrer">
             <?php echo getIcon('Instagram', 'h-5 w-5'); ?>
           </a>
-          <a href="https://www.youtube.com/@akropolishospital/videos" target="_blank" class="bg-gray-800 hover:bg-[#EA580C] p-2 rounded-lg transition-colors duration-200" rel="noopener noreferrer">
+          <a href="https://www.youtube.com/@akropolishospital/videos" target="_blank" class="bg-gray-800 hover:bg-[#D66C43] p-2 rounded-lg transition-colors duration-200" rel="noopener noreferrer">
             <?php echo getIcon('Youtube', 'h-5 w-5'); ?>
           </a>
         </div>
@@ -158,14 +158,14 @@
   <div class="flex space-x-3">
     <a
       href="tel:<?php echo CONTACT_INFO['emergency']; ?>"
-      class="flex-1 bg-[#EA580C] hover:bg-[#C2410C] text-white px-4 py-3 rounded-lg font-semibold text-center transition-all duration-300 flex items-center justify-center space-x-2 shadow-lg emergency-glow"
+      class="flex-1 bg-[#D66C43] hover:bg-[#c55a36] text-white px-4 py-3 rounded-lg font-semibold text-center transition-all duration-300 flex items-center justify-center space-x-2 shadow-lg emergency-glow"
     >
       <?php echo getIcon('Phone', 'h-5 w-5'); ?>
       <span>Emergency</span>
     </a>
     <a
       href="/contact"
-      class="nav-link flex-1 bg-[#1E3A8A] hover:bg-[#1E40AF] text-white px-4 py-3 rounded-lg font-semibold text-center transition-all duration-300 flex items-center justify-center space-x-2 shadow-lg"
+      class="nav-link flex-1 bg-[#328CCB] hover:bg-[#2a7bb5] text-white px-4 py-3 rounded-lg font-semibold text-center transition-all duration-300 flex items-center justify-center space-x-2 shadow-lg"
       data-page="contact"
     >
       <?php echo getIcon('Calendar', 'h-5 w-5'); ?>
