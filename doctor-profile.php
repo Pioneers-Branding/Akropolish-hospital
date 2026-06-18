@@ -80,7 +80,6 @@ $lastName = isset($nameParts[count($nameParts) - 1]) ? $nameParts[count($namePar
             <h1 class="text-2xl font-bold text-gray-900 mb-2">
               <?php echo htmlspecialchars($doctor['name']); ?>
             </h1>
-        <h2 class="sr-only">Doctor Profile Overview</h2>
             <p class="text-[#1E3A8A] font-semibold text-lg mb-2">
               <?php echo htmlspecialchars($doctor['specialization']); ?>
             </p>
@@ -157,7 +156,7 @@ $lastName = isset($nameParts[count($nameParts) - 1]) ? $nameParts[count($namePar
             <div class="bg-[#1E3A8A]/10 p-3 rounded-xl">
               <?php echo getIcon('Stethoscope', 'h-6 w-6 text-[#1E3A8A]'); ?>
             </div>
-            <h3 class="text-2xl font-bold text-gray-900">About Dr. <?php echo htmlspecialchars($lastName); ?></h3>
+            <h2 class="text-2xl font-bold text-gray-900">About Dr. <?php echo htmlspecialchars($lastName); ?></h2>
           </div>
 
           <p class="text-gray-700 leading-relaxed text-lg">

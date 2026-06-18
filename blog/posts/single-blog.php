@@ -57,8 +57,7 @@ if (!$blog) {
     $schema_blocks = [];
     include __DIR__ . '/../../includes/head.php';
     echo '<main class="py-32 text-center">';
-    echo '<h1 class="text-4xl font-bold text-gray-900 mb-4">' . ($lang === 'hi' ? 'ब्लॉग पोस्ट नहीं मिली' : 'Blog Not Found') . '</h1>
-        <h2 class="sr-only">Article Content</h2>';
+    echo '<h1 class="text-4xl font-bold text-gray-900 mb-4">' . ($lang === 'hi' ? 'ब्लॉग पोस्ट नहीं मिली' : 'Blog Not Found') . '</h1>';
     echo '<p class="text-gray-600 mb-8">The blog post you are looking for does not exist.</p>';
     echo '<a href="/blog/' . $lang . '" class="bg-[#1E3A8A] text-white px-6 py-3 rounded-lg inline-block">' . ($lang === 'hi' ? 'ब्लॉग पर वापस जाएं' : 'Back to Blog') . '</a>';
     echo '</main>';
@@ -214,9 +213,9 @@ include __DIR__ . '/../../includes/head.php';
       <!-- Inline CTA 1 -->
       <div class="my-12 bg-gradient-to-r from-[#1E3A8A] to-[#1E40AF] text-white rounded-2xl p-8 text-center shadow-xl">
         <?php echo getIcon('Calendar', 'h-10 w-10 mx-auto mb-3 text-yellow-300'); ?>
-        <h3 class="text-2xl font-bold mb-2">
+        <h2 class="text-2xl font-bold mb-2">
           <?php echo $lang === 'hi' ? 'विशेषज्ञ से परामर्श लें' : 'Consult Our Specialist'; ?>
-        </h3>
+        </h2>
         <p class="text-blue-100 mb-6">
           <?php echo $lang === 'hi'
             ? 'अक्रोपोलिस हॉस्पिटल के अनुभवी डॉक्टरों से अपॉइंटमेंट बुक करें।'
