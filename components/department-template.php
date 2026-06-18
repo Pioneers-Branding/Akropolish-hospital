@@ -178,10 +178,10 @@ $pageDept = $deptConfig[$dept_key];
           <?php echo getIcon('Target', 'h-4 w-4'); ?>
           <span>Our Treatment Philosophy</span>
         </div>
-        <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+        <h3 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
           Comprehensive Treatment
           <span class="text-[#328CCB]"> Approaches</span>
-        </h2>
+        </h3>
         <p class="text-gray-600 text-lg max-w-3xl mx-auto leading-relaxed">
           From prevention to advanced interventions, we provide complete care
           tailored to each patient's unique needs.
@@ -224,10 +224,10 @@ $pageDept = $deptConfig[$dept_key];
           <?php echo getIcon('Stethoscope', 'h-4 w-4'); ?>
           <span>Our Services</span>
         </div>
-        <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+        <h3 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
           Comprehensive <?php echo $pageDept['name']; ?>
           <span class="text-[#328CCB]"> Services</span>
-        </h2>
+        </h3>
         <p class="text-gray-600 text-lg max-w-3xl mx-auto leading-relaxed">
           From diagnostic testing to advanced procedures, we provide
           complete care under one roof.
@@ -260,10 +260,10 @@ $pageDept = $deptConfig[$dept_key];
             <?php echo getIcon('Activity', 'h-4 w-4'); ?>
             <span>Conditions We Treat</span>
           </div>
-          <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+          <h3 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
             <?php echo $pageDept['name']; ?> Conditions
             <span class="text-[#328CCB]"> We Specialize In</span>
-          </h2>
+          </h3>
           <p class="text-gray-600 text-lg leading-relaxed">
             Our experienced team treats a wide range of conditions
             with personalized treatment plans designed for optimal outcomes.
@@ -297,9 +297,9 @@ $pageDept = $deptConfig[$dept_key];
                 <span><?php echo $section['badge']['text']; ?></span>
               </div>
             <?php endif; ?>
-            <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+            <h3 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
               <?php echo $section['title']; ?>
-            </h2>
+            </h3>
             <?php if (!empty($section['description'])): ?>
               <p class="text-gray-600 text-lg max-w-3xl mx-auto leading-relaxed">
                 <?php echo $section['description']; ?>
@@ -340,10 +340,10 @@ $pageDept = $deptConfig[$dept_key];
           <?php echo getIcon('BookOpen', 'h-4 w-4'); ?>
           <span>Patient Resources</span>
         </div>
-        <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+        <h3 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
           Resources for
           <span class="text-[#328CCB]"> Patients & Families</span>
-        </h2>
+        </h3>
         <p class="text-gray-600 text-lg max-w-3xl mx-auto leading-relaxed">
           Comprehensive resources to support your health journey and recovery.
         </p>
@@ -373,10 +373,10 @@ $pageDept = $deptConfig[$dept_key];
           <?php echo getIcon('Info', 'h-4 w-4'); ?>
           <span>Frequently Asked Questions</span>
         </div>
-        <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+        <h3 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
           Common Questions About
           <span class="text-[#328CCB]"> <?php echo $pageDept['name']; ?></span>
-        </h2>
+        </h3>
         <p class="text-gray-600 text-lg max-w-3xl mx-auto leading-relaxed">
           Find answers to common questions about <?php echo strtolower($pageDept['name']); ?> services.
         </p>
@@ -413,10 +413,10 @@ $pageDept = $deptConfig[$dept_key];
             <?php echo getIcon('Calendar', 'h-4 w-4'); ?>
             <span>Book Consultation</span>
           </div>
-          <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+          <h3 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
             Schedule Your <?php echo $pageDept['name']; ?>
             <span class="text-[#328CCB]"> Consultation</span>
-          </h2>
+          </h3>
           <p class="text-gray-600 text-lg leading-relaxed">
             Begin your journey to better health. Fill out the form below
             and we will contact you to schedule your appointment.
@@ -598,12 +598,12 @@ $pageDept = $deptConfig[$dept_key];
               <div class="bg-[#328CCB]/10 p-2 rounded-lg group-hover:bg-[#328CCB]/20 transition-colors">
                 <?php echo getIcon('MapPin', 'h-6 w-6 text-[#328CCB]'); ?>
               </div>
-              <h2 class="text-3xl font-bold text-gray-900 flex items-center gap-2">
+              <h3 class="text-3xl font-bold text-gray-900 flex items-center gap-2">
                 Serving Across Haryana
                 <span class="transform transition-transform duration-200" id="serving-chevron">
                   <?php echo getIcon('ChevronDown', 'h-6 w-6 text-gray-500 group-hover:text-[#328CCB]'); ?>
                 </span>
-              </h2>
+              </h3>
             </div>
             <div class="relative w-full md:w-80">
               <select 

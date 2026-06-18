@@ -176,7 +176,7 @@ $lastName = isset($nameParts[count($nameParts) - 1]) ? $nameParts[count($namePar
             <div class="bg-[#328CCB]/10 p-3 rounded-xl">
               <?php echo getIcon('Stethoscope', 'h-6 w-6 text-[#328CCB]'); ?>
             </div>
-            <h2 class="text-2xl font-bold text-gray-900">About Dr. <?php echo htmlspecialchars($lastName); ?></h2>
+            <h3 class="text-2xl font-bold text-gray-900">About Dr. <?php echo htmlspecialchars($lastName); ?></h3>
           </div>
 
           <p class="text-gray-700 leading-relaxed text-lg">
@@ -191,7 +191,7 @@ $lastName = isset($nameParts[count($nameParts) - 1]) ? $nameParts[count($namePar
               <div class="bg-[#D66C43]/10 p-3 rounded-xl">
                 <?php echo getIcon('GraduationCap', 'h-6 w-6 text-[#D66C43]'); ?>
               </div>
-              <h2 class="text-2xl font-bold text-gray-900">Education</h2>
+              <h3 class="text-2xl font-bold text-gray-900">Education</h3>
             </div>
 
             <div class="space-y-4">
@@ -213,7 +213,7 @@ $lastName = isset($nameParts[count($nameParts) - 1]) ? $nameParts[count($namePar
               <div class="bg-green-100 p-3 rounded-xl">
                 <?php echo getIcon('CheckCircle', 'h-6 w-6 text-green-600'); ?>
               </div>
-              <h2 class="text-2xl font-bold text-gray-900">Services Provided</h2>
+              <h3 class="text-2xl font-bold text-gray-900">Services Provided</h3>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -234,7 +234,7 @@ $lastName = isset($nameParts[count($nameParts) - 1]) ? $nameParts[count($namePar
               <div class="bg-blue-100 p-3 rounded-xl">
                 <?php echo getIcon('Briefcase', 'h-6 w-6 text-blue-600'); ?>
               </div>
-              <h2 class="text-2xl font-bold text-gray-900">Professional Experience</h2>
+              <h3 class="text-2xl font-bold text-gray-900">Professional Experience</h3>
             </div>
 
             <div class="space-y-4">
@@ -256,7 +256,7 @@ $lastName = isset($nameParts[count($nameParts) - 1]) ? $nameParts[count($namePar
               <div class="bg-amber-100 p-3 rounded-xl">
                 <?php echo getIcon('FileText', 'h-6 w-6 text-amber-600'); ?>
               </div>
-              <h2 class="text-2xl font-bold text-gray-900">Research & Publications</h2>
+              <h3 class="text-2xl font-bold text-gray-900">Research & Publications</h3>
             </div>
 
             <div class="space-y-3">
@@ -277,7 +277,7 @@ $lastName = isset($nameParts[count($nameParts) - 1]) ? $nameParts[count($namePar
               <div class="bg-teal-100 p-3 rounded-xl">
                 <?php echo getIcon('Users', 'h-6 w-6 text-teal-600'); ?>
               </div>
-              <h2 class="text-2xl font-bold text-gray-900">Professional Memberships</h2>
+              <h3 class="text-2xl font-bold text-gray-900">Professional Memberships</h3>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -297,7 +297,7 @@ $lastName = isset($nameParts[count($nameParts) - 1]) ? $nameParts[count($namePar
             <div class="bg-purple-100 p-3 rounded-xl">
               <?php echo getIcon('Phone', 'h-6 w-6 text-purple-600'); ?>
             </div>
-            <h2 class="text-2xl font-bold text-gray-900">Contact Information</h2>
+            <h3 class="text-2xl font-bold text-gray-900">Contact Information</h3>
           </div>
 
           <div class="grid grid-cols-1 md:grid-cols-2 gap-6">

@@ -85,10 +85,10 @@ $districts = [
 
         <!-- Areas We Serve -->
         <div class="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
-          <h2 class="text-2xl font-bold text-gray-900 mb-8 flex items-center gap-3">
+          <h3 class="text-2xl font-bold text-gray-900 mb-8 flex items-center gap-3">
             <?php echo getIcon('MapPin', 'h-6 w-6 text-[#328CCB]'); ?>
             हम इन क्षेत्रों में अपनी सेवाएं दे रहे हैं
-          </h2>
+          </h3>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             <?php foreach ($districts as $slug => $name): ?>
               <a href="/haddi-ka-doctor/haryana/<?php echo $slug; ?>" class="flex items-center space-x-3 p-3 rounded-lg border border-gray-100 hover:border-[#328CCB] hover:bg-blue-50 transition-all group">

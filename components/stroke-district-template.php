@@ -139,7 +139,7 @@ include dirname(__DIR__) . '/includes/head.php';
   <section class="py-16 bg-gray-50 border-y border-gray-200">
     <div class="container mx-auto px-4">
       <div class="text-center mb-12">
-        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Advanced Stroke Treatments We Offer</h2>
+        <h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Advanced Stroke Treatments We Offer</h3>
         <p class="text-gray-600">Comprehensive stroke care for patients from <?php echo $district_display; ?></p>
       </div>
       <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
@@ -167,7 +167,7 @@ include dirname(__DIR__) . '/includes/head.php';
     <div class="container mx-auto px-4">
       <div class="max-w-6xl mx-auto">
         <div class="text-center mb-12">
-          <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Why Choose Akropolis for Stroke Treatment?</h2>
+          <h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Why Choose Akropolis for Stroke Treatment?</h3>
           <p class="text-gray-600">Trusted stroke care for patients from <?php echo $district_display; ?> and all of Haryana</p>
         </div>
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -223,7 +223,7 @@ include dirname(__DIR__) . '/includes/head.php';
     <div class="container mx-auto px-4">
       <div class="max-w-4xl mx-auto">
         <div class="text-center mb-12">
-          <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
+          <h3 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h3>
           <p class="text-gray-600">About stroke treatment for patients from <?php echo $district_display; ?></p>
         </div>
         <div class="space-y-4">
@@ -257,7 +257,7 @@ include dirname(__DIR__) . '/includes/head.php';
       <div class="max-w-6xl mx-auto">
         <div class="flex items-center space-x-3 mb-12">
           <div class="bg-purple-100 p-2 rounded-lg"><?php echo getIcon('MapPin', 'h-6 w-6 text-purple-500'); ?></div>
-          <h2 class="text-3xl font-bold text-gray-900">Stroke Treatment Across Haryana</h2>
+          <h3 class="text-3xl font-bold text-gray-900">Stroke Treatment Across Haryana</h3>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-12">
           <?php
@@ -277,7 +277,7 @@ include dirname(__DIR__) . '/includes/head.php';
     <div class="container mx-auto px-4">
       <div class="max-w-4xl mx-auto">
         <div class="text-center mb-16">
-          <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">Schedule Your <span class="text-purple-500">Stroke Consultation</span></h2>
+          <h3 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">Schedule Your <span class="text-purple-500">Stroke Consultation</span></h3>
           <p class="text-gray-600 text-lg">Fill out the form below to book an appointment with our stroke specialists.</p>
         </div>
         <div class="bg-white rounded-3xl shadow-xl p-8 lg:p-12">
@@ -302,7 +302,7 @@ include dirname(__DIR__) . '/includes/head.php';
   <section class="py-20 bg-gradient-to-r from-purple-500 to-purple-600 text-white">
     <div class="container mx-auto px-4">
       <div class="max-w-4xl mx-auto text-center">
-        <h2 class="text-4xl lg:text-5xl font-bold mb-6">Need Stroke Treatment Near <?php echo $landmarks[0]; ?>?</h2>
+        <h3 class="text-4xl lg:text-5xl font-bold mb-6">Need Stroke Treatment Near <?php echo $landmarks[0]; ?>?</h3>
         <p class="text-xl text-purple-100 mb-12">Our expert stroke team is available 24/7 for consultation and emergency care. Serving <?php echo $district_display; ?> and all of Haryana. Remember: Time is Brain!</p>
         <div class="flex flex-col sm:flex-row items-center justify-center gap-6">
           <a href="#appointment-form" class="bg-white text-purple-600 hover:bg-gray-100 px-10 py-5 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-2 shadow-xl"><?php echo getIcon('Calendar', 'h-5 w-5'); ?><span>Book Appointment</span></a>

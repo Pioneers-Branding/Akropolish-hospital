@@ -170,7 +170,7 @@ include dirname(__DIR__) . '/includes/head.php';
     <div class="container mx-auto px-4">
       <div class="max-w-4xl mx-auto">
         <div class="text-center mb-12">
-          <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
+          <h3 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h3>
           <p class="text-gray-600">For patients from <?php echo $district_display; ?></p>
         </div>
         <div class="space-y-4">
@@ -213,12 +213,12 @@ include dirname(__DIR__) . '/includes/head.php';
             <div class="bg-red-100 p-2 rounded-lg group-hover:bg-red-200 transition-colors">
               <?php echo getIcon('MapPin', 'h-6 w-6 text-red-500'); ?>
             </div>
-            <h2 class="text-3xl font-bold text-gray-900 flex items-center gap-2">
+            <h3 class="text-3xl font-bold text-gray-900 flex items-center gap-2">
               We Are Serving in These Areas
               <span class="transform transition-transform duration-200" id="serving-chevron">
                 <?php echo getIcon('ChevronDown', 'h-6 w-6 text-gray-500 group-hover:text-red-500'); ?>
               </span>
-            </h2>
+            </h3>
           </div>
           <div class="relative w-full md:w-80">
             <select 
@@ -271,7 +271,7 @@ include dirname(__DIR__) . '/includes/head.php';
     <div class="container mx-auto px-4">
       <div class="max-w-4xl mx-auto">
         <div class="text-center mb-16">
-          <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">Schedule Your <span class="text-red-500">Heart Checkup</span></h2>
+          <h3 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">Schedule Your <span class="text-red-500">Heart Checkup</span></h3>
           <p class="text-gray-600 text-lg">Fill out the form below and we will contact you to schedule your appointment.</p>
         </div>
         <div class="bg-white rounded-3xl shadow-xl p-8 lg:p-12">
@@ -292,7 +292,7 @@ include dirname(__DIR__) . '/includes/head.php';
   <section class="py-20 bg-gradient-to-r from-red-500 to-red-600 text-white">
     <div class="container mx-auto px-4">
       <div class="max-w-4xl mx-auto text-center">
-        <h2 class="text-4xl lg:text-5xl font-bold mb-6">Looking for the Best Heart Hospital Near <?php echo $landmarks[0]; ?>?</h2>
+        <h3 class="text-4xl lg:text-5xl font-bold mb-6">Looking for the Best Heart Hospital Near <?php echo $landmarks[0]; ?>?</h3>
         <p class="text-xl text-red-100 mb-12">Book an appointment with our cardiac experts today. Serving <?php echo $district_display; ?> and all of Haryana.</p>
         <div class="flex flex-col sm:flex-row items-center justify-center gap-6">
           <a href="#consultation-form" class="bg-white text-red-500 hover:bg-gray-100 px-10 py-5 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-2 shadow-xl"><?php echo getIcon('Calendar', 'h-5 w-5'); ?><span>Book Appointment</span></a>

@@ -214,9 +214,9 @@ include 'includes/head.php';
           <?php echo getIcon('Heart', 'h-4 w-4'); ?>
           <span>Our Departments</span>
         </div>
-        <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mt-2 mb-6">
+        <h3 class="text-4xl lg:text-5xl font-bold text-gray-900 mt-2 mb-6">
           World-Class <span class="text-[#328CCB]">Medical Excellence</span>
-        </h2>
+        </h3>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -269,9 +269,9 @@ include 'includes/head.php';
             <?php echo getIcon('Users', 'h-4 w-4'); ?>
             <span>Expert Team</span>
           </div>
-          <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
+          <h3 class="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
             Consult Our <span class="text-[#328CCB]">Specialist Doctors</span>
-          </h2>
+          </h3>
           <p class="text-gray-600 mt-4 text-lg">
             Our expert doctors have years of training. They work hard to give you the best care possible.
           </p>
@@ -346,9 +346,9 @@ include 'includes/head.php';
           <?php echo getIcon('Quote', 'h-4 w-4'); ?>
           <span>Patient Stories</span>
         </div>
-        <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
+        <h3 class="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
           Heartfelt Journeys of <span class="text-[#328CCB]">Healing & Hope</span>
-        </h2>
+        </h3>
       </div>
 
       <div class="grid lg:grid-cols-2 gap-12 items-center">
@@ -454,7 +454,7 @@ include 'includes/head.php';
   <section class="py-16 bg-white overflow-hidden section-fade">
     <div class="container mx-auto px-4">
       <div class="text-center mb-12">
-        <h2 class="text-3xl font-bold text-gray-900">Our Insurance & TPA Partners</h2>
+        <h3 class="text-3xl font-bold text-gray-900">Our Insurance & TPA Partners</h3>
         <p class="text-gray-600 mt-2">Cashless treatment facility available with leading insurance providers</p>
       </div>
 
@@ -486,7 +486,7 @@ include 'includes/head.php';
             <?php echo getIcon('FileText', 'h-4 w-4'); ?>
             <span>Health Insights</span>
           </div>
-          <h2 class="text-4xl lg:text-5xl font-bold text-gray-900">Latest from <span class="text-[#328CCB]">Our Blog</span></h2>
+          <h3 class="text-4xl lg:text-5xl font-bold text-gray-900">Latest from <span class="text-[#328CCB]">Our Blog</span></h3>
         </div>
         <a href="/" class="text-[#328CCB] font-bold flex items-center space-x-2 hover:translate-x-2 transition-transform mt-6 md:mt-0">
           <span>Read All Articles</span>

@@ -154,7 +154,7 @@ include dirname(__DIR__) . '/includes/head.php';
     <div class="container mx-auto px-4">
       <div class="max-w-5xl mx-auto">
         <div class="text-center mb-10">
-          <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Act FAST for Stroke - Know the Warning Signs</h2>
+          <h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Act FAST for Stroke - Know the Warning Signs</h3>
           <p class="text-gray-600">Stroke requires immediate treatment. Call <?php echo CONTACT_INFO['emergency']; ?> if symptoms appear.</p>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -199,7 +199,7 @@ include dirname(__DIR__) . '/includes/head.php';
     <div class="container mx-auto px-4">
       <div class="max-w-6xl mx-auto">
         <div class="text-center mb-12">
-          <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Neurology Services We Offer</h2>
+          <h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Neurology Services We Offer</h3>
           <p class="text-gray-600">Comprehensive neurological care for <?php echo $district_display; ?></p>
         </div>
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -296,7 +296,7 @@ include dirname(__DIR__) . '/includes/head.php';
     <div class="container mx-auto px-4">
       <div class="max-w-4xl mx-auto">
         <div class="text-center mb-12">
-          <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
+          <h3 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h3>
           <p class="text-gray-600">About neurology treatment for patients from <?php echo $district_display; ?></p>
         </div>
         <div class="space-y-4">
@@ -330,7 +330,7 @@ include dirname(__DIR__) . '/includes/head.php';
       <div class="max-w-6xl mx-auto">
         <div class="flex items-center space-x-3 mb-12">
           <div class="bg-blue-100 p-2 rounded-lg"><?php echo getIcon('MapPin', 'h-6 w-6 text-blue-500'); ?></div>
-          <h2 class="text-3xl font-bold text-gray-900">Neurologist Available Across Haryana</h2>
+          <h3 class="text-3xl font-bold text-gray-900">Neurologist Available Across Haryana</h3>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-12">
           <?php
@@ -350,7 +350,7 @@ include dirname(__DIR__) . '/includes/head.php';
     <div class="container mx-auto px-4">
       <div class="max-w-4xl mx-auto">
         <div class="text-center mb-16">
-          <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">Schedule Your <span class="text-blue-500">Neurology Consultation</span></h2>
+          <h3 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">Schedule Your <span class="text-blue-500">Neurology Consultation</span></h3>
           <p class="text-gray-600 text-lg">Fill out the form below to book an appointment with our neurology experts.</p>
         </div>
         <div class="bg-white rounded-3xl shadow-xl p-8 lg:p-12">
@@ -375,7 +375,7 @@ include dirname(__DIR__) . '/includes/head.php';
   <section class="py-20 bg-gradient-to-r from-blue-500 to-blue-600 text-white">
     <div class="container mx-auto px-4">
       <div class="max-w-4xl mx-auto text-center">
-        <h2 class="text-4xl lg:text-5xl font-bold mb-6">Need a Neurologist Near <?php echo $landmarks[0]; ?>?</h2>
+        <h3 class="text-4xl lg:text-5xl font-bold mb-6">Need a Neurologist Near <?php echo $landmarks[0]; ?>?</h3>
         <p class="text-xl text-blue-100 mb-12">Our expert neurologists are available 24/7 for consultation and emergency care. Serving <?php echo $district_display; ?> and all of Haryana.</p>
         <div class="flex flex-col sm:flex-row items-center justify-center gap-6">
           <a href="#appointment-form" class="bg-white text-blue-500 hover:bg-gray-100 px-10 py-5 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-2 shadow-xl"><?php echo getIcon('Calendar', 'h-5 w-5'); ?><span>Book Appointment</span></a>

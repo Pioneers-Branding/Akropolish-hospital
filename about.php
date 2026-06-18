@@ -116,9 +116,9 @@ include 'includes/head.php';
   <section class="py-20 bg-gray-50">
     <div class="container mx-auto px-4">
       <div class="text-center mb-16">
-        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
+        <h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
           Values That <span class="text-[#328CCB]">Drive Us</span>
-        </h2>
+        </h3>
         <p class="text-gray-600 max-w-2xl mx-auto text-lg">
           Our core values are the foundation of everything we do at Akropolis Hospital.
         </p>

@@ -189,9 +189,9 @@ include __DIR__ . '/../../includes/head.php';
           <?php echo getIcon('FileText', 'h-4 w-4'); ?>
           <span>Latest Articles</span>
         </div>
-        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-3">
+        <h3 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-3">
           Recent <span class="text-[#328CCB]">Articles</span>
-        </h2>
+        </h3>
         <p class="text-gray-600 max-w-2xl mx-auto">
           Hand-picked medical insights and health guidance from our specialists.
           Newest articles appear first.
@@ -272,9 +272,9 @@ include __DIR__ . '/../../includes/head.php';
         <?php echo getIcon('Calendar', 'h-4 w-4 text-yellow-300'); ?>
         <span>Meet the Specialist</span>
       </div>
-      <h2 class="text-3xl lg:text-4xl font-bold mb-3">
+      <h3 class="text-3xl lg:text-4xl font-bold mb-3">
         Book Your Appointment Today
-      </h2>
+      </h3>
       <p class="text-blue-100 mb-8">
         Consult Akropolis Hospital's experienced specialists and get the right treatment.
       </p>

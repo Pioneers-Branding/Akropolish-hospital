@@ -189,9 +189,9 @@ include __DIR__ . '/../../includes/head.php';
           <?php echo getIcon('FileText', 'h-3.5 w-3.5 sm:h-4 sm:w-4'); ?>
           <span>नवीनतम लेख</span>
         </div>
-        <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-2 sm:mb-3 leading-tight">
+        <h3 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-2 sm:mb-3 leading-tight">
           हाल के <span class="text-[#328CCB]">लेख</span>
-        </h2>
+        </h3>
         <p class="text-sm sm:text-base text-gray-600 max-w-2xl mx-auto px-2 sm:px-0">
           हमारे विशेषज्ञों द्वारा चुने गए चिकित्सा अंतर्दृष्टि और स्वास्थ्य मार्गदर्शन। नवीनतम लेख पहले दिखाई देते हैं।
         </p>
@@ -271,9 +271,9 @@ include __DIR__ . '/../../includes/head.php';
         <?php echo getIcon('Calendar', 'h-3.5 w-3.5 sm:h-4 sm:w-4 text-yellow-300'); ?>
         <span>विशेषज्ञ से मिलें</span>
       </div>
-      <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold mb-2 sm:mb-3 leading-tight">
+      <h3 class="text-2xl sm:text-3xl lg:text-4xl font-bold mb-2 sm:mb-3 leading-tight">
         अपनी नियुक्ति अभी बुक करें
-      </h2>
+      </h3>
       <p class="text-sm sm:text-base text-blue-100 mb-6 sm:mb-8 px-2 sm:px-0">
         अक्रोपोलिस हॉस्पिटल के अनुभवी विशेषज्ञों से परामर्श लें और सही उपचार पाएं।
       </p>

@@ -291,9 +291,9 @@ include dirname(__DIR__) . '/includes/head.php';
               <?php echo getIcon('Heart', 'h-4 w-4'); ?>
               <span>About Akropolis</span>
             </div>
-            <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-6">
+            <h3 class="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-6">
               Committed to <span class="text-[#328CCB]">Healthcare Excellence</span>
-            </h2>
+            </h3>
             <p class="text-gray-600 text-lg leading-relaxed mb-6">
               Akropolis Super Speciality Hospital stands as a beacon of advanced healthcare in Haryana,
               offering comprehensive medical services with cutting-edge technology and compassionate care.
@@ -364,9 +364,9 @@ include dirname(__DIR__) . '/includes/head.php';
             <?php echo getIcon('Users', 'h-4 w-4'); ?>
             <span>Expert Team</span>
           </div>
-          <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
+          <h3 class="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
             Consult Our <span class="text-[#328CCB]">Orthopedic Specialists</span>
-          </h2>
+          </h3>
           <p class="text-gray-600 mt-4 text-lg">
             Our team of highly qualified orthopedic surgeons is dedicated to providing you with the best care.
           </p>
@@ -425,7 +425,7 @@ include dirname(__DIR__) . '/includes/head.php';
   <section class="py-16 bg-white overflow-hidden section-fade">
     <div class="container mx-auto px-4">
       <div class="text-center mb-12">
-        <h2 class="text-3xl font-bold text-gray-900">Insurance & TPA Partners</h2>
+        <h3 class="text-3xl font-bold text-gray-900">Insurance & TPA Partners</h3>
         <p class="text-gray-600 mt-2">Cashless treatment available for patients from <?php echo $district_display; ?></p>
       </div>
       <div class="insurance-slider relative">
@@ -450,7 +450,7 @@ include dirname(__DIR__) . '/includes/head.php';
             <?php echo getIcon('HelpCircle', 'h-4 w-4'); ?>
             <span>FAQ</span>
           </div>
-          <h2 class="text-4xl lg:text-5xl font-bold text-gray-900">Frequently Asked Questions</h2>
+          <h3 class="text-4xl lg:text-5xl font-bold text-gray-900">Frequently Asked Questions</h3>
           <p class="text-gray-600 mt-4">For patients from <?php echo $district_display; ?> and surrounding areas</p>
         </div>
         <div class="space-y-4">
@@ -521,12 +521,12 @@ include dirname(__DIR__) . '/includes/head.php';
             <div class="bg-[#328CCB]/10 p-2 rounded-lg group-hover:bg-[#328CCB]/20 transition-colors">
               <?php echo getIcon('MapPin', 'h-6 w-6 text-[#328CCB]'); ?>
             </div>
-            <h2 class="text-3xl font-bold text-gray-900 flex items-center gap-2">
+            <h3 class="text-3xl font-bold text-gray-900 flex items-center gap-2">
               We Are Serving in These Areas
               <span class="transform transition-transform duration-200" id="serving-chevron">
                 <?php echo getIcon('ChevronDown', 'h-6 w-6 text-gray-500 group-hover:text-[#328CCB]'); ?>
               </span>
-            </h2>
+            </h3>
           </div>
           <div class="relative w-full md:w-80">
             <select 
@@ -586,7 +586,7 @@ include dirname(__DIR__) . '/includes/head.php';
   <section class="py-20 bg-gradient-to-r from-[#328CCB] to-[#2a7bb5] text-white section-fade">
     <div class="container mx-auto px-4">
       <div class="max-w-4xl mx-auto text-center">
-        <h2 class="text-4xl lg:text-5xl font-bold mb-6">Looking for the Best Orthopedic Hospital Near <?php echo $landmarks[0]; ?>?</h2>
+        <h3 class="text-4xl lg:text-5xl font-bold mb-6">Looking for the Best Orthopedic Hospital Near <?php echo $landmarks[0]; ?>?</h3>
         <p class="text-xl text-blue-100 mb-12">
           Book an appointment with our orthopedic experts today. Serving <?php echo $district_display; ?> and all of Haryana.
         </p>

@@ -289,9 +289,9 @@ include __DIR__ . '/../../includes/head.php';
   <?php if (!empty($related)): ?>
     <section class="py-12 bg-gray-50">
       <div class="container mx-auto px-4 max-w-6xl">
-        <h2 class="text-2xl lg:text-3xl font-bold text-gray-900 mb-8 text-center">
+        <h3 class="text-2xl lg:text-3xl font-bold text-gray-900 mb-8 text-center">
           <?php echo $lang === 'hi' ? 'संबंधित लेख' : 'Related Articles'; ?>
-        </h2>
+        </h3>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
           <?php foreach ($related as $rb): ?>
             <a href="<?php echo blog_post_url($lang, $rb['slug']); ?>"

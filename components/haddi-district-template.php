@@ -197,9 +197,9 @@ include dirname(__DIR__) . '/includes/head.php';
               <?php echo getIcon('Heart', 'h-4 w-4'); ?>
               <span>About Akropolis</span>
             </div>
-            <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-6">
+            <h3 class="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-6">
               Committed to <span class="text-[#328CCB]"> Healthcare Excellence</span>
-            </h2>
+            </h3>
             <p class="text-gray-600 text-lg leading-relaxed">
               Akropolis Super Speciality Hospital stands as a beacon of advanced healthcare,
               offering comprehensive medical services with cutting-edge technology and
@@ -227,9 +227,9 @@ include dirname(__DIR__) . '/includes/head.php';
             <?php echo getIcon('Users', 'h-4 w-4'); ?>
             <span>Expert Team</span>
           </div>
-          <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
+          <h3 class="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
             Consult Our <span class="text-[#328CCB]">Specialist Doctors</span>
-          </h2>
+          </h3>
           <p class="text-gray-600 mt-4 text-lg">
             Our team of highly qualified and experienced medical professionals is dedicated to providing you with the best care.
           </p>
@@ -284,9 +284,9 @@ include dirname(__DIR__) . '/includes/head.php';
           <?php echo getIcon('Quote', 'h-4 w-4'); ?>
           <span>Patient Stories</span>
         </div>
-        <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
+        <h3 class="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
           Heartfelt Journeys of <span class="text-[#328CCB]">Healing & Hope</span>
-        </h2>
+        </h3>
       </div>
 
       <div class="grid lg:grid-cols-2 gap-12 items-center">
@@ -334,7 +334,7 @@ include dirname(__DIR__) . '/includes/head.php';
   <section class="py-16 bg-gray-50 overflow-hidden section-fade">
     <div class="container mx-auto px-4">
       <div class="text-center mb-12">
-        <h2 class="text-3xl font-bold text-gray-900">Our Insurance & TPA Partners</h2>
+        <h3 class="text-3xl font-bold text-gray-900">Our Insurance & TPA Partners</h3>
       </div>
       <div class="insurance-slider relative">
         <div class="insurance-track flex items-center animate-scroll">
@@ -358,7 +358,7 @@ include dirname(__DIR__) . '/includes/head.php';
             <?php echo getIcon('FileText', 'h-4 w-4'); ?>
             <span>Health Insights</span>
           </div>
-          <h2 class="text-4xl lg:text-5xl font-bold text-gray-900">Latest from <span class="text-[#328CCB]">Our Blog</span></h2>
+          <h3 class="text-4xl lg:text-5xl font-bold text-gray-900">Latest from <span class="text-[#328CCB]">Our Blog</span></h3>
         </div>
         <a href="/" class="text-[#328CCB] font-bold flex items-center space-x-2 hover:translate-x-2 transition-transform mt-6 md:mt-0">
           <span>Read All Articles</span>
@@ -394,7 +394,7 @@ include dirname(__DIR__) . '/includes/head.php';
   <section class="py-20 bg-white section-fade">
     <div class="container mx-auto px-4">
       <div class="max-w-4xl mx-auto">
-        <h2 class="text-3xl lg:text-4xl font-bold text-center text-gray-900 mb-12">Frequently Asked Questions</h2>
+        <h3 class="text-3xl lg:text-4xl font-bold text-center text-gray-900 mb-12">Frequently Asked Questions</h3>
         <div class="space-y-4">
           <?php
           $faqs = [

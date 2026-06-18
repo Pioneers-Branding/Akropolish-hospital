@@ -369,10 +369,10 @@ include 'includes/head.php';
           <?php echo getIcon('MapPin', 'h-4 w-4'); ?>
           <span>Find Us</span>
         </div>
-        <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
+        <h3 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
           Visit Our
           <span class="text-[#328CCB]"> Hospital</span>
-        </h2>
+        </h3>
         <p class="text-gray-600 text-lg max-w-3xl mx-auto leading-relaxed">
           Located in Jhajjar with easy accessibility and ample parking facilities.
         </p>
