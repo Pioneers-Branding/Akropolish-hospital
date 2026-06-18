@@ -230,10 +230,10 @@ include __DIR__ . '/../../includes/head.php';
       <!-- FAQ Section -->
       <?php if (!empty($blog['faqs']) && is_array($blog['faqs'])): ?>
         <section class="my-12">
-          <h2 class="text-2xl lg:text-3xl font-bold text-gray-900 mb-6 flex items-center space-x-2">
+          <h3 class="text-2xl lg:text-3xl font-bold text-gray-900 mb-6 flex items-center space-x-2">
             <?php echo getIcon('HelpCircle', 'h-7 w-7 text-[#328CCB]'); ?>
             <span><?php echo $lang === 'hi' ? 'अक्सर पूछे जाने वाले प्रश्न' : 'Frequently Asked Questions'; ?></span>
-          </h2>
+          </h3>
           <div class="space-y-4">
             <?php foreach ($blog['faqs'] as $faq): ?>
               <details class="group bg-white border border-gray-200 rounded-xl shadow-sm hover:shadow-md transition-shadow">
