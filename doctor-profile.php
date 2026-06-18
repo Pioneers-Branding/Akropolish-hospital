@@ -80,6 +80,7 @@ $lastName = isset($nameParts[count($nameParts) - 1]) ? $nameParts[count($namePar
             <h1 class="text-2xl font-bold text-gray-900 mb-2">
               <?php echo htmlspecialchars($doctor['name']); ?>
             </h1>
+        <h2 class="sr-only">Doctor Profile Overview</h2>
             <p class="text-[#328CCB] font-semibold text-lg mb-2">
               <?php echo htmlspecialchars($doctor['specialization']); ?>
             </p>

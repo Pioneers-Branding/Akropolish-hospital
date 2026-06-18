@@ -57,7 +57,8 @@ if (!$blog) {
     $schema_blocks = [];
     include __DIR__ . '/../../includes/head.php';
     echo '<main class="py-32 text-center">';
-    echo '<h1 class="text-4xl font-bold text-gray-900 mb-4">' . ($lang === 'hi' ? 'ब्लॉग पोस्ट नहीं मिली' : 'Blog Not Found') . '</h1>';
+    echo '<h1 class="text-4xl font-bold text-gray-900 mb-4">' . ($lang === 'hi' ? 'ब्लॉग पोस्ट नहीं मिली' : 'Blog Not Found') . '</h1>
+        <h2 class="sr-only">Article Content</h2>';
     echo '<p class="text-gray-600 mb-8">The blog post you are looking for does not exist.</p>';
     echo '<a href="/blog/' . $lang . '" class="bg-[#328CCB] text-white px-6 py-3 rounded-lg inline-block">' . ($lang === 'hi' ? 'ब्लॉग पर वापस जाएं' : 'Back to Blog') . '</a>';
     echo '</main>';
