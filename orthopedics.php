@@ -44,12 +44,12 @@ $districts = [
           <div class="bg-[#328CCB]/10 p-2 rounded-lg group-hover:bg-[#328CCB]/20 transition-colors">
             <?php echo getIcon('MapPin', 'h-6 w-6 text-[#328CCB]'); ?>
           </div>
-          <h2 class="text-3xl font-bold text-gray-900 flex items-center gap-2">
+          <h3 class="text-3xl font-bold text-gray-900 flex items-center gap-2">
             We are serving in these areas
             <span class="transform transition-transform duration-200" id="serving-chevron">
               <?php echo getIcon('ChevronDown', 'h-6 w-6 text-gray-500 group-hover:text-[#328CCB]'); ?>
             </span>
-          </h2>
+          </h3>
         </div>
         <div class="relative w-full md:w-80">
           <select 
