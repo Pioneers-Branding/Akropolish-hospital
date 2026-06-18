@@ -30,13 +30,13 @@
 
         <!-- Social Media -->
         <div class="flex space-x-4">
-          <a href="https://www.facebook.com/profile.php?id=61580596171533#" target="_blank" class="bg-gray-800 hover:bg-[#328CCB] p-2 rounded-lg transition-colors duration-200">
+          <a href="https://www.facebook.com/profile.php?id=61580596171533#" target="_blank" class="bg-gray-800 hover:bg-[#328CCB] p-2 rounded-lg transition-colors duration-200" rel="noopener noreferrer">
             <?php echo getIcon('Facebook', 'h-5 w-5'); ?>
           </a>
-          <a href="https://www.instagram.com/akropolishospital/" target="_blank" class="bg-gray-800 hover:bg-[#D66C43] p-2 rounded-lg transition-colors duration-200">
+          <a href="https://www.instagram.com/akropolishospital/" target="_blank" class="bg-gray-800 hover:bg-[#D66C43] p-2 rounded-lg transition-colors duration-200" rel="noopener noreferrer">
             <?php echo getIcon('Instagram', 'h-5 w-5'); ?>
           </a>
-          <a href="https://www.youtube.com/@akropolishospital/videos" target="_blank" class="bg-gray-800 hover:bg-[#D66C43] p-2 rounded-lg transition-colors duration-200">
+          <a href="https://www.youtube.com/@akropolishospital/videos" target="_blank" class="bg-gray-800 hover:bg-[#D66C43] p-2 rounded-lg transition-colors duration-200" rel="noopener noreferrer">
             <?php echo getIcon('Youtube', 'h-5 w-5'); ?>
           </a>
         </div>
@@ -44,7 +44,7 @@
 
       <!-- Quick Links -->
       <div>
-        <h3 class="text-xl font-bold mb-6">Quick Links</h3>
+        <p class="text-xl font-bold mb-6">Quick Links</p>
         <ul class="space-y-3">
           <?php
           $quickLinks = [
@@ -74,7 +74,7 @@
 
       <!-- Patient Services -->
       <div>
-        <h3 class="text-xl font-bold mb-6">Patient Services</h3>
+        <p class="text-xl font-bold mb-6">Patient Services</p>
         <ul class="space-y-3">
           <?php
           $patientServices = [
@@ -104,7 +104,7 @@
 
       <!-- Contact Info -->
       <div>
-        <h3 class="text-xl font-bold mb-6">Contact Info</h3>
+        <p class="text-xl font-bold mb-6">Contact Info</p>
         <div class="space-y-4">
           <div class="flex items-start space-x-3">
             <div class="text-gray-400 mt-1"><?php echo getIcon('MapPin', 'h-5 w-5'); ?></div>
@@ -144,7 +144,7 @@
           © 2025 Akropolis Super Speciality Hospital. All rights reserved.
         </p>
         <div class="flex space-x-6 mt-4 md:mt-0">
-          <a href="/sitemap.xml" class="text-gray-400 hover:text-white transition-colors duration-200" target="_blank">
+          <a href="/sitemap.xml" class="text-gray-400 hover:text-white transition-colors duration-200" target="_blank" rel="noopener noreferrer">
             Sitemap
           </a>
         </div>

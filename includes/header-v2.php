@@ -47,7 +47,7 @@
             <!-- Mega Menu -->
             <div id="mega-menu" class="dropdown-panel mega-menu-glass absolute left-1/2 transform -translate-x-1/2 w-screen max-w-4xl rounded-2xl shadow-2xl border border-gray-100 p-8">
               <div class="mb-6">
-                <h3 class="text-2xl font-bold text-gray-900 mb-2">Medical Departments</h3>
+                <p class="text-2xl font-bold text-gray-900 mb-2">Medical Departments</p>
                 <p class="text-gray-600">Comprehensive healthcare services across all specialties</p>
               </div>
               <div class="grid grid-cols-3 gap-6">
@@ -55,7 +55,7 @@
                   <a href="<?php echo $dept['href']; ?>" class="nav-link department-mega-item flex items-start space-x-4 p-4 rounded-xl bg-gray-50 hover:bg-[#328CCB]/5 hover:shadow-md transition-all duration-200 cursor-pointer" data-page="<?php echo ltrim($dept['href'], '/'); ?>">
                     <div class="bg-[#328CCB]/10 p-3 rounded-lg"><?php echo getIcon($dept['icon'], 'h-6 w-6 text-[#328CCB]'); ?></div>
                     <div class="flex-1">
-                      <h4 class="font-semibold text-gray-900 mb-1"><?php echo $dept['name']; ?></h4>
+                      <p class="font-semibold text-gray-900 mb-1"><?php echo $dept['name']; ?></p>
                       <p class="text-sm text-gray-600 leading-relaxed"><?php echo $dept['description']; ?></p>
                     </div>
                   </a>
@@ -74,7 +74,7 @@
             <!-- Services Dropdown -->
             <div id="services-dropdown" class="dropdown-panel mega-menu-glass absolute left-1/2 transform -translate-x-1/2 w-64 rounded-xl shadow-2xl border border-gray-100 py-4">
               <div class="px-4 py-2 border-b border-gray-100">
-                <h3 class="font-bold text-gray-900">Medical Services</h3>
+                <p class="font-bold text-gray-900">Medical Services</p>
                 <p class="text-sm text-gray-600">Advanced diagnostic services</p>
               </div>
               <div class="py-2">

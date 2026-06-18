@@ -56,7 +56,7 @@
               onmouseleave="closeMegaMenu()"
             >
               <div class="mb-6">
-                <h3 class="text-2xl font-bold text-gray-900 mb-2">Medical Departments</h3>
+                <p class="text-2xl font-bold text-gray-900 mb-2">Medical Departments</p>
                 <p class="text-gray-600">Comprehensive healthcare services across all specialties</p>
               </div>
 
@@ -104,7 +104,7 @@
               onmouseleave="closeServicesDropdown()"
             >
               <div class="px-4 py-2 border-b border-gray-100">
-                <h3 class="font-bold text-gray-900">Medical Services</h3>
+                <p class="font-bold text-gray-900">Medical Services</p>
                 <p class="text-sm text-gray-600">Advanced diagnostic services</p>
               </div>
               <div class="py-2">
