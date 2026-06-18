@@ -17,7 +17,7 @@ include __DIR__ . '/../includes/head.php';
 ?>
 
 <!-- Emergency Bar -->
-<div class="bg-[#D66C43] text-white py-2 px-4 text-center sticky top-0 z-50">
+<div class="bg-[#EA580C] text-white py-2 px-4 text-center sticky top-0 z-50">
   <div class="container mx-auto flex items-center justify-center space-x-2">
     <?php echo getIcon('Phone', 'h-4 w-4'); ?>
     <span class="font-semibold text-sm md:text-base">
@@ -31,12 +31,12 @@ include __DIR__ . '/../includes/head.php';
 
 <main>
   <!-- Hero Section -->
-  <section class="relative bg-gradient-to-r from-[#328CCB] to-[#2a7bb5] text-white overflow-hidden">
+  <section class="relative bg-gradient-to-r from-[#1E3A8A] to-[#1E40AF] text-white overflow-hidden">
     <div
       class="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-20"
       style="background-image: url('https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg?auto=compress&cs=tinysrgb&w=1600');"
     ></div>
-    <div class="absolute inset-0 bg-gradient-to-r from-[#328CCB]/90 to-[#2a7bb5]/90"></div>
+    <div class="absolute inset-0 bg-gradient-to-r from-[#1E3A8A]/90 to-[#1E40AF]/90"></div>
 
     <div class="relative container mx-auto px-4 py-16 lg:py-24">
       <div class="max-w-4xl mx-auto text-center">
@@ -61,7 +61,7 @@ include __DIR__ . '/../includes/head.php';
   <section class="py-20 bg-gray-50">
     <div class="container mx-auto px-4">
       <div class="text-center mb-12">
-        <div class="inline-flex items-center space-x-2 bg-[#328CCB]/10 text-[#328CCB] px-4 py-2 rounded-full text-sm font-medium mb-4">
+        <div class="inline-flex items-center space-x-2 bg-[#1E3A8A]/10 text-[#1E3A8A] px-4 py-2 rounded-full text-sm font-medium mb-4">
           <?php echo getIcon('Globe', 'h-4 w-4'); ?>
           <span>Choose Your Language</span>
         </div>
@@ -76,7 +76,7 @@ include __DIR__ . '/../includes/head.php';
       <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
         <!-- English -->
         <a href="/blog/en"
-           class="group bg-white rounded-3xl shadow-xl hover:shadow-2xl overflow-hidden transition-all duration-300 border-2 border-transparent hover:border-[#328CCB]">
+           class="group bg-white rounded-3xl shadow-xl hover:shadow-2xl overflow-hidden transition-all duration-300 border-2 border-transparent hover:border-[#1E3A8A]">
           <div class="relative h-48 overflow-hidden">
             <img
               src="https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg?auto=compress&cs=tinysrgb&w=800"
@@ -84,20 +84,20 @@ include __DIR__ . '/../includes/head.php';
               class="w-full h-full object-cover"
             />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-            <span class="absolute top-4 right-4 bg-white text-[#328CCB] px-3 py-1 rounded-full text-xs font-bold uppercase">
+            <span class="absolute top-4 right-4 bg-white text-[#1E3A8A] px-3 py-1 rounded-full text-xs font-bold uppercase">
               English
             </span>
             <span class="absolute bottom-4 left-4 text-white text-3xl font-bold">EN</span>
           </div>
           <div class="p-8">
-            <h3 class="text-2xl font-bold text-gray-900 mb-3 group-hover:text-[#328CCB] transition-colors">
+            <h3 class="text-2xl font-bold text-gray-900 mb-3 group-hover:text-[#1E3A8A] transition-colors">
               English Articles
             </h3>
             <p class="text-gray-600 leading-relaxed mb-6">
               Browse the latest health articles written in English by our medical specialists.
               Topics include cardiology, orthopedics, pediatrics, neurology, and more.
             </p>
-            <span class="inline-flex items-center space-x-2 text-[#328CCB] font-semibold group-hover:translate-x-1 transition-transform">
+            <span class="inline-flex items-center space-x-2 text-[#1E3A8A] font-semibold group-hover:translate-x-1 transition-transform">
               <span>Read English Blog</span>
               <?php echo getIcon('ArrowRight', 'h-4 w-4'); ?>
             </span>
@@ -106,7 +106,7 @@ include __DIR__ . '/../includes/head.php';
 
         <!-- Hindi -->
         <a href="/blog/hi"
-           class="group bg-white rounded-3xl shadow-xl hover:shadow-2xl overflow-hidden transition-all duration-300 border-2 border-transparent hover:border-[#D66C43]">
+           class="group bg-white rounded-3xl shadow-xl hover:shadow-2xl overflow-hidden transition-all duration-300 border-2 border-transparent hover:border-[#EA580C]">
           <div class="relative h-48 overflow-hidden">
             <img
               src="https://images.pexels.com/photos/8460059/pexels-photo-8460059.jpeg?auto=compress&cs=tinysrgb&w=800"
@@ -114,20 +114,20 @@ include __DIR__ . '/../includes/head.php';
               class="w-full h-full object-cover"
             />
             <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-            <span class="absolute top-4 right-4 bg-white text-[#D66C43] px-3 py-1 rounded-full text-xs font-bold uppercase">
+            <span class="absolute top-4 right-4 bg-white text-[#EA580C] px-3 py-1 rounded-full text-xs font-bold uppercase">
               हिंदी
             </span>
             <span class="absolute bottom-4 left-4 text-white text-3xl font-bold">हि</span>
           </div>
           <div class="p-8">
-            <h3 class="text-2xl font-bold text-gray-900 mb-3 group-hover:text-[#D66C43] transition-colors">
+            <h3 class="text-2xl font-bold text-gray-900 mb-3 group-hover:text-[#EA580C] transition-colors">
               हिंदी लेख
             </h3>
             <p class="text-gray-600 leading-relaxed mb-6">
               हमारे चिकित्सा विशेषज्ञों द्वारा हिंदी में लिखे गए नवीनतम स्वास्थ्य लेख पढ़ें।
               हृदय रोग, हड्डी रोग, बाल रोग, न्यूरोलॉजी और अधिक विषय शामिल हैं।
             </p>
-            <span class="inline-flex items-center space-x-2 text-[#D66C43] font-semibold group-hover:translate-x-1 transition-transform">
+            <span class="inline-flex items-center space-x-2 text-[#EA580C] font-semibold group-hover:translate-x-1 transition-transform">
               <span>हिंदी ब्लॉग पढ़ें</span>
               <?php echo getIcon('ArrowRight', 'h-4 w-4'); ?>
             </span>

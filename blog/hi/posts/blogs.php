@@ -81,7 +81,7 @@ $blogs = [
 <h3>7. घुटने के जोड़ के आकार में स्पष्ट बदलाव या विकृति आना</h3>
 <p>यदि आपका घुटना बाहर की तरफ मुड़ा हुआ (Bow-legged) या अंदर की तरफ झुका हुआ (Knock-kneed) दिखाई देने लगा है, तो यह जोड़ की गंभीर क्षति को दर्शाता है। कार्टिलेज के पूरी तरह घिस जाने से हड्डियां टेढ़ी होने लगती हैं। ऐसी स्थिति में जोड़ को और अधिक खराब होने से बचाने के लिए तुरंत विशेषज्ञ से मिलना आवश्यक है।</p>
 
-<div class="bg-blue-50 border-l-4 border-[#328CCB] p-6 my-8 rounded">
+<div class="bg-blue-50 border-l-4 border-[#1E3A8A] p-6 my-8 rounded">
   <p class="font-semibold text-gray-900 mb-2">🏥 विशेषज्ञ सलाह: घुटने की सेहत</p>
   <p>घुटने का दर्द केवल असहजता नहीं है, यह आपके जीवन की गुणवत्ता को प्रभावित करता है। यदि आप उपरोक्त में से किसी भी लक्षण का सामना कर रहे हैं, तो तुरंत अक्रोपोलिस हॉस्पिटल के ऑर्थोपेडिक विभाग से संपर्क करें ताकि सही समय पर सटीक निदान मिल सके।</p>
 </div>
@@ -114,10 +114,10 @@ $blogs = [
   <li><strong>घुटना प्रतिस्थापन सर्जरी (Knee Replacement Surgery):</strong> गंभीर रूप से क्षतिग्रस्त कार्टिलेज को हटाकर उसकी जगह धातु और प्लास्टिक के कृत्रिम जोड़ (Implants) लगाए जाते हैं। अक्रोपोलिस हॉस्पिटल में की जाने वाली आधुनिक <a href="/orthopedics">Knee Replacement Surgery</a> से मरीज बिना किसी दर्द के दोबारा सामान्य रूप से चलने-फिरने में पूरी तरह सक्षम हो जाते हैं। रोबोटिक-असिस्टेड तकनीक से सर्जरी की सटीकता और जोड़ की लाइफ और अधिक बढ़ जाती है।</li>
 </ul>
 
-<div class="my-8 bg-[#328CCB]/10 p-6 rounded-xl text-center">
+<div class="my-8 bg-[#1E3A8A]/10 p-6 rounded-xl text-center">
   <p class="font-semibold text-gray-900 mb-3">📞 अपॉइंटमेंट बुक करें और दर्द से मुक्ति पाएं</p>
   <p class="text-sm text-gray-600 mb-4">घुटने के दर्द का सही और आधुनिक इलाज पाने के लिए आज ही अक्रोपोलिस हॉस्पिटल के विशेषज्ञ डॉक्टरों से परामर्श लें।</p>
-  <a href="/contact" class="inline-block bg-[#D66C43] text-white px-8 py-3 rounded-full font-semibold transition-all hover:bg-[#c55a36]">Book an Appointment Online</a>
+  <a href="/contact" class="inline-block bg-[#EA580C] text-white px-8 py-3 rounded-full font-semibold transition-all hover:bg-[#C2410C]">Book an Appointment Online</a>
 </div>
 
 <h3>निष्कर्ष</h3>
@@ -219,10 +219,10 @@ $blogs = [
   <li><strong>स्पाइनल फ्यूजन सर्जरी (Spinal Fusion):</strong> यदि रीढ़ की दो हड्डियां आपस में खिसक रही हैं या अस्थिर हैं, तो उन्हें विशेष स्क्रू और रॉड्स की मदद से आपस में जोड़ दिया जाता है।</li>
 </ul>
 
-<div class="my-8 bg-gradient-to-r from-[#328CCB] to-[#2a7bb5] text-white p-8 rounded-2xl text-center">
+<div class="my-8 bg-gradient-to-r from-[#1E3A8A] to-[#1E40AF] text-white p-8 rounded-2xl text-center">
   <p class="text-xl font-bold mb-2">🏥 रीढ़ की समस्याओं के लिए विशेषज्ञ सलाह</p>
   <p class="mb-4">कमर दर्द से राहत पाने और रीढ़ की हड्डी को स्वस्थ बनाने के लिए आज ही अक्रोपोलिस हॉस्पिटल के स्पाइन सर्जरी विशेषज्ञों से अपॉइंटमेंट लें।</p>
-  <a href="/contact" class="inline-block bg-[#D66C43] text-white px-8 py-3 rounded-full font-bold transition-all hover:bg-[#c55a36]">Book Spine Consultation Online</a>
+  <a href="/contact" class="inline-block bg-[#EA580C] text-white px-8 py-3 rounded-full font-bold transition-all hover:bg-[#C2410C]">Book Spine Consultation Online</a>
 </div>
 
 <h3>निष्कर्ष</h3>
@@ -303,15 +303,15 @@ $blogs = [
 <h3>जोड़ों के स्वास्थ्य के लिए घरेलू उपचार और सावधानियां</h3>
 <p>आधुनिक चिकित्सा के साथ-साथ घर पर की जाने वाली कुछ सावधानियां भी जोड़ों के दर्द को नियंत्रित करने में महत्वपूर्ण भूमिका निभाती हैं। सिकाई के सही तरीकों का उपयोग करें — जब जोड़ों में तीव्र सूजन और लाली हो तो बर्फ की ठंडी सिकाई (Cold Compress) करें। यदि जोड़ में पुरानी जकड़न हो तो गर्म पानी या हीटिंग पैड से गर्म सिकाई (Hot Compress) करें। जोड़ों के दर्द के दौरान ऊँची एड़ी के जूतों (High Heels) से पूरी तरह परहेज करें और अच्छी कुशनिंग वाले जूते पहनें। जोड़ों की मालिश करते समय हल्के हाथों का उपयोग करें और जोड़ पर अत्यधिक दबाव या झटका देने से बचें। योग और ध्यान को अपनी दिनचर्या में शामिल करें जो शरीर के तनाव को कम करते हैं और जोड़ों को लचीला बनाते हैं।</p>
 
-<div class="bg-blue-50 border-l-4 border-[#328CCB] p-6 my-8 rounded">
+<div class="bg-blue-50 border-l-4 border-[#1E3A8A] p-6 my-8 rounded">
   <p class="font-bold text-gray-900 mb-2">🏥 अक्रोपोलिस हॉस्पिटल का ऑर्थोपेडिक्स विभाग</p>
   <p>हमारे पास अनुभवी सर्जनों की टीम है जो नवीनतम नैदानिक उपकरणों की मदद से जोड़ रोगों का सटीक निदान करती है। जोड़ों के दर्द के स्थायी और सुरक्षित इलाज के लिए हमारे <a href="/doctors">Orthopedic Doctors List</a> को देखें और परामर्श लें।</p>
 </div>
 
-<div class="my-8 bg-[#D66C43] text-white p-8 rounded-2xl text-center">
+<div class="my-8 bg-[#EA580C] text-white p-8 rounded-2xl text-center">
   <p class="text-xl font-bold mb-2">📞 जोड़ों के दर्द से पाएं हमेशा के लिए छुटकारा</p>
   <p class="mb-4">आज ही हमारे हड्डी रोग विशेषज्ञों से परामर्श बुक करें और दर्द-मुक्त जीवन की शुरुआत करें।</p>
-  <a href="/contact" class="inline-block bg-white text-[#D66C43] px-6 py-3 rounded-full font-bold transition-all hover:bg-gray-100">Book Appointment Online</a>
+  <a href="/contact" class="inline-block bg-white text-[#EA580C] px-6 py-3 rounded-full font-bold transition-all hover:bg-gray-100">Book Appointment Online</a>
 </div>
 
 <h3>निष्कर्ष</h3>
@@ -385,10 +385,10 @@ $blogs = [
 <h3>कब सर्जरी अपरिहार्य हो जाती है?</h3>
 <p>यदि मरीज के घुटने की घिसावट ग्रेड 4 (अंतिम चरण) में पहुंच चुकी है, जहां जोड़ की हड्डियां पूरी तरह से आपस में चिपक गई हैं, पैर टेढ़े हो गए हैं और मरीज चलने में पूरी तरह असमर्थ हो गया है, तो गैर-सर्जिकल उपचार अधिक समय तक प्रभावी नहीं रह पाते। ऐसी स्थिति में, जीवन की गुणवत्ता बहाल करने के लिए <a href="/orthopedics">Knee Replacement Surgery</a> ही एकमात्र स्थायी और सुरक्षित विकल्प बचता है। अक्रोपोलिस हॉस्पिटल में उपलब्ध अत्याधुनिक रोबोटिक घुटना प्रतिस्थापन तकनीक से सर्जरी के बाद रिकवरी बहुत तेज हो जाती है और मरीज बिना किसी सहारे के अपनी सामान्य गतिविधियां कर सकता है।</p>
 
-<div class="my-8 bg-[#328CCB]/10 p-6 rounded-xl text-center">
+<div class="my-8 bg-[#1E3A8A]/10 p-6 rounded-xl text-center">
   <p class="font-semibold text-gray-900 mb-3">📞 अक्रोपोलिस हॉस्पिटल में विशेषज्ञ परामर्श पाएं</p>
   <p class="text-sm text-gray-600 mb-4">यदि आप घुटने के दर्द से पीड़ित हैं और बिना ऑपरेशन के इसका इलाज चाहते हैं, तो हमारे अनुभवी ऑर्थोपेडिक डॉक्टरों से संपर्क करें।</p>
-  <a href="/contact" class="inline-block bg-[#D66C43] text-white px-8 py-3 rounded-full font-semibold transition-all hover:bg-[#c55a36]">Book a Consultation Online</a>
+  <a href="/contact" class="inline-block bg-[#EA580C] text-white px-8 py-3 rounded-full font-semibold transition-all hover:bg-[#C2410C]">Book a Consultation Online</a>
 </div>
 
 <h3>निष्कर्ष</h3>
@@ -495,10 +495,10 @@ $blogs = [
   <li><strong>सर्वाइकल डिस्क रिप्लेसमेंट:</strong> क्षतिग्रस्त डिस्क की जगह एक कृत्रिम डिस्क लगाई जाती है, जिससे गर्दन की प्राकृतिक गतिशीलता बनी रहती है।</li>
 </ul>
 
-<div class="my-8 bg-[#328CCB]/10 p-6 rounded-xl text-center">
+<div class="my-8 bg-[#1E3A8A]/10 p-6 rounded-xl text-center">
   <p class="font-semibold text-gray-900 mb-3">📞 अक्रोपोलिस हॉस्पिटल के विशेषज्ञों से परामर्श लें</p>
   <p class="text-sm text-gray-600 mb-4">गर्दन के दर्द और सर्वाइकल की समस्याओं के स्थायी उपचार के लिए आज ही हमारे विशेषज्ञ डॉक्टरों से अपॉइंटमेंट लें।</p>
-  <a href="/contact" class="inline-block bg-[#D66C43] text-white px-8 py-3 rounded-full font-semibold transition-all hover:bg-[#c55a36]">Book Appointment Online</a>
+  <a href="/contact" class="inline-block bg-[#EA580C] text-white px-8 py-3 rounded-full font-semibold transition-all hover:bg-[#C2410C]">Book Appointment Online</a>
 </div>
 
 <h3>निष्कर्ष</h3>
@@ -594,10 +594,10 @@ $blogs = [
   <li><strong>कोरोनरी एंजियोग्राफी (Angiography):</strong> ब्लॉकेज के सटीक स्थान और गंभीरता का पता लगाने के लिए यह सबसे महत्वपूर्ण जांच है।</li>
 </ul>
 
-<div class="my-8 bg-[#328CCB]/10 p-6 rounded-xl text-center">
+<div class="my-8 bg-[#1E3A8A]/10 p-6 rounded-xl text-center">
   <p class="font-semibold text-gray-900 mb-3">🫀 अपने हृदय की सुरक्षा सुनिश्चित करें</p>
   <p class="text-sm text-gray-600 mb-4">सीने के दर्द को नजरअंदाज़ न करें। समय पर हृदय की जांच कराने से बड़े खतरों से बचा जा सकता है। अक्रोपोलिस हॉस्पिटल में उन्नत हृदय जांच करवाएं।</p>
-  <a href="/contact" class="inline-block bg-[#D66C43] text-white px-8 py-3 rounded-full font-semibold transition-all hover:bg-[#c55a36]">Book Cardiac Checkup</a>
+  <a href="/contact" class="inline-block bg-[#EA580C] text-white px-8 py-3 rounded-full font-semibold transition-all hover:bg-[#C2410C]">Book Cardiac Checkup</a>
 </div>
 
 <h3>निष्कर्ष</h3>
@@ -667,15 +667,15 @@ $blogs = [
 <h3>हृदय को स्वस्थ रखने वाले खाद्य पदार्थ और परहेज योग्य चीजें</h3>
 <p>हृदय स्वास्थ्य को उत्तम बनाए रखने के लिए कुछ खाद्य पदार्थों को अपने दैनिक भोजन में प्राथमिकता दें। जई (Oats), जौ, और फाइबर युक्त साबुत अनाज रक्त वाहिकाओं को साफ रखते हैं। जैतून का तेल (Olive Oil) और सरसों का तेल दिल के लिए सर्वोत्तम कुकिंग ऑयल हैं। संतरे, अनार, सेब और जामुन (Berries) जैसे फल दिल को आवश्यक पोटेशियम और एंटीऑक्सीडेंट देते हैं। लहसुन (Garlic) का खाली पेट सेवन धमनियों के तनाव को कम करता है। इसके विपरीत, अत्यधिक प्रसंस्कृत खाद्य पदार्थों (Processed Foods) जैसे पैकेट बंद चिप्स, पिज्जा, बर्गर और बेकरी आइटम्स से बचें क्योंकि इनमें ट्रांस फैट और हानिकारक संतृप्त वसा प्रचुर मात्रा में होती है। कोल्ड ड्रिंक्स और डिब्बाबंद जूस का सेवन बंद करें क्योंकि इनमें चीनी की मात्रा बहुत अधिक होती है जो ट्राइग्लिसराइड के स्तर को बढ़ाती है। हृदय स्वास्थ्य से जुड़ी नियमित जांचे जैसे ईसीजी (ECG), ब्लड प्रेशर और कोलेस्ट्रॉल परीक्षण कराने से बड़ी विसंगतियों को समय रहते पहचाना जा सकता है। अक्रोपोलिस हॉस्पिटल का कार्डियोलॉजी विभाग दिल की हर बीमारी के निदान और आधुनिक उपचार के लिए हमेशा तत्पर है।</p>
 
-<div class="bg-blue-50 border-l-4 border-[#328CCB] p-6 my-8 rounded">
+<div class="bg-blue-50 border-l-4 border-[#1E3A8A] p-6 my-8 rounded">
   <p class="font-bold text-gray-900 mb-2">🏥 अक्रोपोलिस हॉस्पिटल का कार्डियोलॉजी विभाग</p>
   <p>हमारे पास हृदय रोगों के इलाज के लिए अत्याधुनिक कैथ लैब, आईसीयू और विशेषज्ञ सर्जनों की टीम उपलब्ध है। दिल की बीमारियों के शुरुआती निदान और सही इलाज के लिए हमारे विशेषज्ञ डॉक्टरों से परामर्श लें।</p>
 </div>
 
-<div class="my-8 bg-[#D66C43] text-white p-8 rounded-2xl text-center">
+<div class="my-8 bg-[#EA580C] text-white p-8 rounded-2xl text-center">
   <p class="text-xl font-bold mb-2">🫀 अपने दिल को रखें स्वस्थ और सुरक्षित</p>
   <p class="mb-4">अक्रोपोलिस हॉस्पिटल के विशेष हृदय स्वास्थ्य पैकेजों के साथ आज ही अपने दिल की जांच कराएं।</p>
-  <a href="/contact" class="inline-block bg-white text-[#D66C43] px-6 py-3 rounded-full font-bold transition-all hover:bg-gray-100">Book Heart Health Package</a>
+  <a href="/contact" class="inline-block bg-white text-[#EA580C] px-6 py-3 rounded-full font-bold transition-all hover:bg-gray-100">Book Heart Health Package</a>
 </div>
 
 <h3>निष्कर्ष</h3>
@@ -746,15 +746,15 @@ $blogs = [
 <h3>एंडोक्रिनोलॉजिस्ट की भूमिका और मधुमेह डायरी (Diabetes Journal)</h3>
 <p>मधुमेह के सफल दीर्घकालिक प्रबंधन के लिए एक योग्य एंडोक्रिनोलॉजिस्ट की भूमिका अत्यंत महत्वपूर्ण है। विशेषज्ञ डॉक्टर आपके शरीर की आवश्यकता के अनुसार इंसुलिन की सही मात्रा और दवाओं का चयन करते हैं। इसके अतिरिक्त, मरीजों को एक "डायबिटीज जर्नल" या डायरी लिखनी चाहिए, जिसमें वे अपना दैनिक शुगर स्तर, भोजन का समय, और किए गए व्यायाम का विवरण नोट करें। यह डायरी आपके डॉक्टर को आपकी स्थिति को समझने और उपचार में आवश्यक संशोधन करने में बहुत मदद करती है। नियमित परामर्श से हाइपोग्लाइसीमिया और हाइपरग्लाइसीमिया के खतरों से बचा जा सकता है।</p>
 
-<div class="bg-blue-50 border-l-4 border-[#328CCB] p-6 my-8 rounded">
+<div class="bg-blue-50 border-l-4 border-[#1E3A8A] p-6 my-8 rounded">
   <p class="font-bold text-gray-900 mb-2">🏥 अक्रोपोलिस हॉस्पिटल: मधुमेह की संपूर्ण देखभाल</p>
   <p>हमारे पास एंडोक्रिनोलॉजिस्ट, डायबिटोलॉजिस्ट, डाइटिशियन और किडनी रोग विशेषज्ञों की एक संयुक्त टीम है, जो मधुमेह के मरीजों को एक ही छत के नीचे व्यापक चिकित्सा और जीवनशैली परामर्श प्रदान करती है।</p>
 </div>
 
-<div class="my-8 bg-[#D66C43] text-white p-8 rounded-2xl text-center">
+<div class="my-8 bg-[#EA580C] text-white p-8 rounded-2xl text-center">
   <p class="text-xl font-bold mb-2">📞 मधुमेह को नियंत्रित करें, जटिलताओं से बचें</p>
   <p class="mb-4">अपने रक्त शर्करा को पूरी तरह नियंत्रित रखने और विशेषज्ञ की सलाह पाने के लिए आज ही अपॉइंटमेंट बुक करें।</p>
-  <a href="/contact" class="inline-block bg-white text-[#D66C43] px-6 py-3 rounded-full font-bold transition-all hover:bg-gray-100">Book Appointment Online</a>
+  <a href="/contact" class="inline-block bg-white text-[#EA580C] px-6 py-3 rounded-full font-bold transition-all hover:bg-gray-100">Book Appointment Online</a>
 </div>
 
 <h3>निष्कर्ष</h3>
@@ -843,15 +843,15 @@ $blogs = [
   <li>भागने-दौड़ने या भारी खेल गतिविधियों में शामिल न हों।</li>
 </ul>
 
-<div class="bg-blue-50 border-l-4 border-[#328CCB] p-6 my-8 rounded">
+<div class="bg-blue-50 border-l-4 border-[#1E3A8A] p-6 my-8 rounded">
   <p class="font-bold text-gray-900 mb-2">🏥 अक्रोपोलिस रिहैबिलिटेशन प्रोग्राम</p>
   <p>हमारे पास सर्जरी के बाद मरीजों की त्वरित और सुरक्षित रिकवरी के लिए विशेष फिजियोथेरेपी और पुनर्वास (Rehabilitation) विभाग है। हमारी टीम घर पर भी फिजियोथेरेपी सेवाएं प्रदान करती है। अधिक जानकारी के लिए <a href="/contact">Contact Akropolis Hospital</a>।</p>
 </div>
 
-<div class="my-8 bg-[#D66C43] text-white p-8 rounded-2xl text-center">
+<div class="my-8 bg-[#EA580C] text-white p-8 rounded-2xl text-center">
   <p class="text-xl font-bold mb-2">📞 दोबारा चलें बिना किसी दर्द के</p>
   <p class="mb-4">घुटना प्रतिस्थापन सर्जरी और उसके बाद की सर्वोत्तम देखभाल के लिए हमारे हड्डी रोग विभाग से संपर्क करें।</p>
-  <a href="/contact" class="inline-block bg-white text-[#D66C43] px-6 py-3 rounded-full font-bold transition-all hover:bg-gray-100">Book Appointment Online</a>
+  <a href="/contact" class="inline-block bg-white text-[#EA580C] px-6 py-3 rounded-full font-bold transition-all hover:bg-gray-100">Book Appointment Online</a>
 </div>
 
 <h3>निष्कर्ष</h3>

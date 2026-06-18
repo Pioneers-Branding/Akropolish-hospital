@@ -5,7 +5,7 @@ include 'includes/head.php';
 ?>
 
 <!-- Emergency Bar -->
-<div class="bg-[#D66C43] text-white py-2 px-4 text-center sticky top-0 z-50">
+<div class="bg-[#EA580C] text-white py-2 px-4 text-center sticky top-0 z-50">
   <div class="container mx-auto flex items-center justify-center space-x-2">
     <?php echo getIcon('Phone', 'h-4 w-4'); ?>
     <span class="font-semibold text-sm md:text-base">
@@ -19,12 +19,12 @@ include 'includes/head.php';
 
 <main class="bg-gray-50">
   <!-- Hero Section -->
-  <section class="relative bg-gradient-to-r from-[#328CCB] to-[#2a7bb5] text-white overflow-hidden">
+  <section class="relative bg-gradient-to-r from-[#1E3A8A] to-[#1E40AF] text-white overflow-hidden">
     <div
       class="absolute inset-0 bg-cover bg-center bg-no-repeat"
       style="background-image: url('https://images.pexels.com/photos/236380/pexels-photo-236380.jpeg?auto=compress&cs=tinysrgb&w=1600');"
     >
-      <div class="absolute inset-0 bg-[#328CCB] bg-opacity-75"></div>
+      <div class="absolute inset-0 bg-[#1E3A8A] bg-opacity-75"></div>
     </div>
 
     <div class="relative container mx-auto px-4 py-20 lg:py-32">
@@ -48,14 +48,14 @@ include 'includes/head.php';
         <div class="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
           <a
             href="/contact"
-            class="bg-[#D66C43] hover:bg-[#c55a36] text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-3 shadow-lg"
+            class="bg-[#EA580C] hover:bg-[#C2410C] text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-3 shadow-lg"
           >
             <?php echo getIcon('Calendar', 'h-5 w-5'); ?>
             <span>Book Appointment</span>
           </a>
           <a
             href="tel:<?php echo CONTACT_INFO['emergency']; ?>"
-            class="bg-white hover:bg-gray-50 text-[#328CCB] px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-3 shadow-lg"
+            class="bg-white hover:bg-gray-50 text-[#1E3A8A] px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-3 shadow-lg"
           >
             <?php echo getIcon('Phone', 'h-5 w-5'); ?>
             <span>Emergency: <?php echo CONTACT_INFO['emergency']; ?></span>
@@ -79,28 +79,28 @@ include 'includes/head.php';
           <button
             onclick="filterDepartments('all')"
             id="cat-all"
-            class="cat-btn px-6 py-3 rounded-full font-semibold transition-all duration-300 bg-[#D66C43] text-white shadow-lg"
+            class="cat-btn px-6 py-3 rounded-full font-semibold transition-all duration-300 bg-[#EA580C] text-white shadow-lg"
           >
             All Departments
           </button>
           <button
             onclick="filterDepartments('surgical')"
             id="cat-surgical"
-            class="cat-btn px-6 py-3 rounded-full font-semibold transition-all duration-300 bg-white text-gray-700 hover:bg-[#328CCB]/10 hover:text-[#328CCB] border border-gray-200"
+            class="cat-btn px-6 py-3 rounded-full font-semibold transition-all duration-300 bg-white text-gray-700 hover:bg-[#1E3A8A]/10 hover:text-[#1E3A8A] border border-gray-200"
           >
             Surgical
           </button>
           <button
             onclick="filterDepartments('medical')"
             id="cat-medical"
-            class="cat-btn px-6 py-3 rounded-full font-semibold transition-all duration-300 bg-white text-gray-700 hover:bg-[#328CCB]/10 hover:text-[#328CCB] border border-gray-200"
+            class="cat-btn px-6 py-3 rounded-full font-semibold transition-all duration-300 bg-white text-gray-700 hover:bg-[#1E3A8A]/10 hover:text-[#1E3A8A] border border-gray-200"
           >
             Medical
           </button>
           <button
             onclick="filterDepartments('diagnostic')"
             id="cat-diagnostic"
-            class="cat-btn px-6 py-3 rounded-full font-semibold transition-all duration-300 bg-white text-gray-700 hover:bg-[#328CCB]/10 hover:text-[#328CCB] border border-gray-200"
+            class="cat-btn px-6 py-3 rounded-full font-semibold transition-all duration-300 bg-white text-gray-700 hover:bg-[#1E3A8A]/10 hover:text-[#1E3A8A] border border-gray-200"
           >
             Diagnostic
           </button>
@@ -262,7 +262,7 @@ include 'includes/head.php';
               />
               <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
               <div class="absolute top-4 left-4 bg-white/95 backdrop-blur-sm p-3 rounded-xl shadow-lg">
-                <?php echo getIcon($dept['icon'], 'h-6 w-6 text-[#328CCB]'); ?>
+                <?php echo getIcon($dept['icon'], 'h-6 w-6 text-[#1E3A8A]'); ?>
               </div>
             </div>
 
@@ -279,7 +279,7 @@ include 'includes/head.php';
               <div class="flex flex-col space-y-3">
                 <a
                   href="/<?php echo $dept['page']; ?>"
-                  class="bg-[#328CCB] hover:bg-[#2a7bb5] text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 flex items-center justify-center space-x-2"
+                  class="bg-[#1E3A8A] hover:bg-[#1E40AF] text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 flex items-center justify-center space-x-2"
                 >
                   <span>Learn More</span>
                   <?php echo getIcon('ArrowRight', 'h-4 w-4'); ?>
@@ -306,9 +306,9 @@ function filterDepartments(category) {
   
   catBtns.forEach(btn => {
     if (btn.id === 'cat-' + category) {
-      btn.className = 'cat-btn px-6 py-3 rounded-full font-semibold transition-all duration-300 bg-[#D66C43] text-white shadow-lg';
+      btn.className = 'cat-btn px-6 py-3 rounded-full font-semibold transition-all duration-300 bg-[#EA580C] text-white shadow-lg';
     } else {
-      btn.className = 'cat-btn px-6 py-3 rounded-full font-semibold transition-all duration-300 bg-white text-gray-700 hover:bg-[#328CCB]/10 hover:text-[#328CCB] border border-gray-200';
+      btn.className = 'cat-btn px-6 py-3 rounded-full font-semibold transition-all duration-300 bg-white text-gray-700 hover:bg-[#1E3A8A]/10 hover:text-[#1E3A8A] border border-gray-200';
     }
   });
 

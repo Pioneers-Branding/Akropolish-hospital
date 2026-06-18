@@ -5,7 +5,7 @@ include 'includes/head.php';
 ?>
 
 <!-- Emergency Bar -->
-<div class="bg-[#D66C43] text-white py-2 px-4 text-center sticky top-0 z-50">
+<div class="bg-[#EA580C] text-white py-2 px-4 text-center sticky top-0 z-50">
   <div class="container mx-auto flex items-center justify-center space-x-2">
     <?php echo getIcon('Phone', 'h-4 w-4'); ?>
     <span class="font-semibold text-sm md:text-base">
@@ -19,12 +19,12 @@ include 'includes/head.php';
 
 <main class="bg-gray-50">
   <!-- Hero Section -->
-  <section class="relative bg-gradient-to-r from-[#328CCB] to-[#2a7bb5] text-white overflow-hidden">
+  <section class="relative bg-gradient-to-r from-[#1E3A8A] to-[#1E40AF] text-white overflow-hidden">
     <div
       class="absolute inset-0 bg-cover bg-center bg-no-repeat"
       style="background-image: url('https://images.pexels.com/photos/5327656/pexels-photo-5327656.jpeg?auto=compress&cs=tinysrgb&w=1600');"
     >
-      <div class="absolute inset-0 bg-[#328CCB] bg-opacity-75"></div>
+      <div class="absolute inset-0 bg-[#1E3A8A] bg-opacity-75"></div>
     </div>
 
     <div class="relative container mx-auto px-4 py-20 lg:py-32">
@@ -48,14 +48,14 @@ include 'includes/head.php';
         <div class="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6">
           <a
             href="/contact"
-            class="bg-[#D66C43] hover:bg-[#c55a36] text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-3 shadow-lg"
+            class="bg-[#EA580C] hover:bg-[#C2410C] text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-3 shadow-lg"
           >
             <?php echo getIcon('Calendar', 'h-5 w-5'); ?>
             <span>Book Appointment</span>
           </a>
           <a
             href="tel:<?php echo CONTACT_INFO['emergency']; ?>"
-            class="bg-white hover:bg-gray-50 text-[#328CCB] px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-3 shadow-lg"
+            class="bg-white hover:bg-gray-50 text-[#1E3A8A] px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-3 shadow-lg"
           >
             <?php echo getIcon('Phone', 'h-5 w-5'); ?>
             <span>Emergency: <?php echo CONTACT_INFO['emergency']; ?></span>
@@ -79,7 +79,7 @@ include 'includes/head.php';
               type="text"
               id="doctor-search"
               placeholder="Search doctors by name or specialty..."
-              class="block w-full pl-10 pr-3 py-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#328CCB] focus:border-[#328CCB] transition-colors duration-200 text-lg form-input"
+              class="block w-full pl-10 pr-3 py-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1E3A8A] focus:border-[#1E3A8A] transition-colors duration-200 text-lg form-input"
             />
           </div>
 
@@ -87,7 +87,7 @@ include 'includes/head.php';
           <div class="relative">
             <select
               id="specialty-filter"
-              class="appearance-none bg-white border border-gray-300 rounded-lg px-4 py-4 pr-8 focus:ring-2 focus:ring-[#328CCB] focus:border-[#328CCB] transition-colors duration-200 text-lg min-w-[200px] form-input"
+              class="appearance-none bg-white border border-gray-300 rounded-lg px-4 py-4 pr-8 focus:ring-2 focus:ring-[#1E3A8A] focus:border-[#1E3A8A] transition-colors duration-200 text-lg min-w-[200px] form-input"
             >
               <option value="">All Specialties</option>
               <?php
@@ -107,7 +107,7 @@ include 'includes/head.php';
         <!-- Results Count -->
         <div class="mt-6 text-center">
           <p class="text-gray-600">
-            Showing <span class="font-semibold text-[#328CCB]" id="results-count"><?php echo count($doctors); ?></span> doctors
+            Showing <span class="font-semibold text-[#1E3A8A]" id="results-count"><?php echo count($doctors); ?></span> doctors
             <span id="specialty-filter-label"></span>
           </p>
         </div>
@@ -130,14 +130,14 @@ include 'includes/head.php';
                 <img
                   src="<?php echo htmlspecialchars($doctor['image']); ?>"
                   alt="<?php echo htmlspecialchars($doctor['name']); ?>"
-                  class="w-32 h-32 rounded-full object-cover border-4 border-[#328CCB]/20 mb-6"
+                  class="w-32 h-32 rounded-full object-cover border-4 border-[#1E3A8A]/20 mb-6"
                 />
 
                 <h3 class="text-2xl font-bold text-gray-900 mb-2">
                   <?php echo htmlspecialchars($doctor['name']); ?>
                 </h3>
 
-                <p class="text-[#328CCB] font-semibold text-lg mb-2">
+                <p class="text-[#1E3A8A] font-semibold text-lg mb-2">
                   <?php echo htmlspecialchars($doctor['specialization']); ?>
                 </p>
 
@@ -163,7 +163,7 @@ include 'includes/head.php';
                 </div>
 
                 <div class="flex items-center justify-center space-x-6 text-sm font-medium mb-6">
-                  <div class="flex items-center space-x-2 text-[#D66C43]">
+                  <div class="flex items-center space-x-2 text-[#EA580C]">
                     <?php echo getIcon('Award', 'h-4 w-4'); ?>
                     <span><?php echo htmlspecialchars($doctor['experience']); ?></span>
                   </div>
@@ -177,7 +177,7 @@ include 'includes/head.php';
                 <div class="flex flex-col space-y-3 w-full">
                   <a
                     href="/contact"
-                    class="bg-[#328CCB] hover:bg-[#2a7bb5] text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 flex items-center justify-center space-x-2"
+                    class="bg-[#1E3A8A] hover:bg-[#1E40AF] text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 flex items-center justify-center space-x-2"
                   >
                     <?php echo getIcon('Calendar', 'h-4 w-4'); ?>
                     <span>Book Appointment</span>
@@ -185,7 +185,7 @@ include 'includes/head.php';
 
                   <a
                     href="/doctors/<?php echo htmlspecialchars($doctor['id']); ?>"
-                    class="nav-link text-[#328CCB] hover:text-[#2a7bb5] font-medium text-sm transition-colors duration-200"
+                    class="nav-link text-[#1E3A8A] hover:text-[#1E40AF] font-medium text-sm transition-colors duration-200"
                   >
                     View Full Profile →
                   </a>

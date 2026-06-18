@@ -14,7 +14,7 @@ $page_description = $meta_description;
 include dirname(__DIR__) . '/includes/head.php';
 ?>
 
-<div class="bg-[#328CCB] text-white py-2 px-4 text-center sticky top-0 z-50">
+<div class="bg-[#1E3A8A] text-white py-2 px-4 text-center sticky top-0 z-50">
   <div class="container mx-auto flex items-center justify-center space-x-2">
     <?php echo getIcon('Phone', 'h-4 w-4'); ?>
     <span class="font-semibold text-sm md:text-base">24x7 Neurology Emergency: <?php echo CONTACT_INFO['emergency']; ?></span>
@@ -29,13 +29,13 @@ include dirname(__DIR__) . '/includes/head.php';
     <div class="container mx-auto px-4">
       <nav class="flex text-sm text-gray-500">
         <ol class="flex items-center space-x-2">
-          <li><a href="/" class="hover:text-[#328CCB]">Home</a></li>
+          <li><a href="/" class="hover:text-[#1E3A8A]">Home</a></li>
           <li><?php echo getIcon('ChevronRight', 'h-4 w-4'); ?></li>
-          <li><a href="/neurology" class="hover:text-[#328CCB]">Neurology</a></li>
+          <li><a href="/neurology" class="hover:text-[#1E3A8A]">Neurology</a></li>
           <li><?php echo getIcon('ChevronRight', 'h-4 w-4'); ?></li>
-          <li><a href="/neurologist/haryana/" class="hover:text-[#328CCB]">Haryana</a></li>
+          <li><a href="/neurologist/haryana/" class="hover:text-[#1E3A8A]">Haryana</a></li>
           <li><?php echo getIcon('ChevronRight', 'h-4 w-4'); ?></li>
-          <li class="text-[#328CCB] font-medium"><?php echo $district_display; ?></li>
+          <li class="text-[#1E3A8A] font-medium"><?php echo $district_display; ?></li>
         </ol>
       </nav>
     </div>
@@ -60,7 +60,7 @@ include dirname(__DIR__) . '/includes/head.php';
 
           <div class="flex flex-wrap justify-center lg:justify-start gap-4 mb-8">
             <div class="flex items-center space-x-2 text-gray-700"><div class="w-2 h-2 bg-blue-500 rounded-full"></div><span>Stroke Specialist</span></div>
-            <div class="flex items-center space-x-2 text-gray-700"><div class="w-2 h-2 bg-[#328CCB] rounded-full"></div><span>Epilepsy Treatment</span></div>
+            <div class="flex items-center space-x-2 text-gray-700"><div class="w-2 h-2 bg-[#1E3A8A] rounded-full"></div><span>Epilepsy Treatment</span></div>
             <div class="flex items-center space-x-2 text-gray-700"><div class="w-2 h-2 bg-blue-600 rounded-full"></div><span>24/7 Emergency</span></div>
           </div>
 
@@ -69,7 +69,7 @@ include dirname(__DIR__) . '/includes/head.php';
               <?php echo getIcon('Calendar', 'h-5 w-5'); ?>
               <span>Book Consultation</span>
             </a>
-            <a href="tel:<?php echo CONTACT_INFO['emergency']; ?>" class="bg-[#328CCB] hover:bg-[#287bb5] text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2 shadow-lg">
+            <a href="tel:<?php echo CONTACT_INFO['emergency']; ?>" class="bg-[#1E3A8A] hover:bg-[#287bb5] text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2 shadow-lg">
               <?php echo getIcon('Phone', 'h-5 w-5'); ?>
               <span>Emergency: <?php echo CONTACT_INFO['emergency']; ?></span>
             </a>
@@ -77,7 +77,7 @@ include dirname(__DIR__) . '/includes/head.php';
 
           <div class="grid grid-cols-3 gap-4 max-w-md mx-auto lg:mx-0">
             <div class="text-center"><div class="text-2xl lg:text-3xl font-bold text-blue-500 mb-1">5000+</div><div class="text-xs text-gray-600">Brain Surgeries</div></div>
-            <div class="text-center"><div class="text-2xl lg:text-3xl font-bold text-[#328CCB] mb-1">12+</div><div class="text-xs text-gray-600">Expert Neurologists</div></div>
+            <div class="text-center"><div class="text-2xl lg:text-3xl font-bold text-[#1E3A8A] mb-1">12+</div><div class="text-xs text-gray-600">Expert Neurologists</div></div>
             <div class="text-center"><div class="text-2xl lg:text-3xl font-bold text-blue-600 mb-1">97%</div><div class="text-xs text-gray-600">Success Rate</div></div>
           </div>
         </div>
@@ -379,7 +379,7 @@ include dirname(__DIR__) . '/includes/head.php';
         <p class="text-xl text-blue-100 mb-12">Our expert neurologists are available 24/7 for consultation and emergency care. Serving <?php echo $district_display; ?> and all of Haryana.</p>
         <div class="flex flex-col sm:flex-row items-center justify-center gap-6">
           <a href="#appointment-form" class="bg-white text-blue-500 hover:bg-gray-100 px-10 py-5 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-2 shadow-xl"><?php echo getIcon('Calendar', 'h-5 w-5'); ?><span>Book Appointment</span></a>
-          <a href="tel:<?php echo CONTACT_INFO['phone']; ?>" class="bg-[#328CCB] hover:bg-[#287bb5] text-white px-10 py-5 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-2 shadow-xl"><?php echo getIcon('Phone', 'h-5 w-5'); ?><span>Call: <?php echo CONTACT_INFO['phone']; ?></span></a>
+          <a href="tel:<?php echo CONTACT_INFO['phone']; ?>" class="bg-[#1E3A8A] hover:bg-[#287bb5] text-white px-10 py-5 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-2 shadow-xl"><?php echo getIcon('Phone', 'h-5 w-5'); ?><span>Call: <?php echo CONTACT_INFO['phone']; ?></span></a>
         </div>
       </div>
     </div>

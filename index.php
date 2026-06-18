@@ -12,7 +12,7 @@ include 'includes/head.php';
 ?>
 
 <!-- Emergency Bar -->
-<div class="bg-[#D66C43] text-white py-2 px-4 text-center sticky top-0 z-50">
+<div class="bg-[#EA580C] text-white py-2 px-4 text-center sticky top-0 z-50">
   <div class="container mx-auto flex items-center justify-center space-x-2">
     <?php echo getIcon('Phone', 'h-4 w-4'); ?>
     <span class="font-semibold text-sm md:text-base">
@@ -26,114 +26,129 @@ include 'includes/head.php';
 
 <main>
   <!-- Hero Section -->
-  <section class="hero-section relative min-h-screen bg-gradient-to-br from-blue-50 via-white to-green-50 overflow-hidden">
-    <!-- Background Elements -->
-    <div class="absolute top-0 right-0 w-96 h-96 bg-blue-100 rounded-full -translate-y-48 translate-x-48 opacity-30"></div>
-    <div class="absolute bottom-0 left-0 w-64 h-64 bg-green-100 rounded-full translate-y-32 -translate-x-32 opacity-30"></div>
+  <!-- Hero Section (Redesigned Premium UI) -->
+  <section class="hero-section relative min-h-screen bg-[#0B1120] overflow-hidden flex items-center">
+    <!-- Animated Gradient Background Mesh -->
+    <div class="absolute inset-0 overflow-hidden pointer-events-none">
+      <div class="absolute -top-[20%] -left-[10%] w-[50%] h-[50%] rounded-full bg-gradient-to-br from-[#1E3A8A]/40 to-transparent blur-[120px] hero-blob hero-blob-1"></div>
+      <div class="absolute top-[20%] -right-[10%] w-[40%] h-[60%] rounded-full bg-gradient-to-bl from-[#EA580C]/20 to-[#1E3A8A]/20 blur-[100px] hero-blob hero-blob-2"></div>
+      <div class="absolute -bottom-[20%] left-[20%] w-[60%] h-[50%] rounded-full bg-gradient-to-tr from-[#1E3A8A]/30 to-transparent blur-[120px] hero-blob"></div>
+    </div>
+    
+    <!-- Subtle Grid Overlay -->
+    <div class="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAwIDEwIEwgNDAgMTAgTSAxMCAwIEwgMTAgNDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0icmdiYSgyNTUsIDI1NSwgMjU1LCAwLjAzKSIgc3Ryb2tlLXdpZHRoPSIxIi8+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyaWQpIi8+PC9zdmc+')] opacity-50"></div>
 
-    <div class="container mx-auto px-4 pt-20 pb-16 lg:pt-32 lg:pb-24 relative z-10">
-      <div class="grid lg:grid-cols-2 gap-12 items-center">
-        <!-- Content Section -->
-        <div class="text-center lg:text-left hero-content">
+    <div class="container mx-auto px-4 pt-32 pb-24 relative z-10">
+      <div class="grid lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left Content -->
+        <div class="lg:col-span-6 text-center lg:text-left hero-content">
           <!-- Trust Badge -->
-          <div class="inline-flex items-center space-x-2 bg-yellow-100 text-yellow-800 px-4 py-2 rounded-full text-sm font-medium mb-6 float">
-            <?php echo getIcon('Award', 'h-4 w-4'); ?>
-            <span>NABH Accredited Hospital</span>
+          <div class="inline-flex items-center space-x-2 bg-white/5 border border-white/10 backdrop-blur-md px-5 py-2.5 rounded-full mb-8 float-slow shadow-[0_0_20px_rgba(30,58,138,0.3)]">
+            <?php echo getIcon('Award', 'h-5 w-5 text-yellow-400'); ?>
+            <span class="text-sm font-medium tracking-wide text-gray-200 uppercase letter-spacing">NABH Accredited Hospital</span>
           </div>
 
           <!-- Main Headline -->
-          <h1 class="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-            Your Health,
-            <span class="text-[#328CCB]"> Our Priority</span>
+          <h1 class="text-5xl lg:text-7xl font-extrabold text-white leading-[1.1] mb-6 font-heading tracking-tight">
+            Your Health,<br />
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#3b82f6] to-[#60a5fa] drop-shadow-sm">Our Priority</span>
           </h1>
 
           <!-- Subheadline -->
-          <p class="text-xl lg:text-2xl text-gray-600 mb-8 leading-relaxed">
-            Get top-quality healthcare at Akropolis Hospital. We use the latest technology to care for you. Our expert doctors are here to help.
+          <p class="text-lg lg:text-xl text-gray-400 mb-10 leading-relaxed max-w-2xl mx-auto lg:mx-0 font-light">
+            Experience world-class healthcare at Akropolis Hospital. Driven by cutting-edge technology and unparalleled medical expertise.
           </p>
 
-          <!-- Key Features -->
-          <div class="flex flex-wrap justify-center lg:justify-start gap-6 mb-8">
-            <div class="flex items-center space-x-2 text-gray-700">
-              <div class="w-2 h-2 bg-[#328CCB] rounded-full"></div>
-              <span>24×7 Emergency Care</span>
-            </div>
-            <div class="flex items-center space-x-2 text-gray-700">
-              <div class="w-2 h-2 bg-[#D66C43] rounded-full"></div>
-              <span>5K+ Successful Treatments</span>
-            </div>
-            <div class="flex items-center space-x-2 text-gray-700">
-              <div class="w-2 h-2 bg-green-600 rounded-full"></div>
-              <span>Expert Doctors</span>
-            </div>
-          </div>
-
           <!-- CTA Buttons -->
-          <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-12">
+          <div class="flex flex-col sm:flex-row gap-5 justify-center lg:justify-start mb-12">
             <a
               href="/contact"
-              class="bg-[#328CCB] hover:bg-[#2a7bb5] text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2 shadow-lg cta-glow"
+              class="bg-gradient-to-r from-[#1E3A8A] to-[#1e40af] hover:from-[#1e40af] hover:to-[#1e3a8a] text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-3 shadow-[0_10px_30px_-10px_rgba(30,58,138,0.8)] border border-blue-500/30 group"
             >
-              <?php echo getIcon('Calendar', 'h-5 w-5'); ?>
+              <?php echo getIcon('Calendar', 'h-5 w-5 group-hover:rotate-12 transition-transform'); ?>
               <span>Book Appointment</span>
             </a>
             <a
               href="tel:<?php echo CONTACT_INFO['emergency']; ?>"
-              class="bg-[#D66C43] hover:bg-[#c55a36] text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2 shadow-lg emergency-glow"
+              class="bg-gradient-to-r from-[#EA580C] to-[#c2410c] hover:from-[#c2410c] hover:to-[#ea580c] text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-3 shadow-[0_10px_30px_-10px_rgba(234,88,12,0.8)] border border-orange-500/30 group emergency-glow"
             >
-              <?php echo getIcon('Phone', 'h-5 w-5'); ?>
-              <span>Emergency: <?php echo CONTACT_INFO['emergency']; ?></span>
+              <div class="relative">
+                <?php echo getIcon('Phone', 'h-5 w-5 relative z-10'); ?>
+                <div class="absolute inset-0 bg-white/20 rounded-full animate-ping"></div>
+              </div>
+              <span><?php echo CONTACT_INFO['emergency']; ?></span>
             </a>
           </div>
 
-          <!-- Stats -->
-          <div class="grid grid-cols-3 gap-6 max-w-md mx-auto lg:mx-0">
-            <div class="text-center">
-              <div class="text-2xl lg:text-3xl font-bold text-[#328CCB] mb-1">5K+</div>
-              <div class="text-sm text-gray-600">Successful Treatments</div>
-            </div>
-            <div class="text-center">
-              <div class="text-2xl lg:text-3xl font-bold text-[#D66C43] mb-1">50+</div>
-              <div class="text-sm text-gray-600">Doctors</div>
-            </div>
-            <div class="text-center">
-              <div class="text-2xl lg:text-3xl font-bold text-green-600 mb-1">90%</div>
-              <div class="text-sm text-gray-600">Patient Satisfaction</div>
-            </div>
-          </div>
         </div>
 
-        <!-- Image Section -->
-        <div class="relative hero-image">
-          <div class="relative overflow-hidden rounded-3xl shadow-2xl img-zoom">
-            <img
-              src="https://brandingpioneers.co.in/akropolis/hero-banner.webp"
-              alt="Modern Hospital Building"
-              class="w-full h-[500px] lg:h-[600px] object-cover"
-            />
-            <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+        <!-- Right Image & Overlapping Cards -->
+        <div class="lg:col-span-6 relative hero-image mt-10 lg:mt-0">
+          
+          <!-- Main Hero Image with Glass Border -->
+          <div class="relative rounded-3xl p-2 glass-premium shadow-2xl z-10 transform lg:rotate-2 hover:rotate-0 transition-transform duration-700">
+            <div class="overflow-hidden rounded-2xl relative group h-[450px] lg:h-[600px]">
+              <img
+                src="https://brandingpioneers.co.in/akropolis/hero-banner.webp"
+                alt="Modern Hospital Building"
+                class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-1000"
+              />
+              <div class="absolute inset-0 bg-gradient-to-t from-[#0B1120] via-transparent to-transparent opacity-80"></div>
+            </div>
           </div>
 
-          <!-- Floating Cards -->
-          <div class="absolute -bottom-6 -right-6 bg-white rounded-2xl shadow-xl p-6 border border-gray-100 floating-card glass-card float-slow">
+          <!-- Overlapping Card 1: 24/7 Emergency -->
+          <div class="absolute -left-6 top-12 lg:-left-12 lg:top-20 z-20 glass-premium rounded-2xl p-5 shadow-2xl float-delay-1 float-slow border-l-4 border-l-[#EA580C]">
             <div class="flex items-center space-x-4">
-              <div class="bg-[#328CCB]/10 p-3 rounded-xl">
-                <?php echo getIcon('Users', 'h-8 w-8 text-[#328CCB]'); ?>
+              <div class="bg-gradient-to-br from-[#EA580C] to-[#c2410c] p-3 rounded-xl shadow-inner">
+                <?php echo getIcon('Activity', 'h-6 w-6 text-white'); ?>
               </div>
               <div>
-                <div class="text-2xl font-bold text-gray-900">24/7</div>
-                <div class="text-sm text-gray-600">Emergency Care</div>
+                <div class="text-xl font-bold text-white tracking-tight">24/7</div>
+                <div class="text-xs text-gray-300 uppercase tracking-wider font-semibold">Emergency Care</div>
               </div>
             </div>
           </div>
+
+          <!-- Overlapping Card 2: 5K+ Treatments -->
+          <div class="absolute -right-4 top-1/2 -translate-y-1/2 z-20 glass-premium rounded-2xl p-5 shadow-2xl float-delay-2 float-slow-reverse border-l-4 border-l-[#3b82f6]">
+            <div class="flex items-center space-x-4">
+              <div class="bg-gradient-to-br from-[#1E3A8A] to-[#3b82f6] p-3 rounded-xl shadow-inner">
+                <?php echo getIcon('Heart', 'h-6 w-6 text-white'); ?>
+              </div>
+              <div>
+                <div class="text-xl font-bold text-white tracking-tight">5,000+</div>
+                <div class="text-xs text-gray-300 uppercase tracking-wider font-semibold">Treatments</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Overlapping Card 3: Expert Doctors -->
+          <div class="absolute -left-2 -bottom-6 lg:left-10 lg:-bottom-10 z-20 glass-premium rounded-2xl p-5 shadow-2xl float-delay-3 float-gentle border-l-4 border-l-green-500">
+            <div class="flex items-center space-x-4">
+              <div class="bg-gradient-to-br from-green-500 to-green-600 p-3 rounded-xl shadow-inner">
+                <?php echo getIcon('Users', 'h-6 w-6 text-white'); ?>
+              </div>
+              <div>
+                <div class="flex -space-x-2 mb-1">
+                  <img class="w-8 h-8 rounded-full border-2 border-[#0B1120]" src="https://brandingpioneers.co.in/akropolis/doctors/dr-anu-nagpal.webp" alt="Dr. Anu" />
+                  <img class="w-8 h-8 rounded-full border-2 border-[#0B1120]" src="https://brandingpioneers.co.in/akropolis/doctors/dr-madan-lal.webp" alt="Dr. Madan" />
+                  <div class="w-8 h-8 rounded-full border-2 border-[#0B1120] bg-gray-800 flex items-center justify-center text-xs font-bold text-white">+48</div>
+                </div>
+                <div class="text-xs text-gray-300 uppercase tracking-wider font-semibold mt-1">Expert Doctors</div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
 
-    <!-- Bottom Wave -->
-    <div class="absolute bottom-0 left-0 right-0">
+    <!-- Bottom Wave Separator -->
+    <div class="absolute bottom-0 left-0 right-0 transform translate-y-[1px]">
       <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M0 120L60 110C120 100 240 80 360 70C480 60 600 60 720 65C840 70 960 80 1080 85C1200 90 1320 90 1380 90L1440 90V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0Z" fill="white" />
+        <path d="M0 120L60 110C120 100 240 80 360 70C480 60 600 60 720 65C840 70 960 80 1080 85C1200 90 1320 90 1380 90L1440 90V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0Z" fill="#F9FAFB" />
       </svg>
     </div>
   </section>
@@ -145,8 +160,8 @@ include 'includes/head.php';
         <?php foreach (TRUST_SIGNALS as $index => $signal): ?>
           <div class="trust-card bg-white rounded-xl p-4 lg:p-6 text-center shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
             <div class="flex justify-center mb-4 trust-icon">
-              <div class="bg-[#328CCB]/10 p-2 lg:p-3 rounded-full">
-                <?php echo getIcon($signal['icon'], 'h-6 w-6 lg:h-8 lg:w-8 text-[#328CCB]'); ?>
+              <div class="bg-[#1E3A8A]/10 p-2 lg:p-3 rounded-full">
+                <?php echo getIcon($signal['icon'], 'h-6 w-6 lg:h-8 lg:w-8 text-[#1E3A8A]'); ?>
               </div>
             </div>
             <h3 class="font-bold text-gray-900 mb-2 text-xs lg:text-base">
@@ -179,13 +194,13 @@ include 'includes/head.php';
         <!-- Content Section -->
         <div>
           <div class="mb-8">
-            <div class="inline-flex items-center space-x-2 bg-[#328CCB]/10 text-[#328CCB] px-4 py-2 rounded-full text-sm font-medium mb-6">
+            <div class="inline-flex items-center space-x-2 bg-[#1E3A8A]/10 text-[#1E3A8A] px-4 py-2 rounded-full text-sm font-medium mb-6">
               <?php echo getIcon('Heart', 'h-4 w-4'); ?>
               <span>About Akropolis</span>
             </div>
             <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight mb-6">
               Committed to
-              <span class="text-[#328CCB]"> Healthcare Excellence</span>
+              <span class="text-[#1E3A8A]"> Healthcare Excellence</span>
             </h2>
             <p class="text-gray-600 text-lg leading-relaxed">
               Akropolis Hospital is a top choice for your health. We offer great medical care with modern tools. Our hospital is NABH accredited. This means we meet high standards to keep you safe and healthy.
@@ -195,7 +210,7 @@ include 'includes/head.php';
           <div class="flex flex-col sm:flex-row gap-4">
             <a
               href="/about"
-              class="bg-[#D66C43] hover:bg-[#c55a36] text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-2 w-fit shadow-lg cta-glow"
+              class="bg-[#EA580C] hover:bg-[#C2410C] text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-2 w-fit shadow-lg cta-glow"
             >
               <span>Learn More About Us</span>
               <?php echo getIcon('ArrowRight', 'h-5 w-5'); ?>
@@ -210,12 +225,12 @@ include 'includes/head.php';
   <section id="departments" class="py-20 bg-gray-50 section-fade">
     <div class="container mx-auto px-4">
       <div class="text-center mb-16">
-        <div class="inline-flex items-center space-x-2 bg-[#328CCB]/10 text-[#328CCB] px-4 py-2 rounded-full text-sm font-medium mb-6">
+        <div class="inline-flex items-center space-x-2 bg-[#1E3A8A]/10 text-[#1E3A8A] px-4 py-2 rounded-full text-sm font-medium mb-6">
           <?php echo getIcon('Heart', 'h-4 w-4'); ?>
           <span>Our Departments</span>
         </div>
         <h3 class="text-4xl lg:text-5xl font-bold text-gray-900 mt-2 mb-6">
-          World-Class <span class="text-[#328CCB]">Medical Excellence</span>
+          World-Class <span class="text-[#1E3A8A]">Medical Excellence</span>
         </h3>
       </div>
 
@@ -236,13 +251,13 @@ include 'includes/head.php';
             <div class="relative h-48 overflow-hidden">
               <img width="800" height="600" src="<?php echo $dept['image']; ?>" alt="<?php echo $dept['title']; ?>" class="w-full h-full object-cover" />
               <div class="absolute top-4 left-4 bg-white/95 backdrop-blur-sm p-3 rounded-xl shadow-lg">
-                <?php echo getIcon($dept['icon'], 'h-6 w-6 text-[#328CCB]'); ?>
+                <?php echo getIcon($dept['icon'], 'h-6 w-6 text-[#1E3A8A]'); ?>
               </div>
             </div>
             <div class="p-6">
               <h3 class="text-xl font-bold text-gray-900 mb-2"><?php echo $dept['title']; ?></h3>
               <p class="text-gray-600 text-sm mb-4"><?php echo $dept['description']; ?></p>
-              <a href="/<?php echo $dept['page']; ?>" class="inline-flex items-center space-x-2 bg-[#328CCB] hover:bg-[#2a7bb5] text-white px-4 py-2 rounded-lg font-semibold text-sm transition-all duration-300">
+              <a href="/<?php echo $dept['page']; ?>" class="inline-flex items-center space-x-2 bg-[#1E3A8A] hover:bg-[#1E40AF] text-white px-4 py-2 rounded-lg font-semibold text-sm transition-all duration-300">
                 <span>Learn More</span>
                 <?php echo getIcon('ArrowRight', 'h-4 w-4'); ?>
               </a>
@@ -252,7 +267,7 @@ include 'includes/head.php';
       </div>
 
       <div class="text-center mt-16">
-        <a href="/departments" class="bg-[#D66C43] hover:bg-[#c55a36] text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-2 w-fit mx-auto shadow-lg cta-glow">
+        <a href="/departments" class="bg-[#EA580C] hover:bg-[#C2410C] text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-2 w-fit mx-auto shadow-lg cta-glow">
           <span>View All Departments</span>
           <?php echo getIcon('ArrowRight', 'h-5 w-5'); ?>
         </a>
@@ -265,22 +280,22 @@ include 'includes/head.php';
     <div class="container mx-auto px-4">
       <div class="flex flex-col md:flex-row justify-between items-end mb-12">
         <div class="max-w-2xl">
-          <div class="inline-flex items-center space-x-2 bg-[#328CCB]/10 text-[#328CCB] px-4 py-2 rounded-full text-sm font-medium mb-6">
+          <div class="inline-flex items-center space-x-2 bg-[#1E3A8A]/10 text-[#1E3A8A] px-4 py-2 rounded-full text-sm font-medium mb-6">
             <?php echo getIcon('Users', 'h-4 w-4'); ?>
             <span>Expert Team</span>
           </div>
           <h3 class="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-            Consult Our <span class="text-[#328CCB]">Specialist Doctors</span>
+            Consult Our <span class="text-[#1E3A8A]">Specialist Doctors</span>
           </h3>
           <p class="text-gray-600 mt-4 text-lg">
             Our expert doctors have years of training. They work hard to give you the best care possible.
           </p>
         </div>
         <div class="flex space-x-4 mt-8 md:mt-0">
-          <button class="doctors-prev p-3 rounded-full border-2 border-gray-100 text-gray-400 hover:border-[#328CCB] hover:text-[#328CCB] transition-all duration-300">
+          <button class="doctors-prev p-3 rounded-full border-2 border-gray-100 text-gray-400 hover:border-[#1E3A8A] hover:text-[#1E3A8A] transition-all duration-300">
             <?php echo getIcon('ChevronLeft', 'h-6 w-6'); ?>
           </button>
-          <button class="doctors-next p-3 rounded-full border-2 border-gray-100 text-gray-400 hover:border-[#328CCB] hover:text-[#328CCB] transition-all duration-300">
+          <button class="doctors-next p-3 rounded-full border-2 border-gray-100 text-gray-400 hover:border-[#1E3A8A] hover:text-[#1E3A8A] transition-all duration-300">
             <?php echo getIcon('ChevronRight', 'h-6 w-6'); ?>
           </button>
         </div>
@@ -299,19 +314,19 @@ include 'includes/head.php';
                   />
                   <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   <div class="absolute bottom-4 left-4 right-4 translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                    <a href="/doctors/<?php echo $doctor['id']; ?>" class="w-full bg-white/95 backdrop-blur-sm text-[#328CCB] py-3 rounded-xl font-bold text-center block shadow-lg">
+                    <a href="/doctors/<?php echo $doctor['id']; ?>" class="w-full bg-white/95 backdrop-blur-sm text-[#1E3A8A] py-3 rounded-xl font-bold text-center block shadow-lg">
                       View Profile
                     </a>
                   </div>
                 </div>
                 <div class="p-6 text-center">
                   <h3 class="text-xl font-bold text-gray-900 mb-1"><?php echo htmlspecialchars($doctor['name']); ?></h3>
-                  <p class="text-[#328CCB] font-semibold text-sm mb-4"><?php echo htmlspecialchars($doctor['specialization']); ?></p>
+                  <p class="text-[#1E3A8A] font-semibold text-sm mb-4"><?php echo htmlspecialchars($doctor['specialization']); ?></p>
                   <div class="flex items-center justify-center space-x-2 text-gray-500 text-sm mb-6">
                     <?php echo getIcon('Award', 'h-4 w-4'); ?>
                     <span><?php echo htmlspecialchars($doctor['experience']); ?> Experience</span>
                   </div>
-                  <a href="tel:<?php echo CONTACT_INFO['phone']; ?>" class="inline-flex items-center space-x-2 text-[#D66C43] font-bold hover:text-[#c55a36] transition-colors">
+                  <a href="tel:<?php echo CONTACT_INFO['phone']; ?>" class="inline-flex items-center space-x-2 text-[#EA580C] font-bold hover:text-[#C2410C] transition-colors">
                     <?php echo getIcon('Calendar', 'h-4 w-4'); ?>
                     <span>Book Appointment</span>
                   </a>
@@ -327,7 +342,7 @@ include 'includes/head.php';
           $numIndicators = ceil(count($doctors) / 3);
           for($i=0; $i < $numIndicators; $i++): 
           ?>
-            <button class="doctor-indicator w-3 h-3 rounded-full bg-gray-200 transition-all duration-300 <?php echo $i===0 ? 'active bg-[#328CCB] w-8' : ''; ?>"></button>
+            <button class="doctor-indicator w-3 h-3 rounded-full bg-gray-200 transition-all duration-300 <?php echo $i===0 ? 'active bg-[#1E3A8A] w-8' : ''; ?>"></button>
           <?php endfor; ?>
         </div>
       </div>
@@ -342,12 +357,12 @@ include 'includes/head.php';
 
     <div class="container mx-auto px-4 relative z-10">
       <div class="text-center mb-16">
-        <div class="inline-flex items-center space-x-2 bg-[#328CCB]/10 text-[#328CCB] px-4 py-2 rounded-full text-sm font-medium mb-6">
+        <div class="inline-flex items-center space-x-2 bg-[#1E3A8A]/10 text-[#1E3A8A] px-4 py-2 rounded-full text-sm font-medium mb-6">
           <?php echo getIcon('Quote', 'h-4 w-4'); ?>
           <span>Patient Stories</span>
         </div>
         <h3 class="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-          Heartfelt Journeys of <span class="text-[#328CCB]">Healing & Hope</span>
+          Heartfelt Journeys of <span class="text-[#1E3A8A]">Healing & Hope</span>
         </h3>
       </div>
 
@@ -368,7 +383,7 @@ include 'includes/head.php';
                       preg_match('/vi\/([^\/]+)\//', $testimonial['videoThumbnail'], $matches);
                       echo $matches[1] ?? ''; 
                     ?>')"
-                    class="w-20 h-20 bg-white rounded-full flex items-center justify-center text-[#328CCB] shadow-2xl transform transition-all duration-300 group-hover:scale-110 hover:bg-[#328CCB] hover:text-white"
+                    class="w-20 h-20 bg-white rounded-full flex items-center justify-center text-[#1E3A8A] shadow-2xl transform transition-all duration-300 group-hover:scale-110 hover:bg-[#1E3A8A] hover:text-white"
                   >
                     <?php echo getIcon('Play', 'h-8 w-8 ml-1'); ?>
                   </button>
@@ -376,7 +391,7 @@ include 'includes/head.php';
               </div>
               
               <div class="mt-8 bg-white p-8 rounded-2xl shadow-lg border border-gray-100 relative">
-                <div class="absolute -top-6 left-8 bg-[#328CCB] text-white p-4 rounded-xl shadow-lg">
+                <div class="absolute -top-6 left-8 bg-[#1E3A8A] text-white p-4 rounded-xl shadow-lg">
                   <?php echo getIcon('Quote', 'h-6 w-6'); ?>
                 </div>
                 <p class="text-gray-600 text-lg italic leading-relaxed mb-6 pt-4">
@@ -385,7 +400,7 @@ include 'includes/head.php';
                 <div class="flex items-center justify-between">
                   <div>
                     <h4 class="font-bold text-gray-900 text-xl"><?php echo $testimonial['patientName']; ?></h4>
-                    <p class="text-[#328CCB] font-medium"><?php echo $testimonial['condition']; ?></p>
+                    <p class="text-[#1E3A8A] font-medium"><?php echo $testimonial['condition']; ?></p>
                   </div>
                   <div class="flex text-yellow-400">
                     <?php for($i=0; $i<5; $i++) echo getIcon('Star', 'h-5 w-5 fill-current'); ?>
@@ -398,16 +413,16 @@ include 'includes/head.php';
           <!-- Slider Controls -->
           <div class="flex items-center space-x-6 mt-8">
             <div class="flex space-x-2">
-              <button class="testimonial-prev p-2 rounded-lg bg-white shadow-md text-gray-600 hover:text-[#328CCB] transition-colors">
+              <button class="testimonial-prev p-2 rounded-lg bg-white shadow-md text-gray-600 hover:text-[#1E3A8A] transition-colors">
                 <?php echo getIcon('ChevronLeft', 'h-6 w-6'); ?>
               </button>
-              <button class="testimonial-next p-2 rounded-lg bg-white shadow-md text-gray-600 hover:text-[#328CCB] transition-colors">
+              <button class="testimonial-next p-2 rounded-lg bg-white shadow-md text-gray-600 hover:text-[#1E3A8A] transition-colors">
                 <?php echo getIcon('ChevronRight', 'h-6 w-6'); ?>
               </button>
             </div>
             <div class="flex space-x-2 testimonial-indicators">
               <?php foreach ($testimonials as $index => $t): ?>
-                <button class="testimonial-indicator w-2 h-2 rounded-full <?php echo $index === 0 ? 'bg-[#328CCB] w-6' : 'bg-gray-300'; ?> transition-all duration-300"></button>
+                <button class="testimonial-indicator w-2 h-2 rounded-full <?php echo $index === 0 ? 'bg-[#1E3A8A] w-6' : 'bg-gray-300'; ?> transition-all duration-300"></button>
               <?php endforeach; ?>
             </div>
           </div>
@@ -419,7 +434,7 @@ include 'includes/head.php';
           <div class="space-y-6">
             <div class="flex items-start space-x-4 p-6 bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300">
               <div class="bg-blue-50 p-3 rounded-xl">
-                <?php echo getIcon('Award', 'h-8 w-8 text-[#328CCB]'); ?>
+                <?php echo getIcon('Award', 'h-8 w-8 text-[#1E3A8A]'); ?>
               </div>
               <div>
                 <h4 class="font-bold text-gray-900 mb-1 text-lg">NABH Accredited</h4>
@@ -437,7 +452,7 @@ include 'includes/head.php';
             </div>
             <div class="flex items-start space-x-4 p-6 bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300">
               <div class="bg-orange-50 p-3 rounded-xl">
-                <?php echo getIcon('Zap', 'h-8 w-8 text-[#D66C43]'); ?>
+                <?php echo getIcon('Zap', 'h-8 w-8 text-[#EA580C]'); ?>
               </div>
               <div>
                 <h4 class="font-bold text-gray-900 mb-1 text-lg">24/7 Response</h4>
@@ -482,13 +497,13 @@ include 'includes/head.php';
     <div class="container mx-auto px-4">
       <div class="flex flex-col md:flex-row justify-between items-end mb-12">
         <div class="max-w-2xl">
-          <div class="inline-flex items-center space-x-2 bg-[#328CCB]/10 text-[#328CCB] px-4 py-2 rounded-full text-sm font-medium mb-6">
+          <div class="inline-flex items-center space-x-2 bg-[#1E3A8A]/10 text-[#1E3A8A] px-4 py-2 rounded-full text-sm font-medium mb-6">
             <?php echo getIcon('FileText', 'h-4 w-4'); ?>
             <span>Health Insights</span>
           </div>
-          <h3 class="text-4xl lg:text-5xl font-bold text-gray-900">Latest from <span class="text-[#328CCB]">Our Blog</span></h3>
+          <h3 class="text-4xl lg:text-5xl font-bold text-gray-900">Latest from <span class="text-[#1E3A8A]">Our Blog</span></h3>
         </div>
-        <a href="/" class="text-[#328CCB] font-bold flex items-center space-x-2 hover:translate-x-2 transition-transform mt-6 md:mt-0">
+        <a href="/" class="text-[#1E3A8A] font-bold flex items-center space-x-2 hover:translate-x-2 transition-transform mt-6 md:mt-0">
           <span>Read All Articles</span>
           <?php echo getIcon('ArrowRight', 'h-5 w-5'); ?>
         </a>
@@ -503,7 +518,7 @@ include 'includes/head.php';
                 alt="<?php echo $post['title']; ?>"
                 class="w-full h-full object-cover"
               />
-              <div class="absolute top-4 left-4 bg-[#328CCB] text-white px-3 py-1 rounded-full text-xs font-bold">
+              <div class="absolute top-4 left-4 bg-[#1E3A8A] text-white px-3 py-1 rounded-full text-xs font-bold">
                 <?php echo $post['category']; ?>
               </div>
             </div>
@@ -518,13 +533,13 @@ include 'includes/head.php';
                   <span><?php echo $post['readTime']; ?></span>
                 </span>
               </div>
-              <h3 class="text-xl font-bold text-gray-900 mb-3 group-hover:text-[#328CCB] transition-colors">
+              <h3 class="text-xl font-bold text-gray-900 mb-3 group-hover:text-[#1E3A8A] transition-colors">
                 <?php echo $post['title']; ?>
               </h3>
               <p class="text-gray-600 text-sm mb-6 line-clamp-2">
                 <?php echo $post['excerpt']; ?>
               </p>
-              <a href="/" class="inline-flex items-center space-x-2 text-[#D66C43] font-bold hover:text-[#c55a36] transition-colors">
+              <a href="/" class="inline-flex items-center space-x-2 text-[#EA580C] font-bold hover:text-[#C2410C] transition-colors">
                 <span>Read More</span>
                 <?php echo getIcon('ArrowRight', 'h-4 w-4'); ?>
               </a>

@@ -66,13 +66,13 @@ include '{$baseDir}/includes/header-v2.php';
     <div class="container mx-auto px-4">
       <nav class="flex text-sm text-gray-500">
         <ol class="flex items-center space-x-2">
-          <li><a href="/" class="hover:text-[#328CCB]">Home</a></li>
+          <li><a href="/" class="hover:text-[#1E3A8A]">Home</a></li>
           <li><?php echo getIcon('ChevronRight', 'h-4 w-4'); ?></li>
-          <li><a href="/cardiology" class="hover:text-[#328CCB]">Cardiology</a></li>
+          <li><a href="/cardiology" class="hover:text-[#1E3A8A]">Cardiology</a></li>
           <li><?php echo getIcon('ChevronRight', 'h-4 w-4'); ?></li>
-          <li><a href="/cardiologist/haryana/" class="hover:text-[#328CCB]">Haryana</a></li>
+          <li><a href="/cardiologist/haryana/" class="hover:text-[#1E3A8A]">Haryana</a></li>
           <li><?php echo getIcon('ChevronRight', 'h-4 w-4'); ?></li>
-          <li class="text-[#328CCB] font-medium">$display</li>
+          <li class="text-[#1E3A8A] font-medium">$display</li>
         </ol>
       </nav>
     </div>
@@ -91,11 +91,11 @@ include '{$baseDir}/includes/header-v2.php';
           <p class="text-xl lg:text-2xl text-gray-600 mb-8 leading-relaxed">Board-certified cardiologists and heart specialists near $l0, $l1, and $l2. Expert cardiac care for all of $display.</p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
             <a href="#consultation-form" class="bg-red-500 hover:bg-red-600 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2 shadow-lg"><?php echo getIcon('Calendar', 'h-5 w-5'); ?><span>Book Appointment</span></a>
-            <a href="tel:$emergency" class="bg-[#D66C43] hover:bg-[#c55a36] text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2 shadow-lg"><?php echo getIcon('Phone', 'h-5 w-5'); ?><span>Emergency: $emergency</span></a>
+            <a href="tel:$emergency" class="bg-[#EA580C] hover:bg-[#C2410C] text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2 shadow-lg"><?php echo getIcon('Phone', 'h-5 w-5'); ?><span>Emergency: $emergency</span></a>
           </div>
           <div class="grid grid-cols-3 gap-4 max-w-md mx-auto lg:mx-0">
             <div class="text-center"><div class="text-2xl lg:text-3xl font-bold text-red-500 mb-1">15+</div><div class="text-xs text-gray-600">Expert Cardiologists</div></div>
-            <div class="text-center"><div class="text-2xl lg:text-3xl font-bold text-[#D66C43] mb-1">10K+</div><div class="text-xs text-gray-600">Heart Treatments</div></div>
+            <div class="text-center"><div class="text-2xl lg:text-3xl font-bold text-[#EA580C] mb-1">10K+</div><div class="text-xs text-gray-600">Heart Treatments</div></div>
             <div class="text-center"><div class="text-2xl lg:text-3xl font-bold text-red-600 mb-1">98%</div><div class="text-xs text-gray-600">Patient Satisfaction</div></div>
           </div>
         </div>
@@ -298,7 +298,7 @@ PHP;
         <p class="text-xl text-red-100 mb-12">Book an appointment with our expert cardiologists today. Serving $display and all of Haryana.</p>
         <div class="flex flex-col sm:flex-row items-center justify-center gap-6">
           <a href="#consultation-form" class="bg-white text-red-500 hover:bg-gray-100 px-10 py-5 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-2 shadow-xl"><?php echo getIcon('Calendar', 'h-5 w-5'); ?><span>Book Appointment</span></a>
-          <a href="tel:$phone" class="bg-[#D66C43] hover:bg-[#c55a36] text-white px-10 py-5 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-2 shadow-xl"><?php echo getIcon('Phone', 'h-5 w-5'); ?><span>Call: $phone</span></a>
+          <a href="tel:$phone" class="bg-[#EA580C] hover:bg-[#C2410C] text-white px-10 py-5 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-2 shadow-xl"><?php echo getIcon('Phone', 'h-5 w-5'); ?><span>Call: $phone</span></a>
         </div>
       </div>
     </div>

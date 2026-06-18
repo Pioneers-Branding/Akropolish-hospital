@@ -14,11 +14,11 @@ include dirname(__DIR__, 2) . '/includes/header-v2.php';
     <div class="container mx-auto px-4">
       <nav class="flex text-sm text-gray-500">
         <ol class="flex items-center space-x-2">
-          <li><a href="/" class="hover:text-[#328CCB]">Home</a></li>
+          <li><a href="/" class="hover:text-[#1E3A8A]">Home</a></li>
           <li><?php echo getIcon('ChevronRight', 'h-4 w-4'); ?></li>
-          <li><a href="/cardiology" class="hover:text-[#328CCB]">Cardiology</a></li>
+          <li><a href="/cardiology" class="hover:text-[#1E3A8A]">Cardiology</a></li>
           <li><?php echo getIcon('ChevronRight', 'h-4 w-4'); ?></li>
-          <li class="text-[#328CCB] font-medium">Haryana</li>
+          <li class="text-[#1E3A8A] font-medium">Haryana</li>
         </ol>
       </nav>
     </div>
@@ -36,7 +36,7 @@ include dirname(__DIR__, 2) . '/includes/header-v2.php';
         <p class="text-xl lg:text-2xl text-gray-600 mb-8 leading-relaxed">Expert cardiologists serving all 23 districts of Haryana. From Gurgaon to Hisar, find the best heart care near you.</p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center mb-8">
           <a href="#districts" class="bg-red-500 hover:bg-red-600 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2 shadow-lg"><?php echo getIcon('MapPin', 'h-5 w-5'); ?><span>Find Cardiologist Near You</span></a>
-          <a href="tel:9466044444" class="bg-[#D66C43] hover:bg-[#c55a36] text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2 shadow-lg"><?php echo getIcon('Phone', 'h-5 w-5'); ?><span>Emergency: 9466044444</span></a>
+          <a href="tel:9466044444" class="bg-[#EA580C] hover:bg-[#C2410C] text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2 shadow-lg"><?php echo getIcon('Phone', 'h-5 w-5'); ?><span>Emergency: 9466044444</span></a>
         </div>
       </div>
     </div>
@@ -131,7 +131,7 @@ foreach ($districts as $d) {
         <p class="text-xl text-red-100 mb-12">Book an appointment with our expert cardiologists today. Serving all 23 districts of Haryana.</p>
         <div class="flex flex-col sm:flex-row items-center justify-center gap-6">
           <a href="/cardiology" class="bg-white text-red-500 hover:bg-gray-100 px-10 py-5 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-2 shadow-xl"><?php echo getIcon('Calendar', 'h-5 w-5'); ?><span>View All Services</span></a>
-          <a href="tel:9466044444" class="bg-[#D66C43] hover:bg-[#c55a36] text-white px-10 py-5 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-2 shadow-xl"><?php echo getIcon('Phone', 'h-5 w-5'); ?><span>Call: 9466044444</span></a>
+          <a href="tel:9466044444" class="bg-[#EA580C] hover:bg-[#C2410C] text-white px-10 py-5 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-2 shadow-xl"><?php echo getIcon('Phone', 'h-5 w-5'); ?><span>Call: 9466044444</span></a>
         </div>
       </div>
     </div>
