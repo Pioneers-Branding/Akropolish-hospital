@@ -71,7 +71,7 @@ include 'includes/head.php';
           <!-- CTA Buttons -->
           <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-12">
             <a
-              href="/contact"
+              href="#contact"
               class="bg-[#328CCB] hover:bg-[#2a7bb5] text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2 shadow-lg cta-glow"
             >
               <?php echo getIcon('Calendar', 'h-5 w-5'); ?>
@@ -194,10 +194,10 @@ include 'includes/head.php';
 
           <div class="flex flex-col sm:flex-row gap-4">
             <a
-              href="/about"
+              href="#contact"
               class="bg-[#D66C43] hover:bg-[#c55a36] text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-2 w-fit shadow-lg cta-glow"
             >
-              <span>Learn More About Us</span>
+              <span>Get in Touch</span>
               <?php echo getIcon('ArrowRight', 'h-5 w-5'); ?>
             </a>
           </div>
@@ -242,9 +242,9 @@ include 'includes/head.php';
             <div class="p-6">
               <h3 class="text-xl font-bold text-gray-900 mb-2"><?php echo $dept['title']; ?></h3>
               <p class="text-gray-600 text-sm mb-4"><?php echo $dept['description']; ?></p>
-              <a href="/<?php echo $dept['page']; ?>" class="inline-flex items-center space-x-2 bg-[#328CCB] hover:bg-[#2a7bb5] text-white px-4 py-2 rounded-lg font-semibold text-sm transition-all duration-300">
-                <span>Learn More</span>
-                <?php echo getIcon('ArrowRight', 'h-4 w-4'); ?>
+              <a href="tel:<?php echo CONTACT_INFO['phone']; ?>" class="inline-flex items-center space-x-2 bg-[#328CCB] hover:bg-[#2a7bb5] text-white px-4 py-2 rounded-lg font-semibold text-sm transition-all duration-300">
+                <span>Consult Doctor</span>
+                <?php echo getIcon('Phone', 'h-4 w-4'); ?>
               </a>
             </div>
           </div>
@@ -252,8 +252,8 @@ include 'includes/head.php';
       </div>
 
       <div class="text-center mt-16">
-        <a href="/departments" class="bg-[#D66C43] hover:bg-[#c55a36] text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-2 w-fit mx-auto shadow-lg cta-glow">
-          <span>View All Departments</span>
+        <a href="#contact" class="bg-[#D66C43] hover:bg-[#c55a36] text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 transform hover:scale-105 flex items-center space-x-2 w-fit mx-auto shadow-lg cta-glow">
+          <span>Contact Our Specialists</span>
           <?php echo getIcon('ArrowRight', 'h-5 w-5'); ?>
         </a>
       </div>
@@ -299,8 +299,8 @@ include 'includes/head.php';
                   />
                   <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                   <div class="absolute bottom-4 left-4 right-4 translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                    <a href="/doctors/<?php echo $doctor['id']; ?>" class="w-full bg-white/95 backdrop-blur-sm text-[#328CCB] py-3 rounded-xl font-bold text-center block shadow-lg">
-                      View Profile
+                    <a href="tel:<?php echo CONTACT_INFO['phone']; ?>" class="w-full bg-white/95 backdrop-blur-sm text-[#328CCB] py-3 rounded-xl font-bold text-center block shadow-lg">
+                      Book Appointment
                     </a>
                   </div>
                 </div>

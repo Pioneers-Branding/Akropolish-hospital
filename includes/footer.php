@@ -2,7 +2,7 @@
 // Footer Component
 // =========================================
 ?>
-<footer class="footer-glass bg-gray-900 text-white">
+<footer id="contact" class="footer-glass bg-gray-900 text-white">
   <div class="container mx-auto px-4 py-16">
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
       <!-- Hospital Info -->
@@ -49,11 +49,10 @@
           <?php
           $quickLinks = [
             ['name' => 'Home', 'href' => '/', 'page' => 'home'],
-            ['name' => 'About Us', 'href' => '/about', 'page' => 'about'],
-            ['name' => 'Departments', 'href' => '/departments', 'page' => 'departments'],
-            ['name' => 'Doctors', 'href' => '/doctors', 'page' => 'doctors'],
-            ['name' => 'Blog', 'href' => '/blog', 'page' => 'blog'],
-            ['name' => 'Contact', 'href' => '/contact', 'page' => 'contact']
+            ['name' => 'About Us', 'href' => '#about', 'page' => 'about'],
+            ['name' => 'Departments', 'href' => '#departments', 'page' => 'departments'],
+            ['name' => 'Doctors', 'href' => '#doctors', 'page' => 'doctors'],
+            ['name' => 'Contact Us', 'href' => '#contact', 'page' => 'contact']
           ];
 
           foreach ($quickLinks as $link):
@@ -78,12 +77,12 @@
         <ul class="space-y-3">
           <?php
           $patientServices = [
-            ['name' => 'CT Scan', 'href' => '/ct-scan', 'page' => 'ct-scan'],
-            ['name' => 'Endoscopy', 'href' => '/endoscopy', 'page' => 'endoscopy'],
-            ['name' => 'Colonoscopy', 'href' => '/colonoscopy', 'page' => 'colonoscopy'],
-            ['name' => 'Bronchoscopy', 'href' => '/bronchoscopy', 'page' => 'bronchoscopy'],
-            ['name' => 'Dialysis', 'href' => '/dialysis', 'page' => 'dialysis'],
-            ['name' => 'Laboratory', 'href' => '/laboratory', 'page' => 'laboratory']
+            ['name' => 'Cardiology', 'href' => '#departments', 'page' => 'departments'],
+            ['name' => 'Neurology', 'href' => '#departments', 'page' => 'departments'],
+            ['name' => 'Orthopedics', 'href' => '#departments', 'page' => 'departments'],
+            ['name' => 'Nephrology', 'href' => '#departments', 'page' => 'departments'],
+            ['name' => 'Pediatrics', 'href' => '#departments', 'page' => 'departments'],
+            ['name' => 'Oncology', 'href' => '#departments', 'page' => 'departments']
           ];
 
           foreach ($patientServices as $service):
@@ -144,8 +143,8 @@
           © 2025 Akropolis Super Speciality Hospital. All rights reserved.
         </p>
         <div class="flex space-x-6 mt-4 md:mt-0">
-          <a href="/sitemap.xml" class="text-gray-400 hover:text-white transition-colors duration-200" target="_blank" rel="noopener noreferrer">
-            Sitemap
+          <a href="#about" class="text-gray-400 hover:text-white transition-colors duration-200">
+            About Akropolis
           </a>
         </div>
       </div>
@@ -164,7 +163,7 @@
       <span>Emergency</span>
     </a>
     <a
-      href="/contact"
+      href="#contact"
       class="nav-link flex-1 bg-[#328CCB] hover:bg-[#2a7bb5] text-white px-4 py-3 rounded-lg font-semibold text-center transition-all duration-300 flex items-center justify-center space-x-2 shadow-lg"
       data-page="contact"
     >
